@@ -1,0 +1,18 @@
+﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3098 - 1890 LITRO K+T P1 Y P4,909,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3099 - 1890 LITRO AS SUR.,52,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3014 - ADIC LITRO 1890 K-T DEL VALLE,357,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3015 - ADIC 1890 LT AS DEL VALLE,33,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3098 - 1890 LATA K+T SUR.,909,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3099 - LATA 1890 AS SUR.,52,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3036 - ADICIONAL 1890 K+T SUR,28,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 105 - ADICIONAL 1890 LATA SUR,1664,0
+2026-08-07,ok,grupo_clientes,VALUE,Grupo 3035 - EXTRA LITRO/LATA/LATON SUR AS,52,0
+2026-08-07,ok,grupo_clientes,CORE,2724 - EXCEPCION CORE 3RA ESCALA - SUR KT,4,0
+2026-08-07,ok,grupo_clientes,CORE,2725 - EXCEPCION CORE 3RA ESCALA - SUR AS,2,0
+2026-08-07,ok,grupo_clientes,CORE,3091 - CORE ESCALA 1 K+T SUR,576,0
+2026-08-07,ok,grupo_clientes,CORE,3092 - CORE ESCALA 2 K+T SUR,268,0
+2026-08-07,ok,grupo_clientes,CORE,3093 - CORE ESCALA 3 K+T SUR,262,0
+2026-08-07,ok,grupo_clientes,CORE,3094 - CORE ESCALA 1 AS SUR,23,0
+2026-08-07,ok,grupo_clientes,CORE,3095 - CORE ESCALA 2 AS SUR,23,0
+2026-08-07,ok,grupo_clientes,CORE,3096 - CORE ESCALA 3 AS SUR,10,0
