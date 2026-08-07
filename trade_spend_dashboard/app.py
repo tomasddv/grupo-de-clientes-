@@ -131,6 +131,7 @@ if clients.empty:
 
 clients["porcentaje_total"] = pd.to_numeric(clients["porcentaje_total"], errors="coerce").fillna(0)
 clients["cliente"] = clients["cliente"].astype(str)
+clients["cliente_num"] = pd.to_numeric(clients["cliente"], errors="coerce")
 for text_column in ["segmento", "subsegmento", "supervisor", "promotor", "ruta", "fantasia", "grupos", "origen"]:
     if text_column in clients.columns:
         clients[text_column] = clients[text_column].fillna("").astype(str).str.replace(r"\.0$", "", regex=True).str.strip()
@@ -154,7 +155,8 @@ with st.sidebar:
     supervisor = st.multiselect("Supervisor", unique_options(clients, "supervisor"))
     promotor = st.multiselect("Promotor", unique_options(clients, "promotor"))
     ruta = st.multiselect("Ruta venta", unique_options(clients, "ruta"))
-    search = st.text_input("Cliente o nombre")
+    client_code = st.text_input("Codigo cliente")
+    search = st.text_input("Nombre fantasia")
 
 filtered = clients.copy()
 filtered = apply_filter(filtered, "segmento", segment)
@@ -163,12 +165,14 @@ filtered = apply_filter(filtered, "supervisor", supervisor)
 filtered = apply_filter(filtered, "promotor", promotor)
 filtered = apply_filter(filtered, "ruta", ruta)
 
+if client_code:
+    code = client_code.strip()
+    filtered = filtered[filtered["cliente"].astype(str).str.strip().eq(code)]
+
 if search:
     needle = search.strip().lower()
-    mask = filtered["cliente"].str.lower().str.contains(needle, na=False)
     if "fantasia" in filtered.columns:
-        mask = mask | filtered["fantasia"].astype(str).str.lower().str.contains(needle, na=False)
-    filtered = filtered[mask]
+        filtered = filtered[filtered["fantasia"].astype(str).str.lower().str.contains(needle, na=False)]
 
 st.subheader("Clientes")
 display_cols = [
@@ -188,7 +192,8 @@ table = filtered[display_cols].copy()
 if "porcentaje_total" in table.columns:
     table["porcentaje_total"] = table["porcentaje_total"].map(format_pct)
 st.dataframe(
-    table.sort_values(["segmento", "subsegmento", "cliente"]),
+    filtered.assign(porcentaje_total=filtered["porcentaje_total"].map(format_pct))
+    .sort_values(["cliente_num", "segmento", "subsegmento"], na_position="last")[display_cols],
     use_container_width=True,
     hide_index=True,
     height=760,
