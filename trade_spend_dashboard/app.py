@@ -1,11 +1,9 @@
 from __future__ import annotations
 
-from io import StringIO
 from pathlib import Path
 
 import gdown
 import pandas as pd
-import plotly.express as px
 import streamlit as st
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -22,6 +20,21 @@ st.set_page_config(
     page_title="Trade Spend",
     page_icon="%",
     layout="wide",
+)
+
+st.markdown(
+    """
+    <style>
+    div[data-testid="stDataFrame"] {
+        font-size: 17px;
+    }
+    div[data-testid="stDataFrame"] [role="gridcell"],
+    div[data-testid="stDataFrame"] [role="columnheader"] {
+        min-height: 42px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
 
 
@@ -118,6 +131,9 @@ if clients.empty:
 
 clients["porcentaje_total"] = pd.to_numeric(clients["porcentaje_total"], errors="coerce").fillna(0)
 clients["cliente"] = clients["cliente"].astype(str)
+for text_column in ["segmento", "subsegmento", "supervisor", "promotor", "ruta", "fantasia", "grupos", "origen"]:
+    if text_column in clients.columns:
+        clients[text_column] = clients[text_column].fillna("").astype(str).str.replace(r"\.0$", "", regex=True).str.strip()
 
 latest_date = clients["fecha"].max() if "fecha" in clients.columns else ""
 
@@ -154,57 +170,6 @@ if search:
         mask = mask | filtered["fantasia"].astype(str).str.lower().str.contains(needle, na=False)
     filtered = filtered[mask]
 
-total_clients = filtered["cliente"].nunique()
-avg_pct = filtered["porcentaje_total"].mean() if not filtered.empty else 0
-max_pct = filtered["porcentaje_total"].max() if not filtered.empty else 0
-
-kpi1, kpi2, kpi3, kpi4 = st.columns(4)
-kpi1.metric("Clientes", f"{total_clients:,}".replace(",", "."))
-kpi2.metric("% promedio", format_pct(avg_pct))
-kpi3.metric("% maximo", format_pct(max_pct))
-kpi4.metric("Segmentos", filtered["subsegmento"].nunique() if "subsegmento" in filtered.columns else 0)
-
-left, right = st.columns([1, 1])
-
-with left:
-    summary = (
-        filtered.groupby(["segmento", "subsegmento"], dropna=False)
-        .agg(clientes=("cliente", "nunique"), porcentaje_promedio=("porcentaje_total", "mean"))
-        .reset_index()
-    )
-    fig = px.bar(
-        summary,
-        x="subsegmento",
-        y="clientes",
-        color="segmento",
-        text="clientes",
-        title="Clientes por segmento",
-    )
-    fig.update_layout(yaxis_title="Clientes", xaxis_title="", legend_title="")
-    st.plotly_chart(fig, use_container_width=True)
-
-with right:
-    pct_dist = (
-        filtered.assign(porcentaje_label=filtered["porcentaje_total"].map(format_pct))
-        .groupby(["segmento", "subsegmento", "porcentaje_label"], dropna=False)
-        .agg(clientes=("cliente", "nunique"))
-        .reset_index()
-        .sort_values(["segmento", "subsegmento", "porcentaje_label"])
-    )
-    fig = px.bar(
-        pct_dist,
-        x="porcentaje_label",
-        y="clientes",
-        color="subsegmento",
-        text="clientes",
-        title="Distribucion de porcentajes",
-    )
-    fig.update_layout(yaxis_title="Clientes", xaxis_title="% total", legend_title="")
-    st.plotly_chart(fig, use_container_width=True)
-
-st.subheader("Grupos monitoreados")
-st.dataframe(groups, use_container_width=True, hide_index=True)
-
 st.subheader("Clientes")
 display_cols = [
     "segmento",
@@ -222,4 +187,22 @@ display_cols = [c for c in display_cols if c in filtered.columns]
 table = filtered[display_cols].copy()
 if "porcentaje_total" in table.columns:
     table["porcentaje_total"] = table["porcentaje_total"].map(format_pct)
-st.dataframe(table.sort_values(["segmento", "subsegmento", "cliente"]), use_container_width=True, hide_index=True)
+st.dataframe(
+    table.sort_values(["segmento", "subsegmento", "cliente"]),
+    use_container_width=True,
+    hide_index=True,
+    height=760,
+    row_height=44,
+    column_config={
+        "segmento": st.column_config.TextColumn("Segmento", width="small"),
+        "subsegmento": st.column_config.TextColumn("Subsegmento", width="small"),
+        "cliente": st.column_config.TextColumn("Cliente", width="small"),
+        "fantasia": st.column_config.TextColumn("Nombre fantasia", width="large"),
+        "porcentaje_total": st.column_config.TextColumn("%", width="small"),
+        "supervisor": st.column_config.TextColumn("Supervisor", width="medium"),
+        "promotor": st.column_config.TextColumn("Promotor", width="medium"),
+        "ruta": st.column_config.TextColumn("Ruta venta", width="large"),
+        "grupos": st.column_config.TextColumn("Grupos", width="large"),
+        "origen": st.column_config.TextColumn("Origen", width="medium"),
+    },
+)

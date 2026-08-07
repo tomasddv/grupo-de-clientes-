@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -79,13 +80,26 @@ def load_client_master(path: Path | None) -> pd.DataFrame:
     master["cliente"] = master["cliente"].map(normalize_client)
     master = master[master["cliente"].ne("")]
     if "ruta_descripcion" in master.columns:
+        master["promotor"] = master["ruta_descripcion"].map(extract_promoter)
         master["ruta"] = master.apply(
             lambda row: f"{row.get('ruta', '')} - {row.get('ruta_descripcion', '')}".strip(" -"),
             axis=1,
         )
         master = master.drop(columns=["ruta_descripcion"])
+    if "promotor" not in master.columns:
+        master["promotor"] = ""
     master["supervisor"] = ""
     return master.drop_duplicates("cliente")
+
+
+def extract_promoter(route_description) -> str:
+    if pd.isna(route_description):
+        return ""
+    text = str(route_description).strip()
+    match = re.search(r"\bVE\s+(\d{2,3})\s+(.+?)\s+\d+\b", text, flags=re.IGNORECASE)
+    if match:
+        return f"{match.group(1)} {match.group(2).strip()}".upper()
+    return text
 
 
 def enrich_clients(clients: pd.DataFrame, master: pd.DataFrame) -> pd.DataFrame:
