@@ -1,20 +1,21 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-10,alerta,grupo_clientes,VALUE,"Grupo 3098 - 1890 LITRO K+T P1 Y P4 | anterior 909, actual 908, variacion -1",908,-1
-2026-08-10,ok,grupo_clientes,VALUE,Grupo 3099 - 1890 LITRO AS SUR.,52,0
-2026-08-10,ok,grupo_clientes,VALUE,Grupo 3014 - ADIC LITRO 1890 K-T DEL VALLE,357,0
-2026-08-10,ok,grupo_clientes,VALUE,Grupo 3015 - ADIC 1890 LT AS DEL VALLE,33,0
-2026-08-10,alerta,grupo_clientes,VALUE,"Grupo 3098 - 1890 LATA K+T SUR. | anterior 909, actual 908, variacion -1",908,-1
-2026-08-10,ok,grupo_clientes,VALUE,Grupo 3099 - LATA 1890 AS SUR.,52,0
-2026-08-10,alerta,grupo_clientes,VALUE,"Grupo 3036 - ADICIONAL 1890 K+T SUR | anterior 28, actual 909, variacion +881",909,881
-2026-08-10,ok,grupo_clientes,VALUE,Grupo 3035 - EXTRA LITRO/LATA/LATON SUR AS,52,0
-2026-08-10,ok,grupo_clientes,VALUE,Grupo 105 - ADICIONAL 1890 LATA SUR,1664,0
-2026-08-10,alerta,grupo_clientes,CORE,"Grupo 3091 - SUR- CORE K+T (TIER 1) | anterior 576, actual 575, variacion -1",575,-1
-2026-08-10,ok,grupo_clientes,CORE,Grupo 3092 - SUR- CORE K+T (TIER 2),268,0
-2026-08-10,ok,grupo_clientes,CORE,Grupo 3093 - SUR- CORE K+T (TIER 3),262,0
-2026-08-10,ok,grupo_clientes,CORE,Grupo 3095 - CORE ESCALA 2 AS SUR,23,0
-2026-08-10,ok,grupo_clientes,CORE,Grupo 3094 - SUR- CORE AS (TIER 1),22,0
-2026-08-10,ok,grupo_clientes,CORE,Grupo 3096 - CORE ESCALA 3 AS SUR,10,0
-2026-08-10,ok,grupo_clientes,CORE,Grupo 2725 - EXCEPCION CORE RGB/473--> AS SUR- DROP 3ERA ESCAL,2,0
-2026-08-10,alerta,accion_faltante,CORE,Grupo 2724 - EXCEPCION CORE 3RA ESCALA - SUR KT (grupo monitoreado sin acción CORE vigente detectada) | no se detectó acción vigente asociada hoy,4,0
-2026-08-10,alerta,acciones,CORE,"CORE cambió acciones vigentes: hoy se detectaron 7 acciones (3404,3405,3406,3407,3408,3409,3412); no se detectó acción vigente para grupo 2724 KT excepción.",,
-2026-08-10,ok,acciones,VALUE,"VALUE mantiene 9 acciones vigentes: 3360,3361,3362,3363,3364,3365,3366,3367,3418.",,0
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3098 - 1890 LITRO K+T P1 Y P4,908,0
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3099 - 1890 LITRO AS SUR.,52,0
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3014 - ADIC LITRO 1890 K-T DEL VALLE,357,0
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3015 - ADIC 1890 LT AS DEL VALLE,33,0
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3098 - 1890 LATA K+T SUR.,908,0
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3099 - LATA 1890 AS SUR.,52,0
+2026-08-11,alerta,grupo_clientes,VALUE,"Grupo 3036 - ADICIONAL 1890 K+T SUR | anterior 909, actual 908, variacion -1",908,-1
+2026-08-11,ok,grupo_clientes,VALUE,Grupo 3035 - EXTRA LITRO/LATA/LATON SUR AS,52,0
+2026-08-11,alerta,grupo_clientes,VALUE,"Grupo 105 - ADICIONAL 1890 LATA SUR | anterior 1664, actual 1663, variacion -1",1663,-1
+2026-08-11,ok,grupo_clientes,CORE,Grupo 3091 - SUR- CORE K+T (TIER 1),575,0
+2026-08-11,ok,grupo_clientes,CORE,Grupo 3092 - SUR- CORE K+T (TIER 2),268,0
+2026-08-11,alerta,grupo_clientes,CORE,"Grupo 3093 - SUR- CORE K+T (TIER 3) | anterior 262, actual 261, variacion -1",261,-1
+2026-08-11,ok,grupo_clientes,CORE,Grupo 3095 - CORE ESCALA 2 AS SUR,23,0
+2026-08-11,ok,grupo_clientes,CORE,Grupo 3094 - SUR- CORE AS (TIER 1),22,0
+2026-08-11,ok,grupo_clientes,CORE,Grupo 3096 - CORE ESCALA 3 AS SUR,10,0
+2026-08-11,ok,grupo_clientes,CORE,Grupo 2725 - EXCEPCION CORE RGB/473--> AS SUR- DROP 3ERA ESCAL,2,0
+2026-08-11,alerta,grupo_clientes,CORE,Grupo 3094 - LLENADO CORE AS AGOSTO SUR | acción CORE nueva detectada hoy,22,0
+2026-08-11,alerta,accion_faltante,CORE,Grupo 2724 - EXCEPCION CORE 3RA ESCALA - SUR KT (grupo monitoreado sin acción CORE vigente detectada) | no se detectó acción vigente asociada hoy,4,0
+2026-08-11,alerta,acciones,CORE,"CORE cambió acciones vigentes: apareció 3433 - LLENADO CORE AS AGOSTO SUR, asociada al grupo 3094.",,
+2026-08-11,ok,acciones,VALUE,"VALUE mantiene 9 acciones vigentes: 3360,3361,3362,3363,3364,3365,3366,3367,3418.",,0
