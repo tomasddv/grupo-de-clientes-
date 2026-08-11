@@ -75,7 +75,7 @@ def _read_csv_from_private_drive(file_id: str, service_account_json: str) -> pd.
     return pd.read_csv(buffer)
 
 
-@st.cache_data(ttl=900)
+@st.cache_data(ttl=60)
 def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     client_url = _secret("drive.client_percentages_url")
     groups_url = _secret("drive.group_summary_url")
