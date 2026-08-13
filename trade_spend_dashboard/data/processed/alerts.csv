@@ -1,3 +1,3 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-12,alerta,grupo_clientes,VALUE,3014 - ADIC 1890 LT K-T DEL VALLE: 357 -> 358 clientes; altas: 3941,358,1
-2026-08-12,alerta,grupo_clientes,VALUE,"105 - MH + MAY - PAIS: 1663 -> 1664 clientes; cambió rowcount ERP, sin código nuevo identificable en lista conservada",1664,1
+2026-08-13,alerta,grupo_clientes,VALUE,"105 - MH + MAY - PAIS: 1664 -> 1665 clientes; cambió rowcount ERP, sin código nuevo identificable en lista conservada",1665,1
+2026-08-13,alerta,grupo_clientes,CORE,3091 - CORE ESCALA 1 K+T SUR: 575 -> 576 clientes; altas: 5480,576,1
