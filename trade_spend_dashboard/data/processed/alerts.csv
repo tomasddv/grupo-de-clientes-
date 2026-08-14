@@ -1,3 +1,4 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-13,alerta,grupo_clientes,VALUE,"105 - MH + MAY - PAIS: 1664 -> 1665 clientes; cambió rowcount ERP, sin código nuevo identificable en lista conservada",1665,1
-2026-08-13,alerta,grupo_clientes,CORE,3091 - CORE ESCALA 1 K+T SUR: 575 -> 576 clientes; altas: 5480,576,1
+2026-08-14,alerta,grupo_clientes,VALUE,"105 - MH + MAY - PAIS: 1665 -> 1668 clientes; cambió rowcount ERP, sin código nuevo identificable en lista conservada",1668,3
+2026-08-14,alerta,grupo_clientes,CORE,2724 - EXCEPCION CORE 3RA ESCALA - SUR KT: 4 -> 3 clientes; bajas: 5017,3,-1
+2026-08-14,alerta,grupo_clientes,CORE,3096 - CORE ESCALA 3 AS SUR: 10 -> 11 clientes; altas: 5411,11,1
