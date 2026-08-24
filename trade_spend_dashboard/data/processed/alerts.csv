@@ -1,2 +1,2 @@
-﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-24,alerta,accion_core_temporal,CORE,Se sumaron temporalmente 3448 LLENADO CORE AS AGOSTO SUR y 3449 LLENADO CORE KT AGOSTO SUR al 3% para hoy,969,0
+fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
+2026-08-24,alerta,ajuste_manual_core_solo_hoy,CORE,Se consideran solo las acciones CORE 3448 AS grupo 3025 +3% y 3449 KT grupo 3098 +3%; se excluye 3433 del calculo de llenado CORE de hoy.,969,0
