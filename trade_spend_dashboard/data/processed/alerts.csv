@@ -1,2 +1,2 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-24,alerta,ajuste_manual_core_solo_hoy,CORE,Se consideran solo las acciones CORE 3448 AS grupo 3025 +3% y 3449 KT grupo 3098 +3%; se excluye 3433 del calculo de llenado CORE de hoy.,969,0
+2026-08-25,alerta,retiro_ajuste_manual_core,CORE,Se retiro el ajuste manual solo por 24/08/2026: accion 3449 KT grupo 3098 +3% eliminada y accion 3448 reemplazada por grupo habitual AS 3433.,3805,-44
