@@ -1,2 +1,5 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-25,alerta,retiro_ajuste_manual_core,CORE,Se retiro el ajuste manual solo por 24/08/2026: accion 3449 KT grupo 3098 +3% eliminada y accion 3448 reemplazada por grupo habitual AS 3433.,3805,-44
+2026-08-26,alerta,grupo_clientes,VALUE/CORE,Grupo 3098 bajo de 908 a 906 clientes: salieron 788 y 5253.,906,-2
+2026-08-26,alerta,grupo_clientes,VALUE,Grupo 3036 bajo de 908 a 906 clientes: salieron 788 y 5253.,906,-2
+2026-08-26,alerta,grupo_clientes,CORE,Grupo 3091 bajo de 576 a 575 clientes: entró 5507 y salieron 788 y 5253.,575,-1
+2026-08-26,alerta,grupo_clientes,VALUE,Grupo 3099 subió de 52 a 53 clientes: entró 4371.,53,1
