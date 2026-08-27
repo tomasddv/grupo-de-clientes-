@@ -1,5 +1,2 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-26,alerta,grupo_clientes,VALUE/CORE,Grupo 3098 bajo de 908 a 906 clientes: salieron 788 y 5253.,906,-2
-2026-08-26,alerta,grupo_clientes,VALUE,Grupo 3036 bajo de 908 a 906 clientes: salieron 788 y 5253.,906,-2
-2026-08-26,alerta,grupo_clientes,CORE,Grupo 3091 bajo de 576 a 575 clientes: entró 5507 y salieron 788 y 5253.,575,-1
-2026-08-26,alerta,grupo_clientes,VALUE,Grupo 3099 subió de 52 a 53 clientes: entró 4371.,53,1
+2026-08-27,alerta,grupo_clientes,VALUE,Grupo 3035 subió de 52 a 53 clientes: entró 4371. Se suma +5% en VALUE LITRO y +5% en VALUE LATA para ese cliente.,53,1
