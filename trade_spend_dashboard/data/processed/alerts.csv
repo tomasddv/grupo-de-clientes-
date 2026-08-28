@@ -1,2 +1,3 @@
-fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-27,alerta,grupo_clientes,VALUE,Grupo 3035 subió de 52 a 53 clientes: entró 4371. Se suma +5% en VALUE LITRO y +5% en VALUE LATA para ese cliente.,53,1
+﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
+2026-08-28,alerta,cliente_baja_grupo,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): bajo de 575 a 574 clientes. Salio cliente 100153 DON SAWA; pierde 5% CORE.,574,-1
+2026-08-28,alerta,cliente_baja_grupo,CORE,Grupo 3096 CORE ESCALA 3 AS SUR: bajo de 11 a 10 clientes. Salio cliente 100572 CLEMENTE; CORE total baja de 13% a 8%.,10,-1
