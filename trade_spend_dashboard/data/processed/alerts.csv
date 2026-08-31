@@ -1,3 +1,2 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-28,alerta,cliente_baja_grupo,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): bajo de 575 a 574 clientes. Salio cliente 100153 DON SAWA; pierde 5% CORE.,574,-1
-2026-08-28,alerta,cliente_baja_grupo,CORE,Grupo 3096 CORE ESCALA 3 AS SUR: bajo de 11 a 10 clientes. Salio cliente 100572 CLEMENTE; CORE total baja de 13% a 8%.,10,-1
+2026-08-31,ok,auditoria,TODOS,Sin variaciones detectadas contra el snapshot anterior en los grupos estaticos auditados.,,0
