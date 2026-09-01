@@ -1,4 +1,4 @@
-﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
+fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-09-01,alerta,accion_finalizada,CORE,Accion 23056 / grupo 2724 ya no figura en Vigentes y programadas; aparece solo en Finalizadas. Se dejo de sumar 5% CORE a 3 clientes.,0,-3 clientes afectados
 2026-09-01,alerta,accion_finalizada,CORE,Accion 23057 / grupo 2725 ya no figura en Vigentes y programadas; aparece solo en Finalizadas. Se dejo de sumar 5% CORE a 2 clientes.,0,-2 clientes afectados
 2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 2941 ANI: CORE bajo de 10.0% a 5.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
@@ -6,3 +6,5 @@
 2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 3992 ECO MARKET: CORE bajo de 13.00% a 8.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
 2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 4633 MINIMERCADO EMILY Y JAZMÍN: CORE bajo de 10.0% a 5.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
 2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 100572 CLEMENTE: CORE bajo de 13.00% a 8.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
+2026-09-01,alerta,accion_finalizada,CORE,Accion 3433 / grupo 3025 LLENADO CORE AS AGOSTO SUR se quito del calculo vigente. Se dejo de sumar 3% CORE a los clientes de ese grupo.,0,-3 puntos
+2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 3992 ECO MARKET: CORE bajo de 8.00% a 5.00% por quitar 3433/3025 del calculo vigente.,,-3 puntos
