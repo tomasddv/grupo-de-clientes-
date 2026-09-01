@@ -1,2 +1,6 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-08-31,ok,auditoria,TODOS,Sin variaciones detectadas contra el snapshot anterior en los grupos estaticos auditados.,,0
+2026-09-01,alerta,cliente_baja_grupo,CORE,Grupo 3092 SUR- CORE K+T (TIER 2): bajo de 268 a 267 clientes. Salio cliente 1190 CACHITO MAXIKIOSCO; pierde 5% CORE.,267,-1
+2026-09-01,alerta,cliente_alta_grupo,CORE,Grupo 3096 CORE ESCALA 3 AS SUR: subio de 10 a 11 clientes. Entro cliente 100572 CLEMENTE; CORE total sube de 8% a 13%.,11,+1
+2026-09-01,alerta,cliente_baja_grupo,VALUE,Grupo 3098 1890 K+T SUR: bajo de 906 a 905 clientes. Salio cliente 1190 CACHITO MAXIKIOSCO; en VALUE LATA queda 3% y en VALUE LITRO queda sin descuento.,905,-1
+2026-09-01,alerta,cliente_baja_grupo,VALUE,Grupo 3014 ADIC LITRO 1890 K-T DEL VALLE: bajo de 358 a 357 clientes. Salio cliente 1190 CACHITO MAXIKIOSCO.,357,-1
+2026-09-01,alerta,cliente_baja_grupo,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: bajo de 906 a 905 clientes. Salio cliente 1190 CACHITO MAXIKIOSCO.,905,-1
