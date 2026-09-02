@@ -274,6 +274,58 @@ def actions_for_client_row(client_row: pd.Series, action_lookup: dict[str, list[
     return action_lines
 
 
+def client_options(df: pd.DataFrame) -> list[str]:
+    base = df[["cliente", "fantasia", "promotor"]].drop_duplicates("cliente").copy()
+    base["cliente_sort"] = pd.to_numeric(base["cliente"], errors="coerce")
+    base = base.sort_values(["cliente_sort", "cliente"], na_position="last")
+    return [
+        f"{row.cliente} - {row.fantasia}" + (f" ({row.promotor})" if row.promotor else "")
+        for row in base.itertuples(index=False)
+    ]
+
+
+def option_code(option: str) -> str:
+    return normalize_code(str(option).split(" - ", 1)[0])
+
+
+def render_client_result(result: pd.DataFrame, code: str, action_lookup: dict[str, list[dict[str, str]]]) -> None:
+    result = result.sort_values(["segmento", "subsegmento"])
+    first = result.iloc[0]
+    st.markdown(
+        f"""
+        <div class="client-card">
+            <div class="client-name">{code} - {first.get("fantasia", "")}</div>
+            <div class="muted">{first.get("promotor", "")}</div>
+            <div class="muted">{first.get("ruta", "")}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    lines = []
+    for _, row in result.iterrows():
+        label = row["segmento"] if row["segmento"] == "CORE" else f"{row['segmento']} {row['subsegmento']}"
+        pct_text = format_pct(row["porcentaje_total"])
+        lines.append(f"{label}: {pct_text}")
+        st.markdown(
+            f"""
+            <div class="discount-card">
+                <div class="discount-title">{label}</div>
+                <div class="discount-pct">{pct_text}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        with st.expander(f"Acciones y grupos de {label}", expanded=False):
+            for action_line in actions_for_client_row(row, action_lookup):
+                st.write(f"- {action_line}")
+
+    st.markdown(
+        f"""<div class="answer">Respuesta: el cliente <strong>{code}</strong> tiene {'; '.join(lines)}.</div>""",
+        unsafe_allow_html=True,
+    )
+
+
 clients_raw, groups_raw = load_data()
 if clients_raw.empty:
     st.error("No hay datos de clientes para consultar.")
@@ -293,7 +345,7 @@ st.markdown(
         <img class="mascot-img" src="{mascot_src}" alt="Asistente de descuentos con barba y rodete">
         <div class="hero-copy">
             <strong>Asistente de descuentos</strong>
-            <div class="muted">Escribí un código de cliente y te digo qué porcentaje tiene en CORE, VALUE LITRO y VALUE LATA.</div>
+            <div class="muted">Escribí un código o nombre de fantasía y te digo qué porcentaje tiene en CORE, VALUE LITRO y VALUE LATA.</div>
         </div>
     </div>
     """,
@@ -301,51 +353,31 @@ st.markdown(
 )
 
 with st.form("client_lookup", clear_on_submit=False):
-    query = st.text_input("Codigo de cliente", placeholder="Ej: 3992")
+    query = st.text_input("Código o nombre de fantasía", placeholder="Ej: 3992 u ORIENTE")
     submitted = st.form_submit_button("Consultar", use_container_width=True)
 
 code = normalize_code(query)
-if submitted and not code:
-    st.info("Ingresá un código de cliente.")
-elif code:
+name_query = str(query or "").strip().lower()
+if submitted and not name_query:
+    st.info("Ingresá un código de cliente o nombre de fantasía.")
+elif code and name_query.isdigit():
     result = clients[clients["cliente"].map(normalize_code).eq(code)].copy()
     if result.empty:
-        st.warning(f"No encontre el cliente {code} en el archivo actual.")
+        st.warning(f"No encontré el cliente {code} en el archivo actual.")
     else:
-        result = result.sort_values(["segmento", "subsegmento"])
-        first = result.iloc[0]
-        st.markdown(
-            f"""
-            <div class="client-card">
-                <div class="client-name">{code} - {first.get("fantasia", "")}</div>
-                <div class="muted">{first.get("promotor", "")}</div>
-                <div class="muted">{first.get("ruta", "")}</div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-        lines = []
-        for _, row in result.iterrows():
-            label = row["segmento"] if row["segmento"] == "CORE" else f"{row['segmento']} {row['subsegmento']}"
-            pct_text = format_pct(row["porcentaje_total"])
-            lines.append(f"{label}: {pct_text}")
-            st.markdown(
-                f"""
-                <div class="discount-card">
-                    <div class="discount-title">{label}</div>
-                    <div class="discount-pct">{pct_text}</div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-            with st.expander(f"Acciones y grupos de {label}", expanded=False):
-                for action_line in actions_for_client_row(row, action_lookup):
-                    st.write(f"- {action_line}")
-
-        st.markdown(
-            f"""<div class="answer">Respuesta: el cliente <strong>{code}</strong> tiene {'; '.join(lines)}.</div>""",
-            unsafe_allow_html=True,
-        )
+        render_client_result(result, code, action_lookup)
+elif name_query:
+    matches = clients[clients["fantasia"].str.lower().str.contains(name_query, na=False)].copy()
+    if matches.empty:
+        st.warning(f"No encontré clientes con nombre de fantasía que contenga '{query}'.")
+    else:
+        options = client_options(matches)
+        selected = options[0]
+        if len(options) > 1:
+            st.caption(f"Encontré {len(options)} clientes. Elegí uno para ver el descuento.")
+            selected = st.selectbox("Cliente", options)
+        selected_code = option_code(selected)
+        result = clients[clients["cliente"].map(normalize_code).eq(selected_code)].copy()
+        render_client_result(result, selected_code, action_lookup)
 else:
-    st.info("Escribí el código del cliente para ver sus descuentos.")
+    st.info("Escribí el código del cliente o el nombre de fantasía para ver sus descuentos.")
