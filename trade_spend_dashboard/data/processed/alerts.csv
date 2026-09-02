@@ -1,10 +1,36 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-01,alerta,accion_finalizada,CORE,Accion 23056 / grupo 2724 ya no figura en Vigentes y programadas; aparece solo en Finalizadas. Se dejo de sumar 5% CORE a 3 clientes.,0,-3 clientes afectados
-2026-09-01,alerta,accion_finalizada,CORE,Accion 23057 / grupo 2725 ya no figura en Vigentes y programadas; aparece solo en Finalizadas. Se dejo de sumar 5% CORE a 2 clientes.,0,-2 clientes afectados
-2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 2941 ANI: CORE bajo de 10.0% a 5.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
-2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 3270 DAYANA: CORE bajo de 10.0% a 5.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
-2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 3992 ECO MARKET: CORE bajo de 13.00% a 8.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
-2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 4633 MINIMERCADO EMILY Y JAZMÍN: CORE bajo de 10.0% a 5.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
-2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 100572 CLEMENTE: CORE bajo de 13.00% a 8.00% por quitar excepcion finalizada 23056/23057.,,-5 puntos
-2026-09-01,alerta,accion_finalizada,CORE,Accion 3433 / grupo 3025 LLENADO CORE AS AGOSTO SUR se quito del calculo vigente. Se dejo de sumar 3% CORE a los clientes de ese grupo.,0,-3 puntos
-2026-09-01,alerta,cambio_porcentaje,CORE,Cliente 3992 ECO MARKET: CORE bajo de 8.00% a 5.00% por quitar 3433/3025 del calculo vigente.,,-3 puntos
+2026-09-02,alerta,grupo_clientes,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): subio de 574 a 676 clientes segun ERP.,676,+102
+2026-09-02,alerta,grupo_clientes,CORE,Grupo 3094 SUR- CORE AS (TIER 1): subio de 22 a 24 clientes segun ERP.,24,+2
+2026-09-02,alerta,accion_vigente_no_asociada_a_grupo,CORE,Acciones CORE nuevas vigentes 3470/24091 y 3471/24092 aplican a TODOS los clientes con beneficio 5%; no se sumaron al dashboard porque no tienen grupo de clientes asociado.,TODOS,revisar regla
+2026-09-02,ok,acciones_excluidas,CORE,"23056, 23057, 3433, 3448, 3449, LLENADO CORE y EXCEPCION dieron 0 filas en Vigentes y programadas; no se sumaron.",0,0
+2026-09-02,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR: el ERP mostro una definicion dinamica/atributos y no una lista completa confiable de clientes; se mantuvo el conteo anterior.,1668,revisar
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 71 LOS TRES MAGOS: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 74 MONTECATINI: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 97 COSAS II: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 147 GIMNASIO ACTIVO: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 176 COSA S: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 360 LAS MELLIS: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 539 NATANAEL: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 704 FAMILY: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 849 SARMIENTO: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 2107 VERDULERIA BELEN: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 2262 EL NOVILLITO: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 2608 BENITA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 2611 DELICIAS PIZZAS Y EMPANADAS: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 2783 ASOCIACION RACING CLUB: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3149 FIAMBRERIA PATAGONIA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3182 CLEMENTE JUNIOR 2: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3253 CABANA CATERIN: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3556 CARNES PREMIUM: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3587 URIEL: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3593 VERDULERIA TIAGO: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3700 LA FAMILIA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3720 FRIGORIFICO PATAGONIA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3794 MIRIAM: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3797 TATA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 3854 ESTACION DE SERVICIO PUMA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 4045 PANADERIA DON LISTER: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 4089 VERDULERIA LA FAMILIA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 4466 LUZ AZUL: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 4591 FORTIN LA VILLA: CORE cambio de 0.00% a 5.00%.,,+5 puntos
+2026-09-02,alerta,cambio_porcentaje,CORE,Cliente 4599 EL NONO: CORE cambio de 0.00% a 5.00%.,,+5 puntos
