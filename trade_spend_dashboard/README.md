@@ -27,6 +27,16 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## App para supervisores/promotores
+
+Para crear un segundo link solo de consulta por codigo de cliente en Streamlit Cloud, usar el mismo repositorio y seleccionar este archivo como `Main file path`:
+
+```text
+trade_spend_dashboard/consulta_cliente.py
+```
+
+Esta app lee los mismos CSV de Drive y muestra una pantalla simple para celular con CORE, VALUE LITRO y VALUE LATA por cliente.
+
 ## Drive
 
 La carpeta detectada para datos fue:

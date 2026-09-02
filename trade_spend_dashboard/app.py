@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import io
+import json
+import re
 from pathlib import Path
 
 import gdown
@@ -8,8 +11,6 @@ import streamlit as st
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
-import io
-import json
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -31,6 +32,37 @@ st.markdown(
     div[data-testid="stDataFrame"] [role="gridcell"],
     div[data-testid="stDataFrame"] [role="columnheader"] {
         min-height: 42px;
+    }
+    .discount-card {
+        border: 1px solid rgba(120, 120, 120, 0.22);
+        border-radius: 8px;
+        padding: 18px;
+        margin: 10px 0 18px;
+        background: rgba(120, 120, 120, 0.08);
+    }
+    .discount-card h3 {
+        margin: 0 0 8px;
+    }
+    .discount-line {
+        font-size: 1.1rem;
+        margin: 8px 0;
+    }
+    .discount-total {
+        font-size: 1.45rem;
+        font-weight: 700;
+    }
+    @media (max-width: 720px) {
+        .block-container {
+            padding-top: 1.25rem;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+        }
+        h1 {
+            font-size: 1.8rem !important;
+        }
+        div[data-testid="stDataFrame"] {
+            font-size: 15px;
+        }
     }
     </style>
     """,
@@ -123,6 +155,123 @@ def apply_filter(df: pd.DataFrame, column: str, selected: list[str]) -> pd.DataF
     return df[df[column].astype(str).isin(selected)]
 
 
+def normalize_code(value: str) -> str:
+    return re.sub(r"\D", "", str(value or ""))
+
+
+def extract_group_code(value: str) -> str:
+    match = re.match(r"\s*(\d+)", str(value or ""))
+    return match.group(1) if match else ""
+
+
+def product_matches_action(client_row: pd.Series, action_row: pd.Series) -> bool:
+    if client_row["segmento"] != action_row["segmento"]:
+        return False
+    if client_row["segmento"] != "VALUE":
+        return True
+
+    subsegment = str(client_row.get("subsegmento", "")).upper()
+    description = str(action_row.get("descripcion", "")).upper()
+    has_lata = "LATA" in description
+    has_litro = "LITRO" in description or " LT " in f" {description} "
+    if subsegment == "LATA":
+        return has_lata or not has_litro
+    if subsegment == "LITRO":
+        return has_litro or not has_lata
+    return True
+
+
+def build_action_lookup(groups_df: pd.DataFrame) -> dict[str, list[dict[str, str]]]:
+    if groups_df.empty or "grupo" not in groups_df.columns:
+        return {}
+    clean_groups = groups_df.copy()
+    for column in ["segmento", "accion_id", "promo_compania", "descripcion", "grupo"]:
+        if column in clean_groups.columns:
+            clean_groups[column] = clean_groups[column].fillna("").astype(str).str.strip()
+
+    lookup: dict[str, list[dict[str, str]]] = {}
+    for row in clean_groups.to_dict("records"):
+        group_code = extract_group_code(row.get("grupo", ""))
+        if group_code:
+            lookup.setdefault(group_code, []).append(row)
+    return lookup
+
+
+def actions_for_client_row(client_row: pd.Series, action_lookup: dict[str, list[dict[str, str]]]) -> list[str]:
+    action_lines = []
+    group_text = str(client_row.get("grupos", ""))
+    for raw_group in [part.strip() for part in group_text.split("|") if part.strip()]:
+        group_code = extract_group_code(raw_group)
+        matches = [
+            action
+            for action in action_lookup.get(group_code, [])
+            if product_matches_action(client_row, pd.Series(action))
+        ]
+        if matches:
+            for action in matches:
+                action_lines.append(
+                    f"{action.get('accion_id', '')} / promo {action.get('promo_compania', '')}: "
+                    f"{action.get('descripcion', '')} - grupo {group_code}"
+                )
+        else:
+            action_lines.append(raw_group)
+    return action_lines
+
+
+def render_client_assistant(clients_df: pd.DataFrame, groups_df: pd.DataFrame) -> None:
+    action_lookup = build_action_lookup(groups_df)
+    st.subheader("Consulta por cliente")
+    with st.form("client_assistant_form", clear_on_submit=False):
+        query = st.text_input(
+            "Codigo de cliente",
+            placeholder="Ej: 3992",
+            key="assistant_client_code",
+        )
+        submitted = st.form_submit_button("Consultar descuento", use_container_width=True)
+
+    code = normalize_code(query)
+    if not submitted and not code:
+        return
+
+    if not code:
+        st.info("Ingresa un codigo de cliente para consultar.")
+        return
+
+    result = clients_df[clients_df["cliente"].map(normalize_code).eq(code)].copy()
+    if result.empty:
+        st.warning(f"No encontre el cliente {code} en el archivo actual.")
+        return
+
+    result = result.sort_values(["segmento", "subsegmento"])
+    first = result.iloc[0]
+    st.markdown(
+        f"""
+        <div class="discount-card">
+            <h3>Cliente {code} - {first.get("fantasia", "")}</h3>
+            <div>{first.get("promotor", "")} - {first.get("ruta", "")}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    for _, row in result.iterrows():
+        title = row["segmento"] if row["segmento"] == "CORE" else f"{row['segmento']} {row['subsegmento']}"
+        st.markdown(
+            f"""
+            <div class="discount-card">
+                <div class="discount-line">{title}</div>
+                <div class="discount-total">{format_pct(row["porcentaje_total"])}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        action_lines = actions_for_client_row(row, action_lookup)
+        if action_lines:
+            with st.expander(f"Ver acciones y grupos de {title}", expanded=True):
+                for action_line in action_lines:
+                    st.write(f"- {action_line}")
+
+
 clients, groups, alerts = load_data()
 
 if clients.empty:
@@ -141,12 +290,14 @@ latest_date = clients["fecha"].max() if "fecha" in clients.columns else ""
 st.title("Trade Spend")
 st.caption(f"Fuente: Chess ERP / Drive. Ultima actualizacion: {latest_date}")
 
+render_client_assistant(clients, groups)
+
 open_alerts = alerts[alerts["estado"].astype(str).str.lower().eq("alerta")] if not alerts.empty else pd.DataFrame()
 if open_alerts.empty:
     st.success("Sin variaciones detectadas en acciones, grupos o clientes.")
 else:
-    st.warning(f"{len(open_alerts)} variaciones detectadas.")
-    st.dataframe(open_alerts, use_container_width=True, hide_index=True)
+    with st.expander(f"{len(open_alerts)} variaciones detectadas"):
+        st.dataframe(open_alerts, use_container_width=True, hide_index=True)
 
 with st.sidebar:
     st.header("Filtros")
