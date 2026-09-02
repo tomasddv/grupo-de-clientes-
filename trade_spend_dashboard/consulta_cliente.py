@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import io
 import json
 import re
@@ -15,6 +16,7 @@ from googleapiclient.http import MediaIoBaseDownload
 
 APP_DIR = Path(__file__).resolve().parent
 LOCAL_DATA_DIR = APP_DIR / "data" / "processed"
+MASCOT_PATH = APP_DIR / "assets" / "assistant_mascot.png"
 
 
 st.set_page_config(
@@ -55,41 +57,15 @@ st.markdown(
         margin: 10px 0 18px;
         background: linear-gradient(135deg, rgba(18, 119, 192, 0.16), rgba(41, 171, 135, 0.14));
     }
-    .mascot {
-        position: relative;
+    .mascot-img {
         width: 74px;
         min-width: 74px;
         height: 74px;
         border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 19%;
         background: #1277c0;
-        box-shadow: inset 0 -8px 0 rgba(0, 0, 0, 0.14);
-    }
-    .mascot::before,
-    .mascot::after {
-        content: "";
-        position: absolute;
-        top: 25px;
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        background: white;
-    }
-    .mascot::before {
-        left: 22px;
-    }
-    .mascot::after {
-        right: 22px;
-    }
-    .mascot-mark {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 13px;
-        color: white;
-        font-size: 1.6rem;
-        font-weight: 900;
-        text-align: center;
-        line-height: 1;
+        box-shadow: 0 8px 18px rgba(18, 119, 192, 0.24);
     }
     .hero-copy {
         min-width: 0;
@@ -141,24 +117,10 @@ st.markdown(
         .assistant-hero {
             align-items: flex-start;
         }
-        .mascot {
+        .mascot-img {
             width: 62px;
             min-width: 62px;
             height: 62px;
-        }
-        .mascot::before,
-        .mascot::after {
-            top: 21px;
-        }
-        .mascot::before {
-            left: 18px;
-        }
-        .mascot::after {
-            right: 18px;
-        }
-        .mascot-mark {
-            bottom: 10px;
-            font-size: 1.35rem;
         }
     }
     </style>
@@ -174,6 +136,11 @@ def _secret(path: str, default: str = "") -> str:
             return default
         current = current[part]
     return str(current or default).strip()
+
+
+def image_data_uri(path: Path) -> str:
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:image/png;base64,{encoded}"
 
 
 def _read_csv_from_url(url: str) -> pd.DataFrame:
@@ -319,10 +286,11 @@ latest_date = clients["fecha"].max() if "fecha" in clients.columns else ""
 
 st.title("Consulta Trade Spend")
 st.caption(f"Actualizado: {latest_date}")
+mascot_src = image_data_uri(MASCOT_PATH)
 st.markdown(
-    """
+    f"""
     <div class="assistant-hero">
-        <div class="mascot"><div class="mascot-mark">%</div></div>
+        <img class="mascot-img" src="{mascot_src}" alt="Asistente de descuentos con barba y rodete">
         <div class="hero-copy">
             <strong>Asistente de descuentos</strong>
             <div class="muted">Escribí un código de cliente y te digo qué porcentaje tiene en CORE, VALUE LITRO y VALUE LATA.</div>
