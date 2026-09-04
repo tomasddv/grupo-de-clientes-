@@ -1,24 +1,10 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-03,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LITRO K+T P1 Y P4: bajo de 905 a 900 clientes segun ERP.,900,-5
-2026-09-03,alerta,accion_id_actualizado,VALUE,Promo 290123 ahora figura como accion 3438 en Vigentes y programadas; antes estaba 3360.,900,id actualizado
-2026-09-03,alerta,accion_id_actualizado,VALUE,Promo 290125 ahora figura como accion 3439 en Vigentes y programadas; antes estaba 3362.,357,id actualizado
-2026-09-03,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LATA K+T SUR.: bajo de 905 a 900 clientes segun ERP.,900,-5
-2026-09-03,alerta,grupo_clientes,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: bajo de 905 a 900 clientes segun ERP.,900,-5
-2026-09-03,alerta,grupo_clientes,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): bajo de 676 a 672 clientes segun ERP.,672,-4
-2026-09-03,ok,acciones_excluidas,CORE,"23056, 23057, 3433, 3448, 3449, LLENADO CORE y EXCEPCION dieron 0 filas en Vigentes y programadas; no se sumaron.",0,0
-2026-09-03,ok,acciones_core,CORE,"CORE vigente contiene solo las 6 acciones habituales 3404, 3405, 3406, 3407, 3408 y 3409; no aparecieron 3470/3471.",6 acciones,ok
-2026-09-03,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR: el ERP mostro atributos dinamicos y no una lista completa confiable de clientes; se mantuvo la membresia anterior para el 3% de LATA.,1664,revisar
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 2332 MERCADO OSCAR: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 3798 MERCADO Y CARNICERIA CURI: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 4049 EL TATA: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 5240 DESPENSA FEMENINA: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 5268 MELISA 1: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
-2026-09-03,alerta,cambio_porcentaje,CORE,Cliente 2332 MERCADO OSCAR: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
-2026-09-03,alerta,cambio_porcentaje,CORE,Cliente 3798 MERCADO Y CARNICERIA CURI: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
-2026-09-03,alerta,cambio_porcentaje,CORE,Cliente 5240 DESPENSA FEMENINA: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
-2026-09-03,alerta,cambio_porcentaje,CORE,Cliente 5268 MELISA 1: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 2332 MERCADO OSCAR: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 3798 MERCADO Y CARNICERIA CURI: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 4049 EL TATA: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 5240 DESPENSA FEMENINA: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
-2026-09-03,alerta,cambio_porcentaje,VALUE,Cliente 5268 MELISA 1: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-04,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LITRO K+T P1 Y P4: bajo de 900 a 899 clientes segun ERP. Salio cliente 4048 PUHL SERGIO JAVIER.,899,-1
+2026-09-04,alerta,grupo_clientes,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: bajo de 900 a 899 clientes segun ERP. Salio cliente 4048 PUHL SERGIO JAVIER.,899,-1
+2026-09-04,alerta,grupo_clientes,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): bajo de 672 a 671 clientes segun ERP. Salio cliente 4048 PUHL SERGIO JAVIER.,671,-1
+2026-09-04,alerta,validacion_acciones,VALUE/CORE,Se confirmaron grupos desde ERP. La pantalla de acciones comerciales no completo la carga por timeout de Chrome durante el control final; se mantuvieron solo las acciones ya vigentes/validadas del snapshot anterior y no se agregaron acciones nuevas.,,revisar
+2026-09-04,ok,acciones_excluidas,CORE,"No se sumaron manualmente 23056, 23057, 3433, 3448 ni 3449.",0,0
+2026-09-04,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR: ERP no entrega lista completa confiable; se mantuvo membresia anterior para el 3% de LATA.,1664,revisar
+2026-09-04,alerta,cambio_porcentaje,VALUE,Cliente 4048 QUILQUI: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-04,alerta,cambio_porcentaje,CORE,Cliente 4048 QUILQUI: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
+2026-09-04,alerta,cambio_porcentaje,VALUE,Cliente 4048 QUILQUI: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
