@@ -1,10 +1,5 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-04,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LITRO K+T P1 Y P4: bajo de 900 a 899 clientes segun ERP. Salio cliente 4048 PUHL SERGIO JAVIER.,899,-1
-2026-09-04,alerta,grupo_clientes,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: bajo de 900 a 899 clientes segun ERP. Salio cliente 4048 PUHL SERGIO JAVIER.,899,-1
-2026-09-04,alerta,grupo_clientes,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): bajo de 672 a 671 clientes segun ERP. Salio cliente 4048 PUHL SERGIO JAVIER.,671,-1
-2026-09-04,alerta,validacion_acciones,VALUE/CORE,Se confirmaron grupos desde ERP. La pantalla de acciones comerciales no completo la carga por timeout de Chrome durante el control final; se mantuvieron solo las acciones ya vigentes/validadas del snapshot anterior y no se agregaron acciones nuevas.,,revisar
-2026-09-04,ok,acciones_excluidas,CORE,"No se sumaron manualmente 23056, 23057, 3433, 3448 ni 3449.",0,0
-2026-09-04,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR: ERP no entrega lista completa confiable; se mantuvo membresia anterior para el 3% de LATA.,1664,revisar
-2026-09-04,alerta,cambio_porcentaje,VALUE,Cliente 4048 QUILQUI: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
-2026-09-04,alerta,cambio_porcentaje,CORE,Cliente 4048 QUILQUI: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
-2026-09-04,alerta,cambio_porcentaje,VALUE,Cliente 4048 QUILQUI: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-05,ok,grupo_clientes,VALUE/CORE,"Se relevaron los grupos monitoreados desde ERP y no hubo variaciones contra el snapshot anterior. Firmas controladas por cantidad, suma y suma cuadratica de codigos de cliente.",3613,0
+2026-09-05,alerta,accion_nueva_no_sumada,CORE,"ERP muestra nuevas acciones vigentes/programadas 3482 LLENADO CORE 3% KT, 3483 LLENADO CORE 3% AS y 3484 LLENADO CORE 3% MAY. El detalle confirma 3% y escalas desde 10, 20 y 60 bultos respectivamente, pero la seleccion de clientes figura como Todos los clientes. No se sumaron al descuento CORE hasta confirmar criterio de aplicacion.",,revisar
+2026-09-05,ok,acciones_excluidas,CORE,"No aparecen en Vigentes y programadas las acciones 23056, 23057, 3433, 3448 ni 3449; no se sumaron manualmente.",0,0
+2026-09-05,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR sigue tratandose con la membresia anterior por ser dinamico/no comparable por listado completo desde ERP.,1668,revisar
