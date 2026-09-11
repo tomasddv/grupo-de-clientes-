@@ -1,7 +1,72 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-10,ok,grupo_clientes,VALUE/CORE,"Se relevaron los grupos monitoreados desde ERP y no hubo variaciones contra el snapshot anterior. Firmas controladas por cantidad, suma y suma cuadratica de codigos de cliente.",3613,0
-2026-09-10,ok,acciones_value,VALUE,"ERP muestra vigentes/programadas las 8 acciones VALUE habituales de 1890: 3361, 3363, 3364, 3365, 3366, 3418, 3438 y 3439. No hubo variacion de acciones contra el snapshot anterior.",3462,0
-2026-09-10,ok,acciones_core,CORE,"ERP muestra vigentes/programadas las acciones CORE consideradas por grupo: 3404, 3405, 3407, 3408, 3493 y 3494. Se mantienen 3493/3494 para tercera escala CORE con grupos 3093/3096 y no hubo variacion de acciones contra el snapshot anterior.",1256,0
-2026-09-10,alerta,accion_nueva_no_sumada,CORE,"ERP muestra acciones vigentes/programadas 3482 LLENADO CORE 3% KT, 3483 LLENADO CORE 3% AS, 3484 LLENADO CORE 3% MAY, 3489 DINAMICA MAY CORE NACIONAL y 3490 EXTRA MAYORISTA CORE LATA SUR. Figuran con clientes TODOS o sin grupo/regla de clientes confirmada para el dashboard. No se sumaron al descuento CORE hasta definir criterio.",,revisar
-2026-09-10,ok,acciones_excluidas,CORE,"No aparecen en Vigentes y programadas las acciones 23056, 23057, 3433, 3448 ni 3449; no se sumaron manualmente. Cliente control 3992 queda con CORE 5% por grupo 3096.",0,0
-2026-09-10,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR sigue tratandose con la membresia anterior por ser dinamico/no comparable por listado completo desde ERP. Grupo control 3025 AUTOSERVICIOS SUR tambien es dinamico por atributos y hoy no se suma porque 3433/3448/3449 no estan vigentes/programadas.,1668,revisar
+2026-09-11,alerta,grupo_clientes,VALUE,"Grupo 3098 1890 LITRO K+T P1 Y P4: bajo de 899 a 893 clientes segun ERP. Bajas: 1 FORRAJERIA TRELEW, 9 BON DIA, 10 LA RUEDA, 67 7 DIAS, 118 VERDULERIA, 143 LINA II, 155 ALI BELL, 583 FRIGORIFICO CARNES DEL SUR, 797 EL CHUECO, 802 OASIS, 804 DON CIRILO, 881 CANAMI, 1183 LOS ROBLES, 1308 JUAN CRUZ, 1509 COLOMBIA MAXIKIOSCO, 1517 EL EMPORIO, 5383 EL CIELO. Altas: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2164 DON LEON S A, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",893,-6
+2026-09-11,alerta,grupo_clientes,VALUE,"Grupo 3099 1890 LITRO AS SUR.: bajo de 53 a 52 clientes segun ERP. Bajas: 927 EL TIBURON, 2733 AMANECER. Altas: 2164 DON LEON S A.",52,-1
+2026-09-11,alerta,grupo_clientes,VALUE,"Grupo 3036 ADICIONAL 1890 K+T SUR: bajo de 899 a 893 clientes segun ERP. Bajas: 1 FORRAJERIA TRELEW, 9 BON DIA, 10 LA RUEDA, 67 7 DIAS, 118 VERDULERIA, 143 LINA II, 155 ALI BELL, 583 FRIGORIFICO CARNES DEL SUR, 797 EL CHUECO, 802 OASIS, 804 DON CIRILO, 881 CANAMI, 1183 LOS ROBLES, 1308 JUAN CRUZ, 1509 COLOMBIA MAXIKIOSCO, 1517 EL EMPORIO, 5383 EL CIELO. Altas: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2164 DON LEON S A, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",893,-6
+2026-09-11,alerta,grupo_clientes,VALUE,"Grupo 3035 EXTRA LITRO/LATA/LATON SUR AS: bajo de 53 a 52 clientes segun ERP. Bajas: 927 EL TIBURON, 2733 AMANECER. Altas: 2164 DON LEON S A.",52,-1
+2026-09-11,alerta,grupo_clientes,VALUE,"Grupo 3098 1890 LATA K+T SUR.: bajo de 899 a 893 clientes segun ERP. Bajas: 1 FORRAJERIA TRELEW, 9 BON DIA, 10 LA RUEDA, 67 7 DIAS, 118 VERDULERIA, 143 LINA II, 155 ALI BELL, 583 FRIGORIFICO CARNES DEL SUR, 797 EL CHUECO, 802 OASIS, 804 DON CIRILO, 881 CANAMI, 1183 LOS ROBLES, 1308 JUAN CRUZ, 1509 COLOMBIA MAXIKIOSCO, 1517 EL EMPORIO, 5383 EL CIELO. Altas: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2164 DON LEON S A, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",893,-6
+2026-09-11,alerta,grupo_clientes,VALUE,"Grupo 3099 LATA 1890 AS SUR.: bajo de 53 a 52 clientes segun ERP. Bajas: 927 EL TIBURON, 2733 AMANECER. Altas: 2164 DON LEON S A.",52,-1
+2026-09-11,ok,acciones_value,VALUE,"ERP muestra vigentes/programadas las acciones VALUE usadas: 3361, 3363, 3364, 3365, 3366, 3367, 3418, 3438 y 3439.",,ok
+2026-09-11,ok,acciones_core,CORE,"ERP muestra vigentes/programadas las acciones CORE consideradas por grupo: 3404, 3405, 3407, 3408, 3493 y 3494.",,ok
+2026-09-11,alerta,accion_nueva_no_sumada,CORE,"ERP muestra 3482, 3483, 3484, 3489 y 3490 con clientes TODOS o sin grupo/regla de clientes confirmada para el dashboard. No se sumaron al descuento CORE.",,revisar
+2026-09-11,ok,acciones_excluidas,CORE,"No aparecen en Vigentes y programadas las acciones 23056, 23057, 3433, 3448 ni 3449; no se sumaron manualmente.",0,0
+2026-09-11,alerta,grupo_dinamico_no_comparable,VALUE,Grupo 105 ADICIONAL 1890 LATA SUR se mantiene con la membresia anterior por ser dinamico/no comparable por listado completo desde ERP.,1664,revisar
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1 FORRAJERIA TRELEW: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 9 BON DIA: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 10 LA RUEDA: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 67 7 DIAS: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 118 VERDULERIA: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 143 LINA II: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 155 ALI BELL: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 583 FRIGORIFICO CARNES DEL SUR: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 797 EL CHUECO: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 802 OASIS: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 804 DON CIRILO: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 834 SUPERKIOSCO DC: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 881 CANAMI: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 917 IMPERIO VERDE: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 927 EL TIBURON: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1183 LOS ROBLES: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1308 JUAN CRUZ: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1509 COLOMBIA MAXIKIOSCO: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1517 EL EMPORIO: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 2164 DON LEON PLAYA UNION: VALUE LATA cambio de 3.00% a 33.00%.,,+30 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 2531 BUENAS COMPRAS: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 2733 AMANECER: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 4813 ICEBERG: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5011 BASTYLU: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5254 IMPERIO: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5267 HERMANOS RIVERA 2: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5383 EL CIELO: VALUE LATA cambio de 18.00% a 3.00%.,,-15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5458 PATAGONICO: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5460 AUTOSERVICE LAS MIL: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 834 SUPERKIOSCO DC: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 917 IMPERIO VERDE: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 2164 DON LEON PLAYA UNION: VALUE LITRO cambio de 8.00% a 28.00%.,,+20 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 2531 BUENAS COMPRAS: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 4813 ICEBERG: VALUE LITRO cambio de 8.00% a 18.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5011 BASTYLU: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5254 IMPERIO: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5267 HERMANOS RIVERA 2: VALUE LITRO cambio de 8.00% a 18.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5458 PATAGONICO: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5460 AUTOSERVICE LAS MIL: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1 FORRAJERIA TRELEW: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 9 BON DIA: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 10 LA RUEDA: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 67 7 DIAS: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 118 VERDULERIA: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 143 LINA II: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 155 ALI BELL: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 583 FRIGORIFICO CARNES DEL SUR: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 797 EL CHUECO: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 802 OASIS: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 804 DON CIRILO: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 881 CANAMI: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 927 EL TIBURON: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1183 LOS ROBLES: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1308 JUAN CRUZ: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1509 COLOMBIA MAXIKIOSCO: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 1517 EL EMPORIO: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 2733 AMANECER: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
+2026-09-11,alerta,cambio_porcentaje,VALUE,Cliente 5383 EL CIELO: VALUE LITRO cambio de 10.00% a 0.00%.,,-10 puntos
