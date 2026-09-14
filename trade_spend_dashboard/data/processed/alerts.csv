@@ -1,25 +1,45 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-14,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LITRO K+T P1 Y P4: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A.,892,-1
+2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3098 1890 LITRO K+T P1 Y P4: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A. Correccion: clientes que ya estaban en el grupo completo y ahora se suman al calculo: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",892,-1
 2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3014 ADIC LITRO 1890 K-T DEL VALLE: paso de 357 a 373 clientes segun exports ERP 76-89. Altas ERP para revisar antes de sumar descuento: 214 REBOLLEDO JUANA DEL CARMEN, 253 LEFIPAN TAMARA GISEL, 480 RODRIGUEZ MABEL ONDINA RAQUEL, 728 ANDERSON GUSTAVO DANIEL, 770 CARRASCO EVA ALICIA, 1180 CERON MARIA ETELVINA, 1244 LEWITESKI CELSO RAMON, 1360 DE CARLI CAMILA AILEN, 1474 ARANEDA BARRIGA CARLOS ALBERT0, 1613 IVANOFF BRISA MAYLEN, 3999 NIEVAS ULLOA FRANCISCO MIGUEL, 4208 CUESTAS IBARRA UVALDINA, 4355 MILLAMAN IGNACIO NICOLAS, 4981 RIQUELME BLANCA MANUELA, 5123 CALDERON MARTINEZ JANET SUSANA, 5324 CERON MARIA ETELVINA.",373,+16
 2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3015 ADIC 1890 LT AS DEL VALLE: paso de 33 a 36 clientes segun exports ERP 76-89. Altas ERP para revisar antes de sumar descuento: 3221 WEI SHAOMIN, 3400 SHI CHUNYAN, 5232 EL SANCA S. A. S..",36,+3
-2026-09-14,alerta,grupo_clientes,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A.,892,-1
-2026-09-14,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LATA K+T SUR.: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A.,892,-1
+2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3036 ADICIONAL 1890 K+T SUR: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A. Correccion: clientes que ya estaban en el grupo completo y ahora se suman al calculo: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",892,-1
+2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3098 1890 LATA K+T SUR.: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A. Correccion: clientes que ya estaban en el grupo completo y ahora se suman al calculo: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",892,-1
 2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 105 ADICIONAL 1890 LATA SUR: paso de 1664 a 1669 clientes segun exports ERP 76-89. Bajas: 788 CHACINADOS ARTESANALES PATAG, 1190 CACHITO MAXIKIOSCO, 1209 J Y E, 1728 BACHY, 2332 MERCADO OSCAR, 3798 MERCADO Y CARNICERIA CURI, 4048 QUILQUI, 4049 EL TATA, 5240 DESPENSA FEMENINA, 5253 VERDULERÍA DE BORGES, 5268 MELISA 1, 5342 ANDRESA, 5452 MERCADO PABLITO, 100153 DON SAWA. Altas ERP para revisar antes de sumar descuento: 5512 LEIVA SONIA GRACIELA, 5513 CAYO RODRIGUEZ RAUL SIMON, 5514 RUIZ GALLARDO SABRINA ANDREA, 5515 CORDOBA JUAN EMILIO, 5516 CARDOZO PATRICIA MARGARITA, 5518 JEVA LORENA GUADALUPE, 5519 NARVAEZ SANDRA ELISABETH, 5521 BUSTAMANTE NATALIA AYELEN, 5522 RODRIGUEZ BARBARA SELENA, 5523 SANDOVAL GUSTAVO DANI, 5525 CARNICERIA LA 25 S.A.S., 5526 MEJUTO FERRER ALBERTO ANDRES NICOLAS, 5528 TOLEDO VERONICA, 5529 OROQUIETA CLAUDIO JAVIER, 5530 VITALE NORMA ERMELINDA, 5531 GARRIGOS MARCELA ALEJANDRA, 5532 PARAMO S. A. S., 5534 BASSANI GIULIANO JOAQUIN, 5536 GARCIA ANSAY LUCIANA.",1669,+5
 2026-09-14,alerta,acciones_no_revalidadas,TODOS,Hoy se procesaron los grupos desde exports 76-89. No se pudo revalidar la grilla de acciones desde ERP en esta corrida; se mantiene el set de acciones del ultimo snapshot validado y se excluyen acciones manuales vencidas/no confirmadas.,,revisar
 2026-09-14,ok,acciones_value,VALUE,"Acciones VALUE mantenidas del ultimo set validado: 3361, 3363, 3364, 3365, 3366, 3367, 3418, 3438 y 3439.",,ok
 2026-09-14,ok,acciones_core,CORE,"Acciones CORE mantenidas del ultimo set validado: 3404, 3405, 3407, 3408, 3493 y 3494. No se sumaron 23056, 23057, 3433, 3448 ni 3449 salvo confirmacion vigente.",,ok
-2026-09-14,alerta,regla_altas_no_sumadas,TODOS,"Las altas nuevas dentro de grupos ERP se reportan en alertas, pero no se suman automaticamente al porcentaje hasta validar que la accion efectivamente les pega.",,revisar
+2026-09-14,alerta,regla_altas_no_sumadas,TODOS,"Las altas nuevas dentro de grupos ERP se reportan en alertas, pero no se suman automaticamente al porcentaje hasta validar que la accion efectivamente les pega. El cliente 2164 se mantiene excluido de 3099/3035 por validacion manual previa.",,revisar
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 788 CHACINADOS ARTESANALES PATAG: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 834 SUPERKIOSCO DC: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 917 IMPERIO VERDE: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 1190 CACHITO MAXIKIOSCO: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 1209 J Y E: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 1728 BACHY: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 2332 MERCADO OSCAR: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 2531 BUENAS COMPRAS: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 3798 MERCADO Y CARNICERIA CURI: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4048 QUILQUI: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4049 EL TATA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4813 ICEBERG: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5011 BASTYLU: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5240 DESPENSA FEMENINA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5253 VERDULERÍA DE BORGES: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5254 IMPERIO: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5267 HERMANOS RIVERA 2: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5268 MELISA 1: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5342 ANDRESA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5452 MERCADO PABLITO: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5458 PATAGONICO: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5460 AUTOSERVICE LAS MIL: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
 2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 100153 DON SAWA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 834 SUPERKIOSCO DC: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 917 IMPERIO VERDE: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 2531 BUENAS COMPRAS: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4813 ICEBERG: VALUE LITRO cambio de 8.00% a 18.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5011 BASTYLU: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5254 IMPERIO: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5267 HERMANOS RIVERA 2: VALUE LITRO cambio de 8.00% a 18.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5458 PATAGONICO: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5460 AUTOSERVICE LAS MIL: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
