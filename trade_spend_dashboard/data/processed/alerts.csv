@@ -1,45 +1,596 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3098 1890 LITRO K+T P1 Y P4: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A. Correccion: clientes que ya estaban en el grupo completo y ahora se suman al calculo: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",892,-1
-2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3014 ADIC LITRO 1890 K-T DEL VALLE: paso de 357 a 373 clientes segun exports ERP 76-89. Altas ERP para revisar antes de sumar descuento: 214 REBOLLEDO JUANA DEL CARMEN, 253 LEFIPAN TAMARA GISEL, 480 RODRIGUEZ MABEL ONDINA RAQUEL, 728 ANDERSON GUSTAVO DANIEL, 770 CARRASCO EVA ALICIA, 1180 CERON MARIA ETELVINA, 1244 LEWITESKI CELSO RAMON, 1360 DE CARLI CAMILA AILEN, 1474 ARANEDA BARRIGA CARLOS ALBERT0, 1613 IVANOFF BRISA MAYLEN, 3999 NIEVAS ULLOA FRANCISCO MIGUEL, 4208 CUESTAS IBARRA UVALDINA, 4355 MILLAMAN IGNACIO NICOLAS, 4981 RIQUELME BLANCA MANUELA, 5123 CALDERON MARTINEZ JANET SUSANA, 5324 CERON MARIA ETELVINA.",373,+16
-2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3015 ADIC 1890 LT AS DEL VALLE: paso de 33 a 36 clientes segun exports ERP 76-89. Altas ERP para revisar antes de sumar descuento: 3221 WEI SHAOMIN, 3400 SHI CHUNYAN, 5232 EL SANCA S. A. S..",36,+3
-2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3036 ADICIONAL 1890 K+T SUR: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A. Correccion: clientes que ya estaban en el grupo completo y ahora se suman al calculo: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",892,-1
-2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 3098 1890 LATA K+T SUR.: paso de 893 a 892 clientes segun exports ERP 76-89. Bajas: 2164 DON LEON S A. Correccion: clientes que ya estaban en el grupo completo y ahora se suman al calculo: 834 DE CARLI TOMAS SALVADOR, 917 ORTIZ YUCRA CLIVER YAMIL, 2531 BUENAS COMPRAS S.A.S., 4360 OLVABI S.A.S., 4813 PARADA CLAUDIA MARCELA, 5011 MEDINA PATRICIO ALEJANDRO, 5254 OLVABI S.A.S., 5267 RIVERA MENDOZA ALFREDO, 5458 VILLARI S. R. L., 5460 SISTERNA GABRIEL OSVALDO.",892,-1
-2026-09-14,alerta,grupo_clientes,VALUE,"Grupo 105 ADICIONAL 1890 LATA SUR: paso de 1664 a 1669 clientes segun exports ERP 76-89. Bajas: 788 CHACINADOS ARTESANALES PATAG, 1190 CACHITO MAXIKIOSCO, 1209 J Y E, 1728 BACHY, 2332 MERCADO OSCAR, 3798 MERCADO Y CARNICERIA CURI, 4048 QUILQUI, 4049 EL TATA, 5240 DESPENSA FEMENINA, 5253 VERDULERÍA DE BORGES, 5268 MELISA 1, 5342 ANDRESA, 5452 MERCADO PABLITO, 100153 DON SAWA. Altas ERP para revisar antes de sumar descuento: 5512 LEIVA SONIA GRACIELA, 5513 CAYO RODRIGUEZ RAUL SIMON, 5514 RUIZ GALLARDO SABRINA ANDREA, 5515 CORDOBA JUAN EMILIO, 5516 CARDOZO PATRICIA MARGARITA, 5518 JEVA LORENA GUADALUPE, 5519 NARVAEZ SANDRA ELISABETH, 5521 BUSTAMANTE NATALIA AYELEN, 5522 RODRIGUEZ BARBARA SELENA, 5523 SANDOVAL GUSTAVO DANI, 5525 CARNICERIA LA 25 S.A.S., 5526 MEJUTO FERRER ALBERTO ANDRES NICOLAS, 5528 TOLEDO VERONICA, 5529 OROQUIETA CLAUDIO JAVIER, 5530 VITALE NORMA ERMELINDA, 5531 GARRIGOS MARCELA ALEJANDRA, 5532 PARAMO S. A. S., 5534 BASSANI GIULIANO JOAQUIN, 5536 GARCIA ANSAY LUCIANA.",1669,+5
-2026-09-14,alerta,acciones_no_revalidadas,TODOS,Hoy se procesaron los grupos desde exports 76-89. No se pudo revalidar la grilla de acciones desde ERP en esta corrida; se mantiene el set de acciones del ultimo snapshot validado y se excluyen acciones manuales vencidas/no confirmadas.,,revisar
-2026-09-14,ok,acciones_value,VALUE,"Acciones VALUE mantenidas del ultimo set validado: 3361, 3363, 3364, 3365, 3366, 3367, 3418, 3438 y 3439.",,ok
-2026-09-14,ok,acciones_core,CORE,"Acciones CORE mantenidas del ultimo set validado: 3404, 3405, 3407, 3408, 3493 y 3494. No se sumaron 23056, 23057, 3433, 3448 ni 3449 salvo confirmacion vigente.",,ok
-2026-09-14,alerta,regla_altas_no_sumadas,TODOS,"Las altas nuevas dentro de grupos ERP se reportan en alertas, pero no se suman automaticamente al porcentaje hasta validar que la accion efectivamente les pega. El cliente 2164 se mantiene excluido de 3099/3035 por validacion manual previa.",,revisar
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 788 CHACINADOS ARTESANALES PATAG: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 834 SUPERKIOSCO DC: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 917 IMPERIO VERDE: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 1190 CACHITO MAXIKIOSCO: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 1209 J Y E: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 1728 BACHY: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 2332 MERCADO OSCAR: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 2531 BUENAS COMPRAS: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 3798 MERCADO Y CARNICERIA CURI: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4048 QUILQUI: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4049 EL TATA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4813 ICEBERG: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5011 BASTYLU: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5240 DESPENSA FEMENINA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5253 VERDULERÍA DE BORGES: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5254 IMPERIO: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5267 HERMANOS RIVERA 2: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5268 MELISA 1: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5342 ANDRESA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5452 MERCADO PABLITO: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5458 PATAGONICO: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5460 AUTOSERVICE LAS MIL: VALUE LATA cambio de 3.00% a 18.00%.,,+15 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 100153 DON SAWA: VALUE LATA cambio de 3.00% a 0.00%.,,-3 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 834 SUPERKIOSCO DC: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 917 IMPERIO VERDE: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 2531 BUENAS COMPRAS: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 4813 ICEBERG: VALUE LITRO cambio de 8.00% a 18.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5011 BASTYLU: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5254 IMPERIO: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5267 HERMANOS RIVERA 2: VALUE LITRO cambio de 8.00% a 18.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5458 PATAGONICO: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-14,alerta,cambio_porcentaje,VALUE,Cliente 5460 AUTOSERVICE LAS MIL: VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LITRO K+T P1 Y P4: paso de 892 a 892 clientes segun ERP. Bajas: 2531 BUENAS COMPRAS S.A.S. Altas: 2164 DON LEON S A,892,+0
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3099 1890 LITRO AS SUR.: paso de 52 a 53 clientes segun ERP. Altas: 2531 BUENAS COMPRAS S.A.S.,53,+1
+2026-09-15,alerta,grupo_clientes,VALUE,"Grupo 3014 ADIC LITRO 1890 K-T DEL VALLE: paso de 373 a 927 clientes segun ERP. Altas: 1 RODRIGUEZ Y VELAZQUEZ, 7 VARGAS OSCAR ALBINO, 9 ESPINOSA ALICIA BEATRIZ, 10 BASTIDAS CARLOS ABEL, 16 RESES SRL, 33 ORBUJ LUIS FERNANDO, 50 MERCADO CRISTIAN S. CAP I SECC IV, 67 BURGOS JORGE, 79 KE XUEJIAO, 118 BESARA SANTIAGO, 143 BLANES JOSE LUIS, 155 ALICIA MADRUGA, 172 FEDRIZZI MARIA CELESTE, 196 VARGAS MARIA, 201 RIGOBERTO ESPINOZA MUÑOZ, 269 ESCOBAR MILTON ALEJANDRO, 272 GALLARDO REINALDO ROQUE, 273 MELLADO SOFIA, 293 VILLAREAL PERLA MARINA, 294 SAIFELDIN HECTOR EMILIO, 296 FONSECA OSCAR ALFREDO, 297 SCHMID GALLARDO EDUARDO JOSE, 304 PASO SILVANA NELIDA, 309 RIOS SANDRA LEONOR, 322 FLORA FIGUEROA, 351 SANABRIA MIRIAN ELISABET, 352 MARCOS RETA JONATHAN JESUS, 360 BERING MARIA LORENA, 390 ROSA HERNANDEZ, 393 GORGORA JUAN PABLO...",927,+554
+2026-09-15,alerta,grupo_clientes,VALUE,"Grupo 3015 ADIC 1890 LT AS DEL VALLE: paso de 36 a 53 clientes segun ERP. Altas: 927 EL TIBURON SRL, 941 SHI QIUMEI, 2733 HUANG DAN PING, 2968 VIDELA GONZALO GASTON, 3050 ZHENG CAILAN, 3134 VALENZUELA ORTIZ NICOLAS AGUSTIN, 3404 OU HAIPING, 3457 GRUPO FUWANG SAS, 3744 FU HANFENG, 3915 TECAY MORON ENZO DAMIAN, 4337 LACTEOS DEL SUR S.R.L., 4551 CHEN WENRONG, 4788 CONDORI ADAN FEDERICO, 5369 GRUPO DE SUERTE S. A. S., 5411 GAO AGUSTIN, 100330 GUTIERREZ JORGE, 100571 CASTRO LAMAS FRANCA MERY",53,+17
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: paso de 892 a 891 clientes segun ERP. Bajas: 2531 BUENAS COMPRAS S.A.S.,891,-1
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3035 EXTRA LITRO/LATA/LATON SUR AS: paso de 52 a 53 clientes segun ERP. Altas: 2531 BUENAS COMPRAS S.A.S.,53,+1
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3098 1890 LATA K+T SUR.: paso de 892 a 892 clientes segun ERP. Bajas: 2531 BUENAS COMPRAS S.A.S. Altas: 2164 DON LEON S A,892,+0
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3099 LATA 1890 AS SUR.: paso de 52 a 53 clientes segun ERP. Altas: 2531 BUENAS COMPRAS S.A.S.,53,+1
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3036 ADICIONAL 1890 K+T SUR: paso de 892 a 891 clientes segun ERP. Bajas: 2531 BUENAS COMPRAS S.A.S.,891,-1
+2026-09-15,alerta,grupo_clientes,VALUE,Grupo 3035 EXTRA LITRO/LATA/LATON SUR AS: paso de 52 a 53 clientes segun ERP. Altas: 2531 BUENAS COMPRAS S.A.S.,53,+1
+2026-09-15,alerta,grupo_dinamico,VALUE,"Grupo 105 ADICIONAL 1890 LATA SUR: el ERP devolvio una regla dinamica por subcanal, no listado de clientes. Se conserva la expansion anterior de 1650 clientes hasta bajar listado resuelto.",1650,revisar
+2026-09-15,alerta,grupo_clientes,CORE,Grupo 3091 SUR- CORE K+T (TIER 1): paso de 671 a 670 clientes segun ERP. Bajas: 1728 BACHILIERI CRISTIAN ANDRES,670,-1
+2026-09-15,alerta,grupo_clientes,CORE,Grupo 3093 SUR- CORE K+T (TIER 3): paso de 260 a 259 clientes segun ERP. Bajas: 3744 FU HANFENG,259,-1
+2026-09-15,alerta,grupo_clientes,CORE,Grupo 3096 CORE ESCALA 3 AS SUR: paso de 11 a 12 clientes segun ERP. Altas: 3744 FU HANFENG,12,+1
+2026-09-15,alerta,acciones_modificadas,VALUE,"El ERP mostro notificaciones de modificacion para acciones 3365 LATA 1890 AS SUR., 3364 1890 LATA K+T SUR. y 3418 Adicional 1890 LATA SUR. Se mantienen en el calculo por estar en el set vigente validado y 3418 figura con fin 15/09/2026.",,revisar
+2026-09-15,ok,acciones_core,CORE,"CORE calculado solo con acciones 3404, 3405, 3407, 3408, 3493 y 3494. No se sumaron 23056, 23057, 3433, 3448 ni 3449 porque no fueron confirmadas como vigentes en esta corrida.",,ok
+2026-09-15,ok,control_cliente,VALUE,"Control manual: cliente 2164 conserva VALUE LATA 3% solo por grupo 105; no se suman 3098, 3099 ni 3035 aunque aparezca en esos grupos ERP.",,ok
+2026-09-15,alerta,control_overlap_as_kt,VALUE,"Se excluyeron clientes que aparecen en grupos AS y tambien en acciones K+T para evitar VALUE mayor a 18%. Codigos: 100330, 100571, 2164, 2968, 3050, 3134, 3404, 3457, 3744, 3915, 4337, 4551, 4788, 4975, 5369, 5411, 941",17,revisar
+2026-09-15,alerta,cambio_porcentaje,CORE,Cliente 1728 BACHY: CORE CORE cambio de 5.00% a 0.00%.,,-5 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1 FORRAJERIA TRELEW: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 7 LA SELECTA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 9 BON DIA: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 10 LA RUEDA: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 16 RESES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 33 EL CIRCULO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 50 CRISTIAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 67 7 DIAS: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 79 EL REY DEL QUESO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 118 VERDULERIA: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 143 LINA II: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 155 ALI BELL: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 172 MALVARROSA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 196 MAITE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 201 TETE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 214 EL PICHON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 253 LOS TRABAJADORES II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 269 SU AUTOSERVICE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 272 RAYEN'S: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 273 DOBLE A: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 293 PENI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 294 EL SOL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 296 CACHITO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 297 J.S: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 304 EL GAUCHO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 309 EL COLO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 322 SOLEDAD: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 351 DEL BARRIO II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 352 BARUC: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 360 LAS MELLIS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 390 SUBLIME: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 393 OLAF: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 407 GUM KIOSCO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 409 CHIQUITO REY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 416 GALES II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 452 NOELIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 476 MARTIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 480 CARLITOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 544 LOS TRES CHIFLADOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 545 AMEGHINO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 562 GYNY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 564 LA VIRGENCITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 583 FRIGORIFICO CARNES DEL SUR: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 593 M B: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 637 BRIAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 658 NANCY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 660 ERIKA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 661 1 JUNTA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 668 PAULA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 678 CONCEPCION: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 701 SAN CAYETANO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 703 OLAF II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 707 SAN MARTIN II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 710 CACERIKA PIZZAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 728 SOLE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 745 TAPAGONIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 756 RENACER: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 770 EL TURCO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 792 ELI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 797 EL CHUECO: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 802 OASIS: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 804 DON CIRILO: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 875 4 HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 876 EL CICLON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 878 LA FERIA DE LA VERDURA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 881 CANAMI: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 890 LUCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 927 EL TIBURON: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 941 MAXI II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 944 LA ROTONDA S.A.: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1180 AGUILA TRELEW: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1183 LOS ROBLES: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1244 FONOFAX: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1268 SAN EXPEDITO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1308 JUAN CRUZ: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1360 LUJAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1363 P Y M: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1373 UNION II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1467 LOS DELEITTES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1474 MI VIEJA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1504 SAN CAYETANO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1509 COLOMBIA MAXIKIOSCO: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1517 EL EMPORIO: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1613 TAMBRIT: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1707 ELIAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1731 SHREK II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1784 ALBERDI MERCADO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1849 LA ESTRELLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1850 VERDULERIA DEL VALLE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1902 LA KABINA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1929 FERNANDO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 1983 MACRO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2052 LA GRANJITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2091 ESTEBAN II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2096 HORIZONTE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2100 MINI SUPER: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2114 LUCY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2167 EL AMANECER: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2172 LOS MOSK 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2175 MAXIKIOSCO M: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2192 PISPIRETA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2202 MANOLO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2249 LA BUENA CEPA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2262 EL NOVILLITO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2281 EMANUEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2347 SOFI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2367 LOS TURCOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2407 LA OLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2408 LOS CANICHES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2476 ABRIL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2479 EMOJI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2482 EL TELA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2530 DEL BARRIO I: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2546 MIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2551 ALEM: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2571 ZULMY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2592 BELINDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2620 LAS AMIGAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2626 LA UNICA PANADERIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2639 LOS AMIGOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2661 LOS NIETOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2662 CHEESELIER: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2675 POLIRRUBROS MILAGROS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2687 LA PASARELLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2724 MARLENE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2733 AMANECER: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2762 DESPENSA ALE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2769 TAY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2791 14 DE SEPTIEMBRE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2806 EL REQUESON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2810 EQUECO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2834 PIHUE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2837 MI CUNADO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2871 PATO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2956 EL ALMACEN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2968 CLEMENTE JUNIOR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2975 LO DE JOSE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2992 DESPENSA CHECHI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 2993 PATAGONIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3009 OLIVIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3026 CNJ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3029 VIRGEN DEL MILAGRO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3050 AUTOSERVICIO YENY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3103 QUE ACELGA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3134 LA CARNICERIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3152 EL MELLY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3156 PLANETA MINIS COMPRAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3163 ROCIO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3164 LA TABLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3178 VERDULERIA FERNANDEZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3187 MARTIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3207 TU DISTRIBUIDORA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3211 VERDULERIA RIVERA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3221 MENDOZA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3240 MAXIKIOSCO NORTE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3255 EL CHONCHON ZAMBRANO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3297 LA FERIA DE MADRYN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3301 EL NUEVO VALLE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3317 DERBES MINI MARKET: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3319 SAN MORE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3321 OLAF III: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3331 KAREN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3334 LA NEGRA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3347 ORIOL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3353 MATIAS VERDULERIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3371 SILVIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3391 LO DE GRA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3392 DELICIAS DEL MAR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3400 SUPER MAXI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3403 DON WALTER: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3404 LUNA 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3407 SAN MARCOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3414 JOSEFA II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3422 LA VIEJA SUPERFERIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3427 EMY II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3428 AUTOSERVICIO LAS CHICAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3438 DESPENSA PUMA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3457 SUPER PRIMERO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3462 LA UNION: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3471 KIOSCO LIVE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3473 AREA 12: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3477 SOBERANIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3481 ATR KIOSCO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3501 NANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3525 KIOSKITO Y ALGO MAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3546 MAXIKIOSCO ROCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3554 VERDULERIA MENDOZA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3556 CARNES PREMIUM: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3562 EL GUASON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3571 LUZ MARIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3573 BELEN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3587 URIEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3596 EL TRIUNFO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3597 RUTH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3609 GUEMES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3622 BASTET DRUGSTORE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3625 VERDULERIA JENNY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3645 FABIAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3649 AMANECER: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3660 VERDULERIA LOURDES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3662 EL PARAISO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3681 RUBI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3688 LA UNION SAN MIGUEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3700 LA FAMILIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3704 GISEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3726 DESPENSA ROJAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3731 LOS NIETOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3732 LOS CUATRO HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3733 LILIANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3737 LA ROTONDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3740 RUTA 9: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3744 SUPER AMISTAD: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3746 EL COLO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3747 BUSCAVIDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3748 EL PORTENO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3751 PLAZA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3756 ABIGAIL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3757 EL VALLE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3771 LA CASA DEL QUESO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3775 ISABEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3776 URKUPINA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3781 EDU: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3783 MAITE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3786 DON FRANCO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3788 COPETIN DE GLADIS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3789 DA-NA-LU: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3791 LO DE MARI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3793 IVAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3794 MIRIAM: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3799 EMANUEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3804 LA BOCATTA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3810 EL BUEN GUSTO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3812 NIDIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3814 JUAN CRUZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3849 ARGENTINA SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3856 KIOSCO LITORAL 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3858 J.C.: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3883 SARMIENTO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3885 ROXANA 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3896 MAXIKIOSCO MORA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3904 NOMADA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3905 GROSSITE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3913 MARI MARI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3914 PAT DONALD: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3915 EL VIEJO ALMACEN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3916 CHIRIPA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3918 MILCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3947 GIGANTE DE VALDEZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3952 JAMON DEL CIELO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3958 R Y G: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3963 DESPENSA Y VERDULERÍA YHEIMY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3975 LA PERSEVERANCIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3991 BON APPETITO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 3999 MULTIRRUBROS MIGUEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4004 CLUB INDEPENDIENTE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4012 MICKY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4018 LOS NIETOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4044 BORO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4046 ELIZABETH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4051 LA ESTRELLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4053 VERDULERIA CHICHENITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4063 COIRON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4071 EL IMPERIO 1: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4072 DINASTIA 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4073 AMEP RAWSON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4098 PRIXI-FA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4099 LA FERIA DEL CONO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4100 MIS FRUTOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4114 LA REINA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4138 LOS HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4143 MERCADO DEL SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4155 MERCADO NAHUEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4158 VERDULERIA LOPEZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4163 5 ESQUINAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4173 DESPENSA YUMBREL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4177 VERDULERIA DESPENSA ALAIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4208 ALANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4218 VERDULERIA ELENITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4220 CARNICERIA MIGUEL ANGEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4232 MELU 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4235 LA YOLA 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4246 TITI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4249 KITTY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4264 LA CUCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4265 DESPENSA LOTUS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4280 ARCO IRIS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4293 VERDULERÍA F R: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4323 PILO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4328 LOS TRES HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4337 LACTEOS DEL SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4355 FRESH MARKET: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4366 LA BENDICION: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4368 BEACH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4374 AVENIDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4379 CARNICERIA 722: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4387 MORENO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4393 VERDULERIA LORENA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4395 DON ROQUE S.R.L: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4446 LA PASEÑA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4451 MAXIKIOSCO BRUBALUU: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4454 MAR_BE_YA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4456 SAMPEDRINOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4468 ESPAÑA 3: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4472 J&B: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4477 ORIANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4478 VERDULERIA IDEVI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4479 DESPENSA BRENDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4488 26 DE NOVIEMBRE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4491 VERDULERÍA J Y T: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4504 CAMINOS DEL SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4522 MERCADO VICTORIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4527 FRUTIFUT: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4547 CASTRO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4551 FULL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4565 NAYELY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4566 LARA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4568 AYV: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4569 DAFNE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4572 NAIR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4574 PIRUETA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4577 YAZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4582 NORA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4584 AILEN 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4591 FORTIN LA VILLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4599 EL NONO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4602 JOHANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4607 SAN CAYETANO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4611 CAROLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4619 LOS 2 HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4624 MABY DRUGSTORE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4625 EL SOL 3: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4633 MINIMERCADO EMILY Y JAZMÍN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4642 DESPENSA MARY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4659 FRUTILLITAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4683 PLAN B: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4689 AMESTOY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4690 LUZ MIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4691 MAXI ROCA 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4692 VERDULERÍA PERLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4720 LA ABUELA TIRZATH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4724 JAVI MAR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4741 LA SCALONETA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4750 TOMATE LOCO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4751 DYM: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4755 LA REALIDAD: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4761 LAS DELICIAS DE CLAU: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4768 JONES CARNICERIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4773 LOS NONOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4784 MERCADO DANEI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4788 ROCIO DEL VALLE 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4789 HERNANOS RIVERA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4790 CHILI PICANTE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4798 YESI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4802 JUANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4808 PINTO PICADA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4812 HEI HEI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4816 VERDULERÍA MELL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4818 ARANI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4824 MINIMERCADO CASTRO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4837 CARNICERIA UNION: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4840 CHISPON 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4844 SUPER DINASTIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4866 VERDULERIA MARTINEZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4868 BELINDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4876 MERCADO ANGELES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4879 PUNTO CLAVE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4881 ROSAL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4894 J Y M: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4895 SUPER BUFALO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4901 MARISOL 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4908 DRUGSTORE TATY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4909 NATITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4920 LA PREVIA DE ALMA RURAL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4934 GOURMET: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4936 MAYLEN 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4938 ALMACEN LA FAMILIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4942 WIN PATAGONIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4958 LA VIEJA ESTACION: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4961 MINIMERCADO MÍCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4962 REY GARUFA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4965 LA UNION 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4972 DOÑA ANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4973 KIOSCO PINCK: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4975 ECOMARKET 2: VALUE LITRO cambio de 18.00% a 10.00%.,,-8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4981 EL USNERO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4983 DESPENSA RONALD: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4984 BAEZMON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4986 LO DEL MONO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4991 VERDULERÍA PUNATA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 4997 MAX KIOSCO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5001 EL ZORZAL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5005 MAXIMO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5016 MOMO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5021 AUTOSERVICIO DAHI 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5032 MERCADO ROSA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5033 VERDULERÍA COLOMBIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5034 EL REQUESON 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5035 LOS TRES NIETOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5036 RIELES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5044 LOS MOLINOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5048 BUFALO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5053 LA PROVIDENCIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5057 LO DE KARI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5060 MINIMERCADO TREVELIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5068 IMPERIO VERDE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5070 PANADERÍA LA FAMILIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5073 MAXI KIOSCO EL PARQUE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5075 SOS CATERING: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5079 GARDEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5086 CYA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5090 DESPENSA LUCY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5094 REY DE COMPRAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5102 TODO EN UNO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5103 SAN RAFAEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5110 MINIMERCADO SEGOVIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5122 VERDULERÍA LUCY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5123 VERDULERIA MARTINEZ 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5124 LOS 3 HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5125 AUTOSERVICIO ZHUANG: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5129 KEENAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5139 IMPERIO DEL POLLO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5145 KIOSCO ANFII: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5147 POLIRRUBRO LA ESQUINA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5149 MULTIRUBRO CHAQUEÑO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5152 LA REINA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5155 VERDULERÍA JOAQUÍN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5166 MAMA ROSA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5175 AGUS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5177 LA DESPENSA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5180 VERDULERIA ALVEAR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5183 FORTIN LA VILLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5184 TODO EN UNO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5188 MAGDALENA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5195 CHINA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5200 3MB: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5201 MINIMERCADO ALIZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5203 FEDE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5205 RUTA 5: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5206 MINI MARKET JT: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5207 VERDULERIA PUERTO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5211 AUTOSERVICIO RIBERA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5216 VERDULERÍA PELLEGRINI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5218 EL REY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5221 MI ANGEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5222 ESPIGA DE ORO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5223 TILIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5230 MERCADO TITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5232 SÚPER SANCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5241 LA QUESITO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5247 LA FELIZ: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5252 KIOSCO LOS NIETOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5256 KIOSCO CENTENARIO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5262 FRUTAS Y VERDURAS IVAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5274 POLIRRUBRO FELIX: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5275 EL DIEGO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5277 FIAMBRES Y QUESOS DON FRANCISC: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5280 VERDULERA MAR - MAR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5282 VERDULERÍA JAZMIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5283 MINIMERCADO FT: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5285 MAXIKIOSCO ELOHIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5286 MINIMARKET 24/7: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5289 MERCADO MADRYN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5295 VERDULERÍA DOÑA JUANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5299 LA ESQUINA DEL BAJON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5305 DRUGSTORE PILLAR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5307 EL CEFE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5309 VERDULERI KALETH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5321 MERCADO CENTINELA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5324 AGUILA TRELEW 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5329 MKT LA ESQUINA EXPRESS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5331 10 DE JUNIO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5332 VERDULERÍA DELIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5344 VERDULERÍA Y DESPENSA SMG: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5346 OLAF PLAYA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5347 LA PREVIA DE  ALMA RURAL 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5356 KIOSCO MAIRA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5357 MERCADO JYN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5359 VERDULERIA DIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5363 DESPENSA GL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5364 MINIMERCADO CITRIC: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5365 ECOFRESH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5367 GILIO'S CARNICERIA DRUGSTORE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5368 AUTOSERVICIO VICTORIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5369 SUPER SUERTE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5374 TODO AL PASO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5377 DESPENSA 6 HERMANOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5378 PACHA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5379 MARGEN SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5382 ROSITA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5383 EL CIELO: VALUE LITRO cambio de 0.00% a 8.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5393 MIS AMORES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5396 AUTOSERVICIO NORCINDI 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5401 NICOLE 2: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5403 J C: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5404 POLIRUBRO SATA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5407 LOS 3 NIETOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5411 AUTOSERVICIO EXPRES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5412 TODO EN UNO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5414 VERDULERÍA XIOMI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5422 EL CHACHI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5423 FIAMBRERÍA LA ESPAÑOLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5424 CHIKI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5431 PUNTO MILAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5437 MARTINEZ RW: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 5440 LOS CHICOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100005 BACO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100009 DON RAMON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100022 PARALELO 42: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100034 EL 22: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100036 AMERICANO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100045 PARAISO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100056 ARCO IRIS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100074 ELIANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100123 LA COSTA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100129 BOGOTA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100147 ALI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100156 SAN CAYETANO SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100159 ABRIL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100175 ARGENTINISIMA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100176 EL FARO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100177 MAR CRIS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100181 LOLA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100216 MIELES: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100239 NORTE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100276 MYOPORUM II: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100294 EL PORVENIR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100299 M.B.A: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100308 EL PACHA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100314 YANET: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100315 MONICA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100316 ANABEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100321 MORENA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100330 ROXANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100332 GABRIEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100343 VASQUEZ ESPINOZA OCTAVIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100345 MAMMA MIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100358 TIAGO Y ELIO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100365 9 DE JULIO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100368 J. L.: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100409 NAYADET: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100421 ROCIO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100463 LU-AN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100480 FESTISUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100504 GASTON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100508 MIMI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100510 JESUS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100547 SUPER MITRE: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100551 NICO'S: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100571 FONTANA EXPRESS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100575 NORTE SUR: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100710 POLONIA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100750 SECRI: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100752 VINEDOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100862 LA ABUELA DOROTEA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100876 LA DORADA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100880 DARCIEL: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100925 J.E: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100937 ALAS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 100973 CHE PAMPA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101022 KEVIN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101045 KIOSCO CORAZON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101085 CONDORITO: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101087 JANAH: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101202 LUJAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101203 KINKON: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101221 LA TOSCANA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101259 EL SOFA 24: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101282 JYF: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101334 ROCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101369 LOS AMIGOS: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101387 AONIKEN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101391 LA AVENIDA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101397 ALEMAN: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101423 ESPERANZA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101443 EMY: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
+2026-09-15,alerta,cambio_porcentaje,VALUE,Cliente 101446 VILLCA: VALUE LITRO cambio de 10.00% a 18.00%.,,+8 puntos
