@@ -235,8 +235,12 @@ def product_matches_action(client_row: pd.Series, action_row: pd.Series) -> bool
 
     subsegment = str(client_row.get("subsegmento", "")).upper()
     description = str(action_row.get("descripcion", "")).upper()
-    has_lata = "LATA" in description
-    has_litro = "LITRO" in description or " LT " in f" {description} "
+    has_lata = bool(re.search(r"\bLATA\b", description))
+    has_litro = (
+        bool(re.search(r"\bLITRO\b", description))
+        or bool(re.search(r"\bLATON\b", description))
+        or " LT " in f" {description} "
+    )
     if subsegment == "LATA":
         return has_lata or not has_litro
     if subsegment == "LITRO":
