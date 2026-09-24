@@ -1,13 +1,4 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-23,alerta,grupo_clientes,VALUE,"Grupo 3019 K+T TOTAL PAIS: paso de 1578 a 1582 clientes. Altas: 3840 RAMIREZ JUAN ANTONIO, 5545 RCJ NEGOCIOS S. A. S., 5546 PAGLIARONI ANTONIO EMILIO, 5547 ZAMBUDIO JOSE LUIS",1582,+4
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 3840 : VALUE LATA cambio de 0.00% a 15.00%.,,+15 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 5545 : VALUE LATA cambio de 0.00% a 15.00%.,,+15 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 5546 : VALUE LATA cambio de 0.00% a 15.00%.,,+15 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 5547 : VALUE LATA cambio de 0.00% a 15.00%.,,+15 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 3840 : VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 5545 : VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 5546 : VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-23,alerta,cambio_porcentaje,VALUE,Cliente 5547 : VALUE LITRO cambio de 0.00% a 10.00%.,,+10 puntos
-2026-09-23,ok,acciones_value,VALUE,VALUE validado sin cambios con las acciones vigentes 3510 a 3517. LITRO/LATON: 10% para grupos 3019/3079 y +5% para 3098/3099. LATA: 15% para 3019/3079 y +8% para 3098/3099. Las acciones 1890 anteriores no se suman.,,ok
-2026-09-23,alerta,acciones_core,CORE,"CORE validado con porcentajes ERP reales: 3404 y 3493 al 4%; 3405, 3407, 3408, 3494, 3484, 3489 y 3490 al 3%. Se suman repeticiones por cliente.",,revisar
-2026-09-23,alerta,acciones_excluidas,VALUE/CORE,"Se mantienen excluidas 3521, 3522, 3525 y 3526 (CORE 3%) y 3527 (VALUE LATA 6%) porque en Aplicación figuran como Todos los clientes. Hoy apareció además 3530 PALETAZO CORE: 3% desde 60 bultos, grupo de empresa 2962, también marcado Todos los clientes; no se sumó. Tampoco aparecen vigentes/programadas 23056, 23057, 3433, 3448 ni 3449.",0,revisar
+2026-09-24,ok,acciones_value,VALUE,VALUE validado sin cambios con las acciones vigentes 3510 a 3517. LITRO/LATON: 10% para grupos 3019/3079 y +5% para 3098/3099. LATA: 15% para 3019/3079 y +8% para 3098/3099. Las acciones 1890 anteriores no se suman.,,ok
+2026-09-24,alerta,acciones_core,CORE,"CORE validado con porcentajes ERP reales: 3404 y 3493 al 4%; 3405, 3407, 3408, 3494, 3484, 3489 y 3490 al 3%. Se suman repeticiones por cliente.",,revisar
+2026-09-24,alerta,acciones_excluidas,VALUE/CORE,"Se mantienen excluidas 3521, 3522, 3525, 3526 y 3530 (CORE) y 3527 (VALUE LATA 6%) porque en Aplicación figuran como Todos los clientes. Las acciones 3521 y 3522 vencen hoy 24/09/2026 pero todavía aparecen en el listado. Tampoco aparecen vigentes/programadas 23056, 23057, 3433, 3448 ni 3449.",0,revisar
