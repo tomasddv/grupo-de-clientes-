@@ -1,4 +1,16 @@
 fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-09-28,alerta,acciones_value,VALUE,"VALUE sin cambios de acciones: siguen vigentes 3510 a 3517 y las incorporadas el 24/09, 3531 al 13.5% para grupo 3079, 3532 al 13.5% para grupo 3019 y 3533 al 7% desde 96 bultos para grupo 2931.",,sin cambios
-2026-09-28,alerta,acciones_core,CORE,"CORE validado con porcentajes ERP reales: 3404 y 3493 al 4%; 3405, 3407, 3408, 3494, 3484, 3489 y 3490 al 3%. Se suman repeticiones por cliente.",,revisar
-2026-09-28,alerta,acciones_excluidas,VALUE/CORE,"Se mantienen excluidas 3521, 3522, 3525, 3526 y 3530 (CORE) y 3527 (VALUE LATA 6%) porque figuran como Todos los clientes o no tienen una regla de grupo utilizable. Las acciones anteriores 3363 y 3439 siguen visibles hasta el 30/09, pero no se suman porque fueron reemplazadas por el esquema 3510 a 3517. Tampoco aparecen 23056, 23057, 3433, 3448 ni 3449.",0,revisar
+2026-09-30,alerta,grupo_clientes,VALUE,"Grupo 3019 K+T TOTAL PAIS: paso de 1582 a 1583 clientes. Bajas: 5044 ARZAMENDIA ZAHIRA MELANIE Altas: 5548 ANTON DAMIAN ESTEBAN, 5549 QUIRA MOSCOSO DELFIN",1583,+1
+2026-09-30,alerta,grupo_clientes,VALUE,Grupo 3098 KT VALUE SUR: paso de 890 a 889 clientes. Bajas: 5044 ARZAMENDIA ZAHIRA MELANIE,889,-1
+2026-09-30,alerta,grupo_clientes,VALUE,"Grupo 2931 MH+MAY PAIS: paso de 1670 a 1671 clientes. Bajas: 5044 ARZAMENDIA ZAHIRA MELANIE Altas: 5548 ANTON DAMIAN ESTEBAN, 5549 QUIRA MOSCOSO DELFIN",1671,+1
+2026-09-30,alerta,grupo_clientes,CORE,Grupo 3092 CORE ESCALA 2 K+T SUR: paso de 265 a 264 clientes. Bajas: 5044 ARZAMENDIA ZAHIRA MELANIE,264,-1
+2026-09-30,alerta,grupo_clientes,VALUE,Grupo 3014 ADIC 1890 LT K-T DEL VALLE: paso de 923 a 922 clientes. Bajas: 5044 ARZAMENDIA ZAHIRA MELANIE,922,-1
+2026-09-30,alerta,cambio_porcentaje,CORE,Cliente 5044 LOS MOLINOS: CORE CORE cambio de 3.00% a 0.00%.,,-3 puntos
+2026-09-30,alerta,cambio_porcentaje,VALUE,Cliente 5044 LOS MOLINOS: VALUE LATA cambio de 23.00% a 0.00%.,,-23 puntos
+2026-09-30,alerta,cambio_porcentaje,VALUE,Cliente 5548 ANTON DAMIAN ESTEBAN: VALUE LATA cambio de 0.00% a 15.00%.,,+15 puntos
+2026-09-30,alerta,cambio_porcentaje,VALUE,Cliente 5549 QUIRA MOSCOSO DELFIN: VALUE LATA cambio de 0.00% a 15.00%.,,+15 puntos
+2026-09-30,alerta,cambio_porcentaje,VALUE,Cliente 5044 LOS MOLINOS: VALUE LITRO cambio de 35.50% a 0.00%.,,-35.5 puntos
+2026-09-30,alerta,cambio_porcentaje,VALUE,Cliente 5548 ANTON DAMIAN ESTEBAN: VALUE LITRO cambio de 0.00% a 30.50%.,,+30.5 puntos
+2026-09-30,alerta,cambio_porcentaje,VALUE,Cliente 5549 QUIRA MOSCOSO DELFIN: VALUE LITRO cambio de 0.00% a 30.50%.,,+30.5 puntos
+2026-09-30,alerta,acciones_value,VALUE,"VALUE sin cambios de acciones: siguen vigentes 3510 a 3517 y las incorporadas el 24/09, 3531 al 13.5% para grupo 3079, 3532 al 13.5% para grupo 3019 y 3533 al 7% desde 96 bultos para grupo 2931.",,sin cambios
+2026-09-30,alerta,acciones_core,CORE,"CORE validado con porcentajes ERP reales: 3404 y 3493 al 4%; 3405, 3407, 3408, 3494, 3484, 3489 y 3490 al 3%. Se suman repeticiones por cliente.",,revisar
+2026-09-30,alerta,acciones_excluidas,VALUE/CORE,"Se mantienen excluidas 3521, 3522, 3525, 3526 y 3530 (CORE) y 3527 (VALUE LATA 6%) porque figuran como Todos los clientes o no tienen una regla de grupo utilizable. Las acciones anteriores 3363 y 3439 siguen visibles hasta el 30/09, pero no se suman porque fueron reemplazadas por el esquema 3510 a 3517. Tampoco aparecen 23056, 23057, 3433, 3448 ni 3449.",0,revisar
