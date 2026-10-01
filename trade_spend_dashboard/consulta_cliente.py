@@ -259,22 +259,33 @@ def build_action_lookup(groups: pd.DataFrame) -> dict[str, list[dict[str, str]]]
 
 def actions_for_client_row(client_row: pd.Series, action_lookup: dict[str, list[dict[str, str]]]) -> list[str]:
     action_lines = []
+    seen = set()
     group_text = str(client_row.get("grupos", ""))
     for raw_group in [part.strip() for part in group_text.split("|") if part.strip()]:
         group_code = extract_group_code(raw_group)
-        matches = [
-            action
-            for action in action_lookup.get(group_code, [])
-            if product_matches_action(client_row, pd.Series(action))
-        ]
+        parts = raw_group.split()
+        action_id = parts[1] if len(parts) > 1 and parts[1].isdigit() else ""
+        candidates = action_lookup.get(group_code, [])
+        matches = [action for action in candidates if str(action.get("accion_id", "")) == action_id]
+        if not matches:
+            matches = [
+                action
+                for action in candidates
+                if product_matches_action(client_row, pd.Series(action))
+            ]
         if matches:
             for action in matches:
-                action_lines.append(
+                line = (
                     f"{action.get('accion_id', '')} / promo {action.get('promo_compania', '')}: "
                     f"{action.get('descripcion', '')} - grupo {group_code}"
                 )
+                if line not in seen:
+                    seen.add(line)
+                    action_lines.append(line)
         else:
-            action_lines.append(raw_group)
+            if raw_group not in seen:
+                seen.add(raw_group)
+                action_lines.append(raw_group)
     return action_lines
 
 
