@@ -3,7 +3,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5 GALINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 7 LA SELECTA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 9 BON DIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 10 LA RUEDA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 10 LA RUEDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 16 RESES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 33 EL CIRCULO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 43 LOS OLMOS SRL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -13,7 +13,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 71 LOS TRES MAGOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 74 MONTECATINI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 76 LECIEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 79 EL REY DEL QUESO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 79 EL REY DEL QUESO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 84 DULZURA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 90 J M: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 94 FENIX: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -25,7 +25,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 130 FIAMBRISIMA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 133 PERIÑON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 137 LA TORINO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 143 LINA II: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 143 LINA II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 147 GIMNASIO ACTIVO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 155 ALI BELL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 163 LA PIZZERIA DEL RAUL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -34,12 +34,12 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 176 COSA S: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 179 SAMUEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 196 MAITE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 199 LOS ABUELOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 199 LOS ABUELOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 201 TETE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 204 CRISTILLY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 204 CRISTILLY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 214 EL PICHON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 226 SAN CAYETANO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 233 PAOLA I: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 233 PAOLA I: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 236 LOS MELLIZOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 253 LOS TRABAJADORES II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 257 CHELA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -47,8 +47,8 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 269 SU AUTOSERVICE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 272 RAYEN'S: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 273 DOBLE A: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 275 EL DELFIN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 283 EL SATELITE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 275 EL DELFIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 283 EL SATELITE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 293 PENI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 294 EL SOL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 296 CACHITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -56,8 +56,8 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 301 BIANCA FIAMBRERIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 304 EL GAUCHO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 309 EL COLO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 319 GAMALIEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 322 SOLEDAD: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 319 GAMALIEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 322 SOLEDAD: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 347 TRES PILARES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 351 DEL BARRIO II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 352 BARUC: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -68,12 +68,12 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 393 OLAF: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 407 GUM KIOSCO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 409 CHIQUITO REY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 411 CRISTILLI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 411 CRISTILLI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 416 GALES II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 422 ALBERTO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 427 EMILIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 439 ROLDAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 443 MELATON I: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 443 MELATON I: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 446 SAN CAYETANO II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 447 GRACIELA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 451 AUTOSERVICIO DEL VALLE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -82,25 +82,25 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 476 MARTIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 480 CARLITOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 496 SAN JOSE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 514 WIS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 514 WIS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 517 ELI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 532 LA VICTORIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 538 GUADALUPE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 539 NATANAEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 544 LOS TRES CHIFLADOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 544 LOS TRES CHIFLADOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 545 AMEGHINO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 562 GYNY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 564 LA VIRGENCITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 573 CHICHO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 573 CHICHO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 583 FRIGORIFICO CARNES DEL SUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 592 NUEVO SCORPIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 593 M B: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 599 C V I: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 601 CORONDA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 599 C V I: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 601 CORONDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 608 PULPITO II: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 630 PATY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 630 PATY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 637 BRIAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 638 EL PULPITO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 638 EL PULPITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 652 25 DE MAYO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 658 NANCY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 659 JESY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -120,28 +120,28 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 707 SAN MARTIN II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 710 CACERIKA PIZZAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 714 LA BODEGUITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 718 EL SANCA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 727 DANIEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 718 EL SANCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 727 DANIEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 728 SOLE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 745 TAPAGONIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 749 MATIAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 753 POLIRRUBRO ESPERANZA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 756 RENACER: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 768 FABIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 745 TAPAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 749 MATIAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 753 POLIRRUBRO ESPERANZA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 756 RENACER: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 768 FABIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 770 EL TURCO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 776 SUPER 24 HORAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 776 SUPER 24 HORAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 779 LA ERMITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 787 MERCADO Y CARNICERIA LA LOMA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 787 MERCADO Y CARNICERIA LA LOMA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 792 ELI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 797 EL CHUECO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 802 OASIS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 804 DON CIRILO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 797 EL CHUECO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 802 OASIS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 804 DON CIRILO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 806 KEILY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 834 SUPERKIOSCO DC: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 839 LOCUTORIO PTO RAWSON: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 839 LOCUTORIO PTO RAWSON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 849 SARMIENTO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 854 EL SUREÑO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 856 SEBA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 854 EL SUREÑO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 856 SEBA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 866 SAN CAYETANO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 875 4 HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 876 EL CICLON: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -150,8 +150,8 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 882 DANIEL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 887 LA LOMA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 890 LUCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 891 ORIENTE: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 916 SUPER FERIA: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 891 ORIENTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 916 SUPER FERIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 917 IMPERIO VERDE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 920 PATRICIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 921 DON LEON S A: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -161,28 +161,28 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 947 DAVID: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 952 DON PEDRO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 969 DISTRIBUIDORA DAILOFF S.H.: CORE CORE cambio de 9.00% a 0.00%.,,-9 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 971 VALENAI - GAIMAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 972 ETCHECHOURRY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 971 VALENAI - GAIMAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 972 ETCHECHOURRY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 984 KRUSE JUAN CARLOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1091 LOS 3 MONITOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1146 PUNTA TOMBO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1146 PUNTA TOMBO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1164 PRONTO CHEF: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1169 MICA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1180 AGUILA TRELEW: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1194 ROCIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1197 DISTRIBUIDORA DEL SUR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1194 ROCIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1197 DISTRIBUIDORA DEL SUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1229 LOS NIRES: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1237 HELADERIA SEI TU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1244 FONOFAX: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1244 FONOFAX: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1258 EL REY DEL QUESO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1268 SAN EXPEDITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1269 HOSTERIA FFRAM TAID: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1292 LO DE CARI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1356 DAMIAN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1360 LUJAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1360 LUJAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1363 P Y M: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1373 UNION II: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1375 YA TA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1375 YA TA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1412 VILLCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1426 GOMERIA 9 DE JULIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1467 LOS DELEITTES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -201,25 +201,25 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1620 CELE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1640 SANTY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1645 ANITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1653 AUTOSERVICE DOMINGO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1653 AUTOSERVICE DOMINGO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1675 LEZANA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1677 MARINA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1677 MARINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1703 EL REY DEL QUESO EXPRESS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1707 ELIAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1716 LA GANADERA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1726 SABROSAS TENTACIONES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1730 EL TIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1731 SHREK II: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1731 SHREK II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1746 PARRIPOLLO ALTO ASADOR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1757 POLIRRUBROS RAFA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1784 ALBERDI MERCADO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1784 ALBERDI MERCADO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1830 EVANS OMAR: CORE CORE cambio de 9.00% a 0.00%.,,-9 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1839 EL LEON GRANDE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1844 ZETA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1839 EL LEON GRANDE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1844 ZETA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1846 EL PUENTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1849 LA ESTRELLA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1850 VERDULERIA DEL VALLE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1855 FIAMBRERIA PATAGONIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1855 FIAMBRERIA PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1860 ACQUA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1878 EL TREBOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 1902 LA KABINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -238,8 +238,8 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2107 VERDULERIA BELEN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2114 LUCY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2117 B Y C: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2121 DOÑA ELBITA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2152 SAN CAYETANO 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2121 DOÑA ELBITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2152 SAN CAYETANO 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2164 DON LEON PLAYA UNION: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2167 EL AMANECER: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2172 LOS MOSK 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -247,7 +247,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2179 MAXIKIOSCO RUTA 25: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2192 PISPIRETA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2202 MANOLO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2208 ABIGAIL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2208 ABIGAIL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2225 CLUB GERMINAL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2249 LA BUENA CEPA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2252 MITRE AUTOSERVICIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -257,23 +257,23 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2270 MATUTE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2276 URQUIZA KIOSCO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2281 EMANUEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2287 EMIR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2287 EMIR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2301 PANADERÍA LA ESQUINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2321 GRANJA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2347 SOFI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2352 GASEOSAS MADRYN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2359 VARGAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2360 VERDULERIA VICTORIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2364 DANA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2359 VARGAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2360 VERDULERIA VICTORIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2364 DANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2367 LOS TURCOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2373 ELVIS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2382 FONTANA KIOSCO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2387 MARIA LUZ: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2390 SAN MIGUEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2393 LA FAMILIA 2: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2373 ELVIS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2382 FONTANA KIOSCO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2387 MARIA LUZ: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2390 SAN MIGUEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2393 LA FAMILIA 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2407 LA OLA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2408 LOS CANICHES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2476 MERCADO M.B 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2476 MERCADO M.B 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2479 EMOJI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2482 EL TELA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2489 KIOSCO MAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -281,11 +281,11 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2530 DEL BARRIO I: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2531 BUENAS COMPRAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2532 LA MURALLA 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2535 BIGOTES: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2535 BIGOTES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2546 MIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2551 ALEM: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2571 ZULMY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2590 LITORAL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2590 LITORAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2592 BELINDA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2596 NICOL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2608 BENITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -293,7 +293,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2620 LAS AMIGAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2626 LA UNICA PANADERIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2639 LOS AMIGOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2650 JOAQUIN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2650 JOAQUIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2651 LOS POLLOS HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2658 LA FAMILIAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2661 LOS NIETOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -307,36 +307,36 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2687 LA PASARELLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2691 LUZ DE LUNA MAXIKIOSCO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2694 LA BENDICION: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2697 25 DE JULIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2698 LA SOLANA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2701 LA ESCALERITA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2697 25 DE JULIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2698 LA SOLANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2701 LA ESCALERITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2702 EL ESFUERZO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2724 MARLENE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2733 AMANECER: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2738 VERDULERIA GARECA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2739 MADIBA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2738 VERDULERIA GARECA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2739 MADIBA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2762 DESPENSA ALE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2764 CORRADI AUTOSERVICIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2769 TAY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2783 ASOCIACION RACING CLUB: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2791 14 DE SEPTIEMBRE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2798 EL CORDOBES: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2798 EL CORDOBES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2803 OLIVIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2804 VERDULERIA RICHI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2806 EL REQUESON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2810 EQUECO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2814 LA GRANJITA 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2817 FLORES: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2817 FLORES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2819 ERIK: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2822 EMPIRE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2831 TIZ-CAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2834 PIHUE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2837 MI CUNADO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2871 PATO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2941 ANI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2953 MILLENIUM: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2941 ANI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2953 MILLENIUM: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2956 EL ALMACEN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2958 DAHI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2958 DAHI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2965 LA PERGOLA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2968 CLEMENTE JUNIOR: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2975 LO DE JOSE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -346,7 +346,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2992 POLIRUBRO DRAGO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2993 PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 2995 AGOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3005 GRAN MURALLA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3005 GRAN MURALLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3006 SABORES PATAGONICAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3009 OLIVIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3015 SUPER MAXI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -358,7 +358,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3039 MAXI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3041 SUR AUTOSERVICIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3042 EL KIOSCAZO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3043 TITA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3043 TITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3050 AUTOSERVICIO YENY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3057 DON BOSCO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3064 SANTA ROSA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -366,12 +366,12 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3098 JORDANA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3099 JENIFER: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3103 QUE ACELGA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3119 DIGA SA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3119 DIGA SA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3125 CACHITO II: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3132 MISU: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3132 MISU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3134 LA CARNICERIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3149 FIAMBRERIA PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3155 LA 25: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3155 LA 25: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3156 PLANETA MINIS COMPRAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3163 ROCIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3164 LA TABLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -381,12 +381,12 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3182 CLEMENTE JUNIOR 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3187 MARTIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3192 BETY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3202 LA TERMINAL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3202 LA TERMINAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3206 LA RONDA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3207 TU DISTRIBUIDORA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3209 DON JAMON: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3211 VERDULERIA RIVERA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3215 SARA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3215 SARA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3221 MENDOZA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3223 MUNDO DE SUR: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3224 SUPER MUCHO MAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -395,27 +395,27 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3250 RIK DAN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3253 CABANA CATERIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3255 EL CHONCHON ZAMBRANO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3270 DAYANA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3284 LA ESQUINA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3287 ISAIAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3270 DAYANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3284 LA ESQUINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3287 ISAIAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3288 SAN PABLO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3289 GAIMAN 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3297 LA FERIA DE MADRYN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3300 PORCINOS PATAGONICOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3301 EL NUEVO VALLE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3302 LA RUTA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3316 4VL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3316 4VL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3317 DERBES MINI MARKET: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3319 SAN MORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3321 OLAF III: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3323 CMAL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3328 ELI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3328 ELI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3331 KAREN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3334 LA NEGRA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3338 QUISPE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3338 QUISPE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3347 ORIOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3353 MATIAS VERDULERIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3357 MAICOL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3357 MAICOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3371 SILVIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3391 LO DE GRA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3392 DELICIAS DEL MAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -425,7 +425,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3403 DON WALTER: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3404 LUNA 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3407 SAN MARCOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3414 JOSEFA II: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3414 JOSEFA II: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3422 LA VIEJA SUPERFERIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3427 EMY II: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3428 AUTOSERVICIO LAS CHICAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -434,8 +434,8 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3438 DESPENSA PUMA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3440 BAMBOO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3445 MONTANO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3446 OLIVIA DRUGSTORE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3455 JJEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3446 OLIVIA DRUGSTORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3455 JJEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3457 SUPER PRIMERO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3462 LA UNION: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3468 DESPENSA TOTO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -446,7 +446,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3480 LA UNION: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3481 ATR KIOSCO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3489 LOS NIETOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3491 VERDULERIA ANDY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3491 VERDULERIA ANDY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3501 NANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3503 EDISON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3515 JM MINI MARKET: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -454,7 +454,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3525 KIOSKITO Y ALGO MAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3529 TIO ENZO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3544 LA UNION ESPANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3546 MAXIKIOSCO ROCA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3546 MAXIKIOSCO ROCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3550 LURDES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3554 VERDULERIA MENDOZA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3556 CARNES PREMIUM: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -469,7 +469,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3593 VERDULERIA TIAGO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3596 EL TRIUNFO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3597 RUTH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3600 THE KING BRANDON: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3600 THE KING BRANDON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3602 LENA CLUB: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3609 GUEMES: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3611 LA FAMILIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -477,9 +477,9 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3617 YANDEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3620 LOS LOROS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3622 BASTET DRUGSTORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3623 CARNICERIA DEL CAMPO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3623 CARNICERIA DEL CAMPO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3625 VERDULERIA JENNY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3629 MILEY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3629 MILEY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3631 SUPER SUERTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3636 LEJANO OESTE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3641 GARECA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -489,34 +489,34 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3649 AMANECER: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3660 VERDULERIA LOURDES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3661 PANCHO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3662 EL PARAISO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3670 EL JUJENO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3662 EL PARAISO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3670 EL JUJENO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3672 MELISA 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3676 MI ESPERANZA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3680 DON PEDRITO 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3680 DON PEDRITO 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3681 RUBI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3686 LA UNION SUR: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3688 LA UNION SAN MIGUEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3688 LA UNION SAN MIGUEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3693 LA PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3700 LA FAMILIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3704 GISEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3704 GISEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3705 SARAI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3708 DESPENSA LUNA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3711 M Y G: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3712 IGUSTO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3713 SUSY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3713 SUSY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3720 FRIGORIFICO PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3724 TONINAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3726 DESPENSA ROJAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3730 JOSE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3731 LOS NIETOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3732 LOS CUATRO HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3733 LILIANA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3733 LILIANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3737 LA ROTONDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3740 RUTA 9: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3741 LA TURKITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3742 LA ROTONDA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3744 SUPER AMISTAD: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3744 SUPER AMISTAD: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3746 EL COLO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3747 BUSCAVIDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3748 EL PORTENO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -550,38 +550,38 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3815 ESPAÑA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3827 GEORGE'S: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3832 CARNICERIA MUZZIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3842 LA TITI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3842 LA TITI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3849 ARGENTINA SUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3854 ESTACION DE SERVICIO PUMA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3856 KIOSCO LITORAL 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3858 J.C.: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3863 EL IMPERIO BOUTIQUE: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3871 SUPER MARI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3863 EL IMPERIO BOUTIQUE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3871 SUPER MARI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3876 DON JAIME: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3882 BECKY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3883 SARMIENTO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3885 ROXANA 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3889 MIS DELIRIOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3885 ROXANA 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3889 MIS DELIRIOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3890 MADE IN PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3893 LA AVENIDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3896 MAXIKIOSCO MORA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3896 MAXIKIOSCO MORA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3898 SCOOBY DOO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3900 VERDULERIA YANI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3904 NOMADA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3904 NOMADA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3905 GROSSITE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3913 MARI MARI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3915 EL VIEJO ALMACEN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3916 CHIRIPA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3918 MILCA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3918 MILCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3927 SYLVIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3935 OHANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3941 PUEBLO 1903: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3941 PUEBLO 1903: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3947 GIGANTE DE VALDEZ: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3951 MERCADO ALE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3952 JAMON DEL CIELO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3958 R Y G: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3963 XIOMARA 1: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3965 EL ORIGEN: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3965 EL ORIGEN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3967 MANU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3972 CATY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3975 LA PERSEVERANCIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -596,20 +596,20 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3996 LA FAMILIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 3999 MULTIRRUBROS MIGUEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4004 CLUB INDEPENDIENTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4012 MICKY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4018 LOS NIETOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4020 GARDELITOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4012 MICKY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4018 LOS NIETOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4020 GARDELITOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4024 TATY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4025 MADIBA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4038 POLIRRUBROS GOLFITO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4038 POLIRRUBROS GOLFITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4044 BORO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4045 PANADERIA DON LISTER: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4051 LA ESTRELLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4053 VERDULERIA CHICHENITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4056 BRIANA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4056 BRIANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4062 FIABRERIA LO DE RAUL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4063 COIRON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4067 GALIANO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4067 GALIANO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4069 EL IMPERIO 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4070 FRANCESCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4071 EL IMPERIO 1: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -620,7 +620,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4080 LA DEL MANU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4083 MERCADO BELEN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4084 AUTOSERVICIO L Y A: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4088 QUISHA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4088 QUISHA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4089 VERDULERIA LA FAMILIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4096 EL IMPERIO 3: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4098 PRIXI-FA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -634,12 +634,12 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4144 AYELEN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4145 ELIAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4153 VERDULERIA JULIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4155 KEILLY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4155 KEILLY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4157 LOS REYES DE LA MEDIALUNA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4158 VERDULERIA LOPEZ: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4163 5 ESQUINAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4164 LA ROTONDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4170 SOL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4170 SOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4173 DESPENSA YUMBREL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4174 MERCADO HUGO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4175 MILAGROS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -647,46 +647,46 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4182 GABRIEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4184 BASTIAN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4189 LO DE MINGO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4200 TORRICO ARISPE NEYSA ROSARIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4200 TORRICO ARISPE NEYSA ROSARIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4206 MERY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4208 ALANA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4210 VERDULERIA MARY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4218 VERDULERIA ELENITA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4220 CARNICERIA MIGUEL ANGEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4227 KAYLOR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4227 KAYLOR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4231 PANADERIA LIDIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4232 MELU 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4235 LA YOLA 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4243 EL SOFA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4243 EL SOFA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4246 TITI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4247 M.G.A.: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4247 M.G.A.: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4253 PANADERIA EL TIBURON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4260 BUENAS COMPRAS 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4264 LA CUCA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4265 DESPENSA LOTUS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4264 LA CUCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4265 DESPENSA LOTUS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4266 YPF POLIN SRL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4267 DINASTIA 3: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4268 COMANCHE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4268 COMANCHE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4269 LA NAVE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4275 SCRAPPY DOO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4280 ARCO IRIS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4284 FIAMBRERIA JUAN XXIII: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4284 FIAMBRERIA JUAN XXIII: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4286 LA CAVA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4293 VERDULERÍA F R: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4293 VERDULERÍA F R: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4300 SAN EXPEDITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4307 DELICIAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4309 EL CHISPON: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4309 EL CHISPON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4323 PILO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4326 EL GALPON DE MILO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4326 EL GALPON DE MILO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4328 LOS TRES HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4337 LACTEOS DEL SUR: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4337 LACTEOS DEL SUR: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4343 LILI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4346 M.B: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4346 M.B: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4347 NICOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4355 FRESH MARKET: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4360 EL IMPERIO DE LA CARNE GRANJA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4366 LA BENDICION: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4368 BEACH: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4368 BEACH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4371 LACTEOS DEL SUR PM: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4374 AVENIDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4379 CARNICERIA 722: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -696,9 +696,9 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4393 VERDULERIA LORENA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4395 DON ROQUE S.R.L: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4396 POLIRUBROS SEBA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4402 PATAGONIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4402 PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4403 SABORES SUREÑOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4406 BELEN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4406 BELEN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4412 LEJANO OESTE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4446 LA PASEÑA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4447 SUPER ARTE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -709,19 +709,19 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4472 J&B: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4477 ORIANA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4478 VERDULERIA IDEVI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4479 DESPENSA BRENDA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4480 POR SIEMPRE A TU LADO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4479 DESPENSA BRENDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4480 POR SIEMPRE A TU LADO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4482 DESPENSA 24/7: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4485 N Y E: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4488 26 DE NOVIEMBRE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4489 SUR DRUGSTORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4491 VERDULERÍA J Y T: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4492 AUTOSERVICIO EL SANCA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4492 AUTOSERVICIO EL SANCA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4504 CAMINOS DEL SUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4505 DESPENSA RODRÍGUEZ: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4512 MERCADO TECKA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4512 MERCADO TECKA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4519 24 HORAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4520 TU LUGAR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4520 TU LUGAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4522 MERCADO VICTORIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4525 CANDYBLACK: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4526 MACEI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -729,61 +729,61 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4530 EMANUEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4539 EL DESADO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4541 CRISMAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4547 CASTRO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4551 FULL: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4547 CASTRO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4551 FULL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4557 LO DE LIS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4563 LA FAMILIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4565 NAYELY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4566 LARA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4568 AYV: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4566 LARA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4568 AYV: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4569 DAFNE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4572 NAIR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4574 PIRUETA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4575 EL TRINFO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4575 EL TRINFO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4577 YAZ: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4578 PUMA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4579 LOS JAIMITOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4579 LOS JAIMITOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4582 NORA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4583 MARTA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4583 MARTA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4584 AILEN 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4589 LA TORTOLITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4591 FORTIN LA VILLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4592 AILEN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4592 AILEN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4593 RICHSOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4594 ROSITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4599 EL NONO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4602 JOHANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4605 SIERRA GRANDE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4606 PATAGONIA KM 1263: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4607 SAN CAYETANO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4608 FRANCO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4611 CAROLA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4618 FRANCO - PLAYAS DORADAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4607 SAN CAYETANO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4608 FRANCO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4611 CAROLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4618 FRANCO - PLAYAS DORADAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4619 LOS 2 HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4624 MABY DRUGSTORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4625 EL SOL 3: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4629 EL CENTENARIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4633 MINIMERCADO EMILY Y JAZMÍN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4629 EL CENTENARIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4633 MINIMERCADO EMILY Y JAZMÍN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4642 DESPENSA MARY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4659 FRUTILLITAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4683 PLAN B: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4689 AMESTOY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4689 AMESTOY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4690 LUZ MIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4691 MAXI ROCA 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4692 VERDULERÍA PERLA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4695 SUPER FERIA ROSITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4710 NOR CINTY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4710 NOR CINTY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4711 MISTY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4715 DILU: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4720 LA ABUELA TIRZATH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4724 JAVI MAR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4724 JAVI MAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4728 MAXIKIOSCO CHOCHO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4741 LA SCALONETA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4742 POLIRUBRO J Y E: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4745 70/30: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4746 ESTACION KIDS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4748 LA CHACRA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4750 TOMATE LOCO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4748 LA CHACRA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4750 TOMATE LOCO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4751 DYM: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4753 KIOSCO BLUE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4755 LA REALIDAD: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -792,11 +792,11 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4761 LAS DELICIAS DE CLAU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4762 GARNICA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4766 MIS GIRASOLES: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4768 JONES CARNICERIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4769 DESPENSA GABY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4768 JONES CARNICERIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4769 DESPENSA GABY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4771 DINASTIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4773 LOS NONOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4779 LACTEOS RAWSON: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4779 LACTEOS RAWSON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4781 JOSE 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4784 MERCADO DANEI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4788 ROCIO DEL VALLE 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -805,35 +805,35 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4797 DESPENSA LULI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4798 YESI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4802 JUANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4808 PINTO PICADA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4811 MINIMERCADO MÍ SOLCITO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4808 PINTO PICADA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4811 MINIMERCADO MÍ SOLCITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4812 HEI HEI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4813 ICEBERG: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4816 VERDULERÍA MELL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4818 ARANI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4820 LA ESQUINA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4823 VERDULERÍA Y DESPENSA BRIANA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4813 ICEBERG: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4816 VERDULERÍA MELL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4818 ARANI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4820 LA ESQUINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4823 VERDULERÍA Y DESPENSA BRIANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4824 MINIMERCADO CASTRO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4825 DESPENSA VALENTÍN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4826 MEGABUFALO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4834 IMPERIO BOUTIQUE BEBIDAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4837 CARNICERIA UNION: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4840 CHISPON 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4844 SUPER DINASTIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4834 IMPERIO BOUTIQUE BEBIDAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4837 CARNICERIA UNION: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4840 CHISPON 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4844 SUPER DINASTIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4848 BARBER BEER: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4852 LUZ AZUL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4863 TAZMANIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4863 TAZMANIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4866 VERDULERIA MARTINEZ: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4868 BELINDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4869 LA ECONOMICA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4869 LA ECONOMICA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4877 MERCADO MILAGRITOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4879 PUNTO CLAVE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4880 MIGUELITO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4881 ROSAL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4881 ROSAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4888 CONSTANTINO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4889 AMESTOY 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4889 AMESTOY 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4894 J Y M: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4895 SUPER BUFALO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4895 SUPER BUFALO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4901 MARISOL 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4908 DRUGSTORE TATY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4909 NATITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -842,9 +842,9 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4918 RUFFUS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4920 LA PREVIA DE ALMA RURAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4934 GOURMET: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4935 POLIRUBRO CARLIÑO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4936 MAYLEN 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4938 ALMACEN LA FAMILIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4935 POLIRUBRO CARLIÑO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4936 MAYLEN 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4938 ALMACEN LA FAMILIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4940 4VL 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4942 WIN PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4952 VERDULERÍA YENDALY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -853,8 +853,8 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4959 LOS BISA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4961 MERCADO KILLA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4962 REY GARUFA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4965 LA UNION 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4967 DESPENSA JESY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4965 LA UNION 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4967 DESPENSA JESY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4972 DOÑA ANA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4973 KIOSCO PINCK: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4975 ECOMARKET 2: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -862,33 +862,33 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4979 VERDULERIA KAREN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4980 MINIMERCADO DYLAN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4981 EL USNERO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4983 DESPENSA RONALD: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4983 DESPENSA RONALD: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4984 BAEZMON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4991 VERDULERÍA PUNATA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4992 XIOMARA 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4991 VERDULERÍA PUNATA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4992 XIOMARA 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4997 MAX KIOSCO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 4999 GODZILA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5000 MERCADO Y CARNICERIA TORRES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5001 EL ZORZAL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5001 EL ZORZAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5004 STELLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5005 MAXIMO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5007 POLIRRUBRO ROSITA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5007 POLIRRUBRO ROSITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5009 AUTOSERVICIO J.A: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5011 BASTYLU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5013 LA GARITA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5013 LA GARITA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5016 MOMO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5017 VERDULERIA ALAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5021 AUTOSERVICIO DAHI 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5017 VERDULERIA ALAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5021 AUTOSERVICIO DAHI 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5023 MINIMERCADO LOS 3 DE ABRIL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5024 GÉNESIS S.A: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5028 EL 22: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5030 TROPEZON: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5031 ROMA STORE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5031 ROMA STORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5032 MERCADO ROSA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5033 VERDULERÍA COLOMBIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5034 EL REQUESON 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5035 LOS TRES NIETOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5036 RIELES: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5036 RIELES: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5037 DESPENSA EL GARITO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5039 CHIKI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5042 LA ESQUINA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -897,34 +897,34 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5053 LA PROVIDENCIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5057 LO DE KARI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5059 MERCADO JUAN 23: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5060 MINIMERCADO TREVELIN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5064 DESPENSA Y POLLERÍA PATAGONIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5068 IMPERIO VERDE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5060 MINIMERCADO TREVELIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5064 DESPENSA Y POLLERÍA PATAGONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5068 IMPERIO VERDE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5070 PANADERÍA LA FAMILIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5071 PANCHITO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5073 MAXI KIOSCO EL PARQUE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5075 SOS CATERING: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5073 MAXI KIOSCO EL PARQUE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5075 SOS CATERING: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5076 ZONA NORTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5078 EMA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5079 GARDEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5084 LA NUEVA PICADA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5086 CYA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5090 DESPENSA LUCY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5092 MINIMERCADO F24: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5092 MINIMERCADO F24: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5093 MERCADO JOEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5094 REY DE COMPRAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5094 REY DE COMPRAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5097 PELLE 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5101 ALMACÉN AMADEO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5102 TODO EN UNO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5102 TODO EN UNO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5103 SAN RAFAEL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5104 CLEMENTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5110 MINIMERCADO SEGOVIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5119 PUEBLO 1903 ( RECARGADO ): CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5120 DON JUAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5110 MINIMERCADO SEGOVIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5119 PUEBLO 1903 ( RECARGADO ): CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5120 DON JUAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5122 VERDULERÍA LUCY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5123 VERDULERIA MARTINEZ 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5123 VERDULERIA MARTINEZ 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5124 LOS 3 HERMANOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5125 AUTOSERVICIO ZHUANG: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5125 AUTOSERVICIO ZHUANG: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5126 LA SOÑADA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5127 MATALIMON: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5129 KEENAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -938,12 +938,12 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5145 KIOSCO ANFII: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5146 ELABORADITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5147 POLIRRUBRO LA ESQUINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5149 MULTIRUBRO CHAQUEÑO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5149 MULTIRUBRO CHAQUEÑO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5151 MERCADO RENZO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5152 LA REINA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5153 LA LORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5155 VERDULERÍA JOAQUÍN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5156 DESPENSA KM: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5156 DESPENSA KM: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5162 VERDULERIA MABEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5163 LO DE POCHITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5165 LA 23: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -998,7 +998,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5274 POLIRRUBRO FELIX: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5275 EL DIEGO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5276 MERCADO ALE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5277 FIAMBRES Y QUESOS DON FRANCISC: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5277 FIAMBRES Y QUESOS DON FRANCISC: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5280 VERDULERA MAR - MAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5282 VERDULERÍA JAZMIN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5283 MINIMERCADO FT: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -1008,43 +1008,43 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5287 LA VECINA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5289 MERCADO MADRYN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5295 VERDULERÍA DOÑA JUANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5298 CARLIÑO 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5298 CARLIÑO 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5299 LA ESQUINA DEL BAJON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5301 KE CARNE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5301 KE CARNE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5305 DRUGSTORE PILLAR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5306 SUPERMERCADO CARLIÑO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5306 SUPERMERCADO CARLIÑO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5307 EL CEFE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5309 VERDULERI KALETH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5310 BIGOTES 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5312 PANCHOLANDIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5320 DESPENSA LA ECONOMICA 2: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5320 DESPENSA LA ECONOMICA 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5321 MERCADO CENTINELA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5322 POLLERÍA DON TITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5323 BET-EL: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5324 AGUILA TRELEW 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5327 MERAKI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5329 MKT LA ESQUINA EXPRESS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5331 10 DE JUNIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5331 10 DE JUNIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5332 VERDULERÍA DELIA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5333 LA BODEGA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5335 KIOSCO EL 22: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5337 VERDULERIA F. R: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5340 PLAYA MUSLO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5341 PERALTA VERONICA ALEJANDRA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5341 PERALTA VERONICA ALEJANDRA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5344 VERDULERÍA Y DESPENSA SMG: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5346 OLAF PLAYA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5347 LA PREVIA DE  ALMA RURAL 2: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5350 OASIS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5353 SUCOT: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5354 RUMOA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5356 KIOSCO MAIRA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5356 KIOSCO MAIRA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5357 MERCADO JYN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5358 CARLIÑOS 3: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5358 CARLIÑOS 3: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5359 VERDULERIA DIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5362 MISTERIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5363 DESPENSA GL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5364 MINIMERCADO CITRIC: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5365 ECOFRESH: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5365 ECOFRESH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5367 GILIO'S CARNICERIA DRUGSTORE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5368 AUTOSERVICIO VICTORIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5369 SUPER SUERTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -1066,23 +1066,23 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5404 POLIRUBRO SATA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5405 DESPENSA ZOE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5407 LOS 3 NIETOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5411 AUTOSERVICIO EXPRES: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5412 TODO EN UNO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5411 AUTOSERVICIO EXPRES: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5412 TODO EN UNO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5414 VERDULERÍA XIOMI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5415 PLANETA SNACKS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5415 PLANETA SNACKS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5419 3 HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5422 EL CHACHI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5423 FIAMBRERÍA LA ESPAÑOLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5424 CHIKI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5426 CARNICERIA ELIAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5427 MINIMERCADO MAILEN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5430 LA BENDICION 3: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5427 MINIMERCADO MAILEN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5430 LA BENDICION 3: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5431 PUNTO MILAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5434 SUPER POLLO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5437 MARTINEZ RW: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5439 GUENEQUEN FOCACCERIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5440 LOS CHICOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5441 AUTOSERVICIO PUJOL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5441 AUTOSERVICIO PUJOL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5442 LA ECONOMIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5443 PERPING: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5448 ALMACEN LEANDRO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -1105,7 +1105,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5484 KIOSCO JOAQUÍ: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5485 LA CENTRAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5486 ISABELLA EMPANADERIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5487 POLIRUBRO LUQUIN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5487 POLIRUBRO LUQUIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5488 LOS HERMANOS POLLITOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5490 ALMACEN ARABE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5491 AVENIDA EXPRESS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -1128,7 +1128,7 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5516 MARTINELLI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5521 CARNICERIA MALU: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 5522 DESPENSA BARBI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100005 BACO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100005 BACO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100009 DON RAMON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100022 PARALELO 42: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100034 EL 22: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -1143,46 +1143,46 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100126 SUPERFERIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100129 BOGOTA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100147 ALI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100148 HERMANOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100156 SAN CAYETANO SUR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100148 HERMANOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100156 SAN CAYETANO SUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100159 ABRIL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100162 EL FARO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100175 ARGENTINISIMA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100176 EL FARO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100177 MAR CRIS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100181 LOLA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100181 LOLA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100201 DARIMAY: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100216 MIELES: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100237 LM. MADRYN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100239 NORTE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100260 JUAN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100276 MYOPORUM II: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100290 VICKY: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100290 VICKY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100292 OCEANO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100294 EL PORVENIR: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100299 M.B.A: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100308 EL PACHA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100314 YANET: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100315 MONICA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100316 ANABEL: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100315 MONICA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100316 ANABEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100321 MORENA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100330 ROXANA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100332 GABRIEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100343 VASQUEZ ESPINOZA OCTAVIA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100343 VASQUEZ ESPINOZA OCTAVIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100345 MAMMA MIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100358 TIAGO Y ELIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100365 9 DE JULIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100368 J. L.: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100374 EL FAROLITO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100403 DON TOMAS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100374 EL FAROLITO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100403 DON TOMAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100406 ZERPA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100409 NAYADET: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100421 ROCIO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100430 LO DE BLANQUITA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100433 LUJAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100433 LUJAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100463 LU-AN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100480 FESTISUR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100503 FLASH: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100480 FESTISUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100503 FLASH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100504 GASTON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100508 MIMI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100510 JESUS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
@@ -1195,19 +1195,19 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100551 NICO'S: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100553 YENE-CO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100571 FONTANA EXPRESS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100572 CLEMENTE: CORE CORE cambio de 3.00% a 8.00%.,,+5 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100572 CLEMENTE: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100573 LUNAS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100575 NORTE SUR: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100575 NORTE SUR: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100579 MAXI CLEVER: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100707 LA GRAN ESQUINA DEL OESTE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100707 LA GRAN ESQUINA DEL OESTE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100710 POLONIA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100750 SECRI: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100752 VINEDOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100755 YESICA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100784 LUZ: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100785 MAXIMO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100797 DESPENSA ALILE: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100805 KIOSCO Y DESPENSA JESICA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100755 YESICA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100784 LUZ: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100785 MAXIMO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100797 DESPENSA ALILE: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100805 KIOSCO Y DESPENSA JESICA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100862 LA ABUELA DOROTEA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100876 LA DORADA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100880 DARCIEL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
@@ -1216,39 +1216,39 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100902 J.A: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100903 GURU DE LO RICO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100918 PASTAS LOS CORRENTINOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100919 MAKA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100925 J.E: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100919 MAKA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100925 J.E: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100937 ALAS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 100973 CHE PAMPA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101022 KEVIN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101022 KEVIN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101045 KIOSCO CORAZON: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101085 CONDORITO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101087 JANAH: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101087 JANAH: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101158 CHICHOS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101167 EVELIN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101202 LUJAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101202 LUJAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101203 KINKON: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101208 VALENTINA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101208 VALENTINA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101220 CHICHOS PLUS: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101221 LA TOSCANA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101235 AUTOSERVICIO Y CARNICERIA B&L: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101235 AUTOSERVICIO Y CARNICERIA B&L: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101240 MAXIMO: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101255 FRUTOS DE ATUEL: CORE CORE cambio de 9.00% a 0.00%.,,-9 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101259 EL SOFA 24: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101262 BECKAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101270 VANESA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101262 BECKAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101270 VANESA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101282 JYF: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101306 ELI: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101306 ELI: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101308 LA PORTENA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101334 ROCA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101338 LA COLONIAL: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101367 OCTAVIO: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101369 LOS AMIGOS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101367 OCTAVIO: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101369 LOS AMIGOS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101387 AONIKEN: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101391 LA AVENIDA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101397 ALEMAN: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101408 AGUS: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
-2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101423 ESPERANZA: CORE CORE cambio de 4.00% a 8.00%.,,+4 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101397 ALEMAN: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101408 AGUS: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
+2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101423 ESPERANZA: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101443 EMY: CORE CORE cambio de 4.00% a 5.00%.,,+1 puntos
 2026-10-01,alerta,cambio_porcentaje,CORE,Cliente 101446 VILLCA: CORE CORE cambio de 3.00% a 5.00%.,,+2 puntos
 2026-10-01,alerta,cambio_porcentaje,VALUE,Cliente 1 FORRAJERIA TRELEW: VALUE LITRO cambio de 30.50% a 18.00%.,,-12.5 puntos
@@ -2924,5 +2924,5 @@ fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
 2026-10-01,alerta,cambio_porcentaje,VALUE,Cliente 101443 EMY: VALUE LITRO cambio de 35.50% a 23.00%.,,-12.5 puntos
 2026-10-01,alerta,cambio_porcentaje,VALUE,Cliente 101446 VILLCA: VALUE LITRO cambio de 35.50% a 23.00%.,,-12.5 puntos
 2026-10-01,alerta,acciones_value,VALUE,VALUE octubre validado contra el listado comercial: 3510 a 3517; 3531 y 3532 al 13.5%; 3533 al 7%; y se reincorporan 3439/290125 y 3363/290129 al 8% porque figuran en el listado oficial y siguen vigentes en ERP.,,sin cambios
-2026-10-01,alerta,acciones_core,CORE,"CORE mensual usa unicamente las seis acciones permanentes: 308142, 308162, 308144, 308281, 318208 y 318209. Se informa el maximo de la escala aplicable, sin sumar acciones de productos distintos. Escalas 1 y 2: 5% maximo; escala 3: 8% maximo.",,revisar
+2026-10-01,alerta,acciones_core,CORE,"CORE mensual usa unicamente las seis acciones permanentes: 308142, 308162, 308144, 308281, 318208 y 318209. Se informa el maximo de la escala aplicable, sin sumar acciones de productos distintos. Todas las escalas tienen 5% maximo.",,revisar
 2026-10-01,alerta,acciones_excluidas,VALUE/CORE,"CORE excluye del calculo mensual cualquier accion fuera de las seis escalas permanentes, incluidas 317116, 315426, 317958, Paletazo y Llenado. El codigo 320366 no aparece en Vigentes y programadas y la accion 3530 corresponde a otra promo, 321252. Tampoco aparecen 23056 ni 23057.",0,revisar
