@@ -11,6 +11,7 @@ import streamlit as st
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
+from streamlit.errors import StreamlitSecretNotFoundError
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -71,7 +72,11 @@ st.markdown(
 
 
 def _secret(path: str, default: str = "") -> str:
-    current = st.secrets
+    try:
+        current = st.secrets
+        bool(current)
+    except StreamlitSecretNotFoundError:
+        return default
     for part in path.split("."):
         if part not in current:
             return default
