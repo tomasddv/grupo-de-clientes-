@@ -1,4 +1,4 @@
-fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-10-02,alerta,acciones_value,VALUE,VALUE octubre auditado para la app: acciones 3510 a 3517 y adicionales 3439/290125 y 3363/290129. El tablero publicado muestra solo LITRO y LATA; LATON queda fuera de esta actualización.,,sin cambios
-2026-10-02,alerta,acciones_core,CORE,"CORE mensual usa unicamente las seis acciones permanentes: 308142, 308162, 308144, 308281, 318208 y 318209. Se informa el maximo de la escala aplicable, sin sumar acciones de productos distintos. Todas las escalas tienen 5% maximo.",,revisar
-2026-10-02,alerta,acciones_excluidas,VALUE/CORE,"CORE excluye del calculo mensual cualquier accion fuera de las seis escalas permanentes, incluidas 317116, 315426, 317958, Paletazo y Llenado. El codigo 320366 no aparece en Vigentes y programadas y la accion 3530 corresponde a otra promo, 321252. Tampoco aparecen 23056 ni 23057.",0,revisar
+﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
+2026-10-03,variacion,grupo_clientes,VALUE,Alta cliente 5044 ARZAMENDIA ZAHIRA MELANIE en grupos 3019 y 2931; sin bajas. 2931 se audita como LATON y no infla LITRO.,1584,+1
+2026-10-03,ok,acciones_value,VALUE,Acciones VALUE de octubre sin cambios; porcentajes congelados y LATON separado.,,sin cambios
+2026-10-03,ok,acciones_core,CORE,CORE usa exclusivamente las seis escalas permanentes y mantiene maximo 5%.,,sin cambios
