@@ -1,4 +1,4 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-10-03,variacion,grupo_clientes,VALUE,Alta cliente 5044 ARZAMENDIA ZAHIRA MELANIE en grupos 3019 y 2931; sin bajas. 2931 se audita como LATON y no infla LITRO.,1584,+1
-2026-10-03,ok,acciones_value,VALUE,Acciones VALUE de octubre sin cambios; porcentajes congelados y LATON separado.,,sin cambios
-2026-10-03,ok,acciones_core,CORE,CORE usa exclusivamente las seis escalas permanentes y mantiene maximo 5%.,,sin cambios
+2026-10-05,variacion,grupo_clientes,VALUE,Alta cliente 5550 ALVAREZ SERGIO MARTIN en grupos 3019 y 2931; sin bajas. 2931 se audita como LATON y no infla LITRO.,1585,+1
+2026-10-05,ok,acciones_value,VALUE,Acciones VALUE de octubre sin cambios; porcentajes congelados y LATON separado.,,sin cambios
+2026-10-05,ok,acciones_core,CORE,CORE usa exclusivamente las seis escalas permanentes y mantiene maximo 5%.,,sin cambios
