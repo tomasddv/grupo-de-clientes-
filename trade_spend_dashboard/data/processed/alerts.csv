@@ -1,4 +1,4 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-10-05,variacion,grupo_clientes,VALUE,Alta cliente 5550 ALVAREZ SERGIO MARTIN en grupos 3019 y 2931; sin bajas. 2931 se audita como LATON y no infla LITRO.,1585,+1
-2026-10-05,ok,acciones_value,VALUE,Acciones VALUE de octubre sin cambios; porcentajes congelados y LATON separado.,,sin cambios
-2026-10-05,ok,acciones_core,CORE,CORE usa exclusivamente las seis escalas permanentes y mantiene maximo 5%.,,sin cambios
+2026-10-07,variacion,grupo_clientes,VALUE,Alta cliente 5551 CARRILLO LOPEZ SANTUSA en grupos 3019 y 2931; sin bajas. 2931 se audita como LATON y no infla LITRO.,1586,+1
+2026-10-07,variacion,acciones_value,VALUE,Las acciones VALUE LITRO y LATA del tablero siguen vigentes. La promo 320241 / accion 3532 de VALUE LATON ya no figura vigente ni programada y se excluye del tablero completo.,,1 accion excluida
+2026-10-07,ok,acciones_core,CORE,CORE usa exclusivamente las seis escalas permanentes y mantiene maximo 5%.,,sin cambios
