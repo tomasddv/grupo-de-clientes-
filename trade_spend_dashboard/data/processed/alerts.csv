@@ -1,4 +1,4 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-10-07,variacion,grupo_clientes,VALUE,Alta cliente 5551 CARRILLO LOPEZ SANTUSA en grupos 3019 y 2931; sin bajas. 2931 se audita como LATON y no infla LITRO.,1586,+1
-2026-10-07,variacion,acciones_value,VALUE,Las acciones VALUE LITRO y LATA del tablero siguen vigentes. La promo 320241 / accion 3532 de VALUE LATON ya no figura vigente ni programada y se excluye del tablero completo.,,1 accion excluida
-2026-10-07,ok,acciones_core,CORE,CORE usa exclusivamente las seis escalas permanentes y mantiene maximo 5%.,,sin cambios
+2026-10-09,variacion,grupo_clientes,VALUE,"Variaron los grupos VALUE. Altas únicas: 955, 5480, 5522, 5525, 5528, 5529, 5530, 5538, 5539, 5541, 5542, 5545, 5546, 5547, 5548, 5549, 5550, 5552, 5553, 5554, 5555 y 5556. Bajas únicas: 4098, 4938, 5044, 5306, 5378 y 5431. El grupo 2931 se audita como LATON y no infla LITRO.",1581,altas y bajas
+2026-10-09,variacion,acciones_value,VALUE,"Las acciones VALUE LITRO y LATA congeladas siguen vigentes. La accion 3532 sigue excluida. Las nuevas 3554 PLAN 1890 710 KT COSTA (13,5% LATON) y 3558 6% LATA 1890 figuran como Todos los clientes y no se suman hasta confirmar alcance.",,2 acciones nuevas excluidas
+2026-10-09,variacion,acciones_core,CORE,CORE mantiene exclusivamente las seis escalas permanentes y maximo 5%. Variaron grupos 3091 y 3093. La nueva accion 3555 EXTRA MAYORISTA CORE LT SUR queda excluida del tablero permanente.,,altas y bajas de clientes
