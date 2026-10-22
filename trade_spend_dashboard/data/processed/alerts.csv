@@ -1,4 +1,4 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-10-20,variacion,grupo_clientes,VALUE/CORE,"El grupo 3098 sumo 16 clientes frente al snapshot anterior: 5480, 5522, 5525, 5528, 5529, 5530, 5538, 5539, 5541, 5542, 5545, 5546, 5547, 5548, 5549 y 5550. Los grupos CORE no variaron.",1585,16 altas / 0 bajas en 3098
-2026-10-20,variacion,acciones_value,VALUE,Las diez acciones VALUE LITRO y LATA congeladas siguen vigentes. El grupo 3098 incorporo 16 clientes; para ellos VALUE LATA pasa a 23% y VALUE LITRO a 15% cuando tambien pertenecen al grupo base 3019. VALUE LATON se mantiene separado.,,16 clientes agregados a 3098
-2026-10-20,variacion,acciones_core,CORE,CORE mantiene exclusivamente las seis escalas permanentes y maximo 5%. Sus grupos no variaron. La accion 3555 EXTRA MAYORISTA CORE LT SUR continúa excluida del tablero permanente.,,sin cambios publicados
+2026-10-22,variacion,grupo_clientes,VALUE,El cliente 5562 fue agregado a los grupos 2931 y 3019. Los demas grupos VALUE y los seis grupos CORE no variaron frente al snapshot del 20/10/2026.,,1 alta neta / 0 bajas
+2026-10-22,variacion,acciones_value,VALUE,"El cliente 5562 queda alcanzado por las acciones del grupo 3019: VALUE LITRO 10% y VALUE LATA 15%. Tambien integra 2931, auditado para VALUE LATON separado.",,cliente 5562 incorporado
+2026-10-22,sin_cambios,acciones_core,CORE,CORE mantiene exclusivamente las seis escalas permanentes y maximo 5%. Sus grupos no variaron.,,sin cambios
