@@ -324,7 +324,11 @@ def render_client_result(result: pd.DataFrame, code: str, action_lookup: dict[st
 
     lines = []
     for _, row in result.iterrows():
-        label = row["segmento"] if row["segmento"] == "CORE" else f"{row['segmento']} {row['subsegmento']}"
+        label = (
+            row["segmento"]
+            if row["segmento"] == "CORE" or row["segmento"] == row["subsegmento"]
+            else f"{row['segmento']} {row['subsegmento']}"
+        )
         pct_text = format_pct(row["porcentaje_total"])
         lines.append(f"{label}: {pct_text}")
         st.markdown(
@@ -347,6 +351,10 @@ def render_client_result(result: pd.DataFrame, code: str, action_lookup: dict[st
 
 
 clients_raw, groups_raw = load_data()
+extras_path = LOCAL_DATA_DIR / "consulta_extra_discounts.csv"
+if extras_path.exists():
+    extras = pd.read_csv(extras_path, dtype=str).fillna("")
+    clients_raw = pd.concat([clients_raw, extras], ignore_index=True)
 if clients_raw.empty:
     st.error("No hay datos de clientes para consultar.")
     st.stop()
