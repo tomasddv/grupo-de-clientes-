@@ -350,6 +350,10 @@ def render_client_result(result: pd.DataFrame, code: str, action_lookup: dict[st
     )
 
 
+st.title("Consulta Trade Spend")
+if st.button("Consultar compradores y no compradores", use_container_width=True, type="primary"):
+    st.switch_page("pages/1_Asistente_comercial.py")
+
 clients_raw, groups_raw = load_data()
 extras_path = LOCAL_DATA_DIR / "consulta_extra_discounts.csv"
 if extras_path.exists():
@@ -364,7 +368,6 @@ groups = prepare_groups(groups_raw)
 action_lookup = build_action_lookup(groups)
 latest_date = clients["fecha"].max() if "fecha" in clients.columns else ""
 
-st.title("Consulta Trade Spend")
 st.caption(f"Actualizado: {latest_date}")
 mascot_src = image_data_uri(MASCOT_PATH)
 st.markdown(
