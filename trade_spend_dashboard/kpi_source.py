@@ -39,7 +39,12 @@ def load_kpi_dataset():
         def download(item):
             name, file_id = item
             target = Path(temp_dir) / name
-            result = gdown.download(id=file_id, output=str(target), quiet=True, use_cookies=False)
+            try:
+                result = gdown.download(id=file_id, output=str(target), quiet=True, use_cookies=False)
+            except Exception as exc:
+                if name in REQUIRED_FILES:
+                    raise RuntimeError(f"No se pudo actualizar {name} desde Drive.") from exc
+                return
             if not result or not target.exists() or target.stat().st_size == 0:
                 if name in REQUIRED_FILES:
                     raise RuntimeError(f"No se pudo actualizar {name} desde Drive.")
