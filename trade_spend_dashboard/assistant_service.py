@@ -5,10 +5,22 @@ import re
 import pandas as pd
 
 from chat_queries import asks_for_unsupported_period, classify_question, find_focus, find_named_entity, find_person, find_sku, is_route_question
+from chat_queries import normalize_text
 from kpi_matching import filter_business_sku_purchase_range, filter_sales_by_focus_purchase_range, last_day_client_activations, non_buyer_clients, sku_options_for_business
 
 
-def answer_question(question: str, dataset: dict, previous: dict | None = None):
+def resolve_promoter(identity: str, promoters: pd.DataFrame) -> str | None:
+    key = normalize_text(identity)
+    if not key:
+        return None
+    matches = promoters[
+        promoters["promotor"].map(normalize_text).eq(key)
+        | promoters["vendedor"].astype(str).map(normalize_text).eq(key)
+    ]["promotor"].dropna().unique()
+    return str(matches[0]) if len(matches) == 1 else None
+
+
+def answer_question(question: str, dataset: dict, previous: dict | None = None, fixed_promoter: str | None = None):
     context = dict(previous or {})
     sales = dataset["ventas"]
     routes = dataset["rutas_grupo"]
@@ -16,8 +28,8 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None):
     end = pd.Timestamp(max(dataset["fechas"]))
     start = end.replace(day=1)
 
-    found_promoter = find_person(question, promoters["promotor"].dropna().unique())
-    found_supervisor = find_person(question, promoters["supervisor"].dropna().unique()) if found_promoter is None else None
+    found_promoter = None if fixed_promoter else find_person(question, promoters["promotor"].dropna().unique())
+    found_supervisor = None if fixed_promoter or found_promoter else find_person(question, promoters["supervisor"].dropna().unique())
     found_route = find_named_entity(question, routes["grupo_ruta"].dropna().unique())
     found_focus = find_focus(question)
     found_sku = None if found_focus else find_sku(question, sku_options_for_business(sales, "Todos"))
@@ -43,6 +55,9 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None):
         context.pop("focus", None)
     if found_intent and found_intent != "route":
         context["intent"] = found_intent
+    if fixed_promoter:
+        context["promoter"] = fixed_promoter
+        context.pop("supervisor", None)
 
     intent = found_intent or context.get("intent") or ("buyers" if found_sku or found_focus else None)
     promoter = context.get("promoter")

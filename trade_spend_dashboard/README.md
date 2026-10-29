@@ -37,7 +37,7 @@ trade_spend_dashboard/consulta_cliente.py
 
 Esta app lee los mismos CSV de Drive y muestra una pantalla simple para celular con CORE, VALUE LITRO y VALUE LATA por cliente.
 
-La pantalla incluye un boton hacia el asistente de compradores y no compradores. El asistente consulta la venta diaria, rutas, auxiliares y plantilla de clientes de Drive con las mismas reglas de SKU/focos del tablero de promotores. Para habilitarlo, configurar `kpi_assistant_access_code` en los secretos de Streamlit Cloud (no en GitHub). Los IDs de los archivos se pueden reemplazar en `[kpi_file_ids]` si cambian. Los datos quedan en cache durante una hora; para pruebas locales se puede usar `KPI_DATA_DIR` y `KPI_ASSISTANT_ACCESS_CODE`.
+La pantalla incluye un boton hacia el asistente de compradores y no compradores. Cada promotor ingresa su nombre completo o codigo de vendedor; las respuestas se limitan a su cartera. Esto identifica la cartera, pero no autentica a la persona: cualquiera que conozca un nombre o codigo puede consultarla. El asistente consulta la venta diaria, rutas, auxiliares y plantilla de clientes de Drive con las mismas reglas de SKU/focos del tablero de promotores. Los IDs de los archivos se pueden reemplazar en `[kpi_file_ids]` si cambian. Los datos quedan en cache durante una hora; para pruebas locales se puede usar `KPI_DATA_DIR`.
 
 ## Drive
 
