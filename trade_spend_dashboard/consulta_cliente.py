@@ -4,6 +4,7 @@ import base64
 import io
 import json
 import re
+import sys
 from pathlib import Path
 
 import gdown
@@ -350,9 +351,18 @@ def render_client_result(result: pd.DataFrame, code: str, action_lookup: dict[st
     )
 
 
+if st.session_state.get("client_view") == "assistant":
+    if str(APP_DIR) not in sys.path:
+        sys.path.insert(0, str(APP_DIR))
+    from assistant_page import render_assistant
+
+    render_assistant()
+    st.stop()
+
 st.title("Consulta Trade Spend")
 if st.button("Consultar compradores y no compradores", use_container_width=True, type="primary"):
-    st.switch_page("pages/1_Asistente_comercial.py")
+    st.session_state["client_view"] = "assistant"
+    st.rerun()
 
 clients_raw, groups_raw = load_data()
 extras_path = LOCAL_DATA_DIR / "consulta_extra_discounts.csv"
