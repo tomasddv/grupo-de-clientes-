@@ -8,7 +8,7 @@ from assistant_service import answer_question, resolve_promoter
 from kpi_source import load_kpi_dataset
 
 
-def render_assistant(load_discounts, data_dir: Path) -> None:
+def render_assistant() -> None:
     if st.button("Volver a consulta de descuentos"):
         st.session_state["client_view"] = "lookup"
         st.rerun()
@@ -59,6 +59,8 @@ def render_assistant(load_discounts, data_dir: Path) -> None:
     prompt = st.chat_input("Preguntá por compradores, no compradores, SKU o focos")
     if prompt:
         try:
+            load_discounts = st.session_state["assistant_discount_loader"]
+            data_dir = Path(st.session_state["assistant_discount_dir"])
             discounts, _ = load_discounts()
             extras_path = data_dir / "consulta_extra_discounts.csv"
             if extras_path.exists():

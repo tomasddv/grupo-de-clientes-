@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import io
+import importlib
 import json
 import re
 import sys
@@ -354,9 +355,14 @@ def render_client_result(result: pd.DataFrame, code: str, action_lookup: dict[st
 if st.session_state.get("client_view") == "assistant":
     if str(APP_DIR) not in sys.path:
         sys.path.insert(0, str(APP_DIR))
-    from assistant_page import render_assistant
+    import assistant_page
+    import assistant_service
 
-    render_assistant(load_data, LOCAL_DATA_DIR)
+    st.session_state["assistant_discount_loader"] = load_data
+    st.session_state["assistant_discount_dir"] = LOCAL_DATA_DIR
+    importlib.reload(assistant_service)
+    importlib.reload(assistant_page)
+    assistant_page.render_assistant()
     st.stop()
 
 st.title("Consulta Trade Spend")
