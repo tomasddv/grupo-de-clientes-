@@ -58,6 +58,26 @@ class AssistantServiceTest(unittest.TestCase):
         self.assertIn("VILLAGRA ENZO", answer)
         self.assertEqual(context["promoter"], "VILLAGRA ENZO")
 
+    def test_discount_query_joins_selected_promoter_cartera(self):
+        discounts = pd.DataFrame([
+            {"cliente": "1", "fantasia": "Local 1", "segmento": "VALUE", "subsegmento": "LITRO", "porcentaje_total": 0.305},
+            {"cliente": "2", "fantasia": "Local 2", "segmento": "VALUE", "subsegmento": "LITRO", "porcentaje_total": 0.30},
+            {"cliente": "4", "fantasia": "Fuera", "segmento": "VALUE", "subsegmento": "LITRO", "porcentaje_total": 0.305},
+        ])
+        answer, detail, context = answer_question(
+            "Qué clientes tienen 30,5% de descuento en latones 710 Value",
+            self.dataset,
+            fixed_promoter="VILLAGRA ENZO",
+            discounts=discounts,
+        )
+        self.assertIn("1 clientes de VILLAGRA ENZO", answer)
+        self.assertIn("no distingue un descuento exclusivo para 710 cc", answer)
+        self.assertEqual(detail["Cliente"].tolist(), ["1"])
+        answer, detail, context = answer_question("y de la ruta de LUJU", self.dataset, context, fixed_promoter="VILLAGRA ENZO", discounts=discounts)
+        self.assertIn("1 clientes de VILLAGRA ENZO en LUJU", answer)
+        answer, _, _ = answer_question("cuantos compraron core", self.dataset, context, fixed_promoter="VILLAGRA ENZO", discounts=discounts)
+        self.assertIn("compraron Core", answer)
+
 
 if __name__ == "__main__":
     unittest.main()

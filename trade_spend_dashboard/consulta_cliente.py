@@ -356,7 +356,7 @@ if st.session_state.get("client_view") == "assistant":
         sys.path.insert(0, str(APP_DIR))
     from assistant_page import render_assistant
 
-    render_assistant()
+    render_assistant(load_data, LOCAL_DATA_DIR)
     st.stop()
 
 st.title("Consulta Trade Spend")

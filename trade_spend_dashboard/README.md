@@ -39,6 +39,8 @@ Esta app lee los mismos CSV de Drive y muestra una pantalla simple para celular 
 
 La pantalla incluye un boton hacia el asistente de compradores y no compradores. Cada promotor ingresa su nombre completo o codigo de vendedor; las respuestas se limitan a su cartera. Esto identifica la cartera, pero no autentica a la persona: cualquiera que conozca un nombre o codigo puede consultarla. El asistente consulta la venta diaria, rutas, auxiliares y plantilla de clientes de Drive con las mismas reglas de SKU/focos del tablero de promotores. Los IDs de los archivos se pueden reemplazar en `[kpi_file_ids]` si cambian. Los datos quedan en cache durante una hora; para pruebas locales se puede usar `KPI_DATA_DIR`.
 
+El asistente tambien cruza la cartera con los porcentajes de Consulta Cliente. Por ejemplo, puede listar quienes tienen 30,5% de descuento en VALUE LITRO. El archivo de descuentos no separa el calibre 710 cc: al preguntar por latones 710, el resultado se identifica como VALUE LITRO/laton, no como un descuento exclusivo para 710.
+
 ## Drive
 
 La carpeta detectada para datos fue:

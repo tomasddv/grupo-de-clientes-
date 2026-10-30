@@ -20,7 +20,53 @@ def resolve_promoter(identity: str, promoters: pd.DataFrame) -> str | None:
     return str(matches[0]) if len(matches) == 1 else None
 
 
-def answer_question(question: str, dataset: dict, previous: dict | None = None, fixed_promoter: str | None = None):
+def discount_request(question: str, context: dict) -> tuple[float, str, str] | None:
+    normalized = normalize_text(question)
+    if re.search(r"\b(compr\w*|venta\w*|vend\w*|activ\w*)\b", normalized) and "descuento" not in normalized:
+        return None
+    match = re.search(r"(?<!\d)(\d{1,2}(?:[,.]\d{1,2})?)\s*%?(?!\d)", normalized)
+    if match and ("descuento" in normalized or "%" in question):
+        context["discount_pct"] = float(match.group(1).replace(",", "."))
+    if "value" in normalized:
+        context["discount_segment"] = "VALUE"
+        if "lata" in normalized and "laton" not in normalized:
+            context["discount_subsegment"] = "LATA"
+        elif re.search(r"\b(litro|laton|710)\b", normalized):
+            context["discount_subsegment"] = "LITRO"
+    elif "core" in normalized:
+        context["discount_segment"] = "CORE"
+        context["discount_subsegment"] = "CORE"
+    if "discount_pct" not in context or "discount_segment" not in context:
+        return None
+    return context["discount_pct"], context["discount_segment"], context.get("discount_subsegment", "")
+
+
+def discount_answer(request: tuple[float, str, str], discounts: pd.DataFrame, scope: pd.DataFrame, owner: str, question: str):
+    percentage, segment, subsegment = request
+    if segment == "VALUE" and not subsegment:
+        return "¿Buscás el descuento de VALUE LITRO o VALUE LATA?", None
+    if discounts is None or discounts.empty:
+        return "No tengo cargada la tabla de descuentos para responder esta consulta.", None
+    rows = discounts.copy()
+    rows["cliente"] = rows["cliente"].astype(str).str.replace(r"\.0$", "", regex=True).str.strip()
+    rows["porcentaje_total"] = pd.to_numeric(rows["porcentaje_total"], errors="coerce")
+    rows = rows[
+        rows["segmento"].astype(str).str.upper().eq(segment)
+        & rows["subsegmento"].astype(str).str.upper().eq(subsegment)
+        & rows["porcentaje_total"].sub(percentage / 100).abs().lt(0.00001)
+    ]
+    cartera = scope[["cliente", "promotor", "grupo_ruta"]].drop_duplicates("cliente").rename(columns={"promotor": "promotor_cartera"}).copy()
+    cartera["cliente"] = cartera["cliente"].astype(str).str.replace(r"\.0$", "", regex=True).str.strip()
+    detail = rows.merge(cartera, on="cliente", how="inner", suffixes=("", "_cartera"))
+    detail = detail[["cliente", "fantasia", "promotor_cartera", "grupo_ruta", "porcentaje_total"]].drop_duplicates("cliente")
+    detail = detail.rename(columns={"cliente": "Cliente", "fantasia": "Nombre fantasía", "promotor_cartera": "Promotor", "grupo_ruta": "Grupo ruta", "porcentaje_total": "Descuento"})
+    detail["Descuento"] = detail["Descuento"].map(lambda value: f"{value * 100:.2f}%")
+    label = f"{segment} {subsegment}".strip()
+    note = " La fuente no distingue un descuento exclusivo para 710 cc." if re.search(r"\b710\b", normalize_text(question)) else ""
+    return f"{len(detail):,} clientes de {owner} tienen {percentage:g}% de descuento en {label}.{note}", detail
+
+
+def answer_question(question: str, dataset: dict, previous: dict | None = None, fixed_promoter: str | None = None, discounts: pd.DataFrame | None = None):
     context = dict(previous or {})
     sales = dataset["ventas"]
     routes = dataset["rutas_grupo"]
@@ -73,6 +119,11 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
     owner = promoter or supervisor or "todas las rutas"
     if route:
         owner += f" en {route}"
+
+    discount = discount_request(question, context)
+    if discount:
+        answer, detail = discount_answer(discount, discounts, scope, owner, question)
+        return answer, detail, context
 
     if asks_for_unsupported_period(question, end.month):
         return "Por ahora puedo consultar el mes de la venta diaria; los cierres anteriores están en el tablero de KPIs.", None, context

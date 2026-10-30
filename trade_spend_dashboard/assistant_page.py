@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import streamlit as st
+import pandas as pd
+from pathlib import Path
 
 from assistant_service import answer_question, resolve_promoter
 from kpi_source import load_kpi_dataset
 
 
-def render_assistant() -> None:
+def render_assistant(load_discounts, data_dir: Path) -> None:
     if st.button("Volver a consulta de descuentos"):
         st.session_state["client_view"] = "lookup"
         st.rerun()
@@ -56,8 +58,16 @@ def render_assistant() -> None:
 
     prompt = st.chat_input("Preguntá por compradores, no compradores, SKU o focos")
     if prompt:
+        try:
+            discounts, _ = load_discounts()
+            extras_path = data_dir / "consulta_extra_discounts.csv"
+            if extras_path.exists():
+                discounts = pd.concat([discounts, pd.read_csv(extras_path, dtype=str).fillna("")], ignore_index=True)
+        except Exception as exc:
+            st.error(f"No se pudieron cargar los descuentos: {exc}")
+            st.stop()
         answer, detail, context = answer_question(
-            prompt, dataset, st.session_state.get("kpi_assistant_context"), fixed_promoter=selected
+            prompt, dataset, st.session_state.get("kpi_assistant_context"), fixed_promoter=selected, discounts=discounts
         )
         st.session_state["kpi_assistant_context"] = context
         st.session_state.setdefault("kpi_assistant_history", []).append((prompt, answer, detail))
