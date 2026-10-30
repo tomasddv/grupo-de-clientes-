@@ -20,9 +20,11 @@ def resolve_promoter(identity: str, promoters: pd.DataFrame) -> str | None:
     return str(matches[0]) if len(matches) == 1 else None
 
 
-def discount_request(question: str, context: dict) -> tuple[float, str, str] | None:
+def discount_request(question: str, context: dict, route_followup: bool = False) -> tuple[float, str, str] | None:
     normalized = normalize_text(question)
     if re.search(r"\b(compr\w*|venta\w*|vend\w*|activ\w*)\b", normalized) and "descuento" not in normalized:
+        return None
+    if not ("descuento" in normalized or "%" in question or route_followup or re.search(r"\b(value|core|laton\w*|litro|lata)\b", normalized)):
         return None
     match = re.search(r"(?<!\d)(\d{1,2}(?:[,.]\d{1,2})?)\s*%?(?!\d)", normalized)
     if match and ("descuento" in normalized or "%" in question):
@@ -105,7 +107,7 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
         context["promoter"] = fixed_promoter
         context.pop("supervisor", None)
 
-    intent = found_intent or context.get("intent") or ("buyers" if found_sku or found_focus else None)
+    intent = found_intent or (context.get("intent") if found_route or found_sku or found_focus else None)
     promoter = context.get("promoter")
     supervisor = context.get("supervisor")
     route = context.get("route")
@@ -120,15 +122,20 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
     if route:
         owner += f" en {route}"
 
-    discount = discount_request(question, context)
+    discount_signal = "descuento" in normalize_text(question) or "%" in question
+    discount = discount_request(question, context, route_followup=bool(found_route and "discount_pct" in context))
     if discount:
         answer, detail = discount_answer(discount, discounts, scope, owner, question)
         return answer, detail, context
+    if discount_signal:
+        if "discount_pct" not in context:
+            return "¿Qué porcentaje de descuento querés consultar?", None, context
+        return "¿Es descuento de CORE, VALUE LITRO o VALUE LATA? No puedo atribuir un descuento exclusivo al calibre 710 cc.", None, context
 
     if asks_for_unsupported_period(question, end.month):
         return "Por ahora puedo consultar el mes de la venta diaria; los cierres anteriores están en el tablero de KPIs.", None, context
     if intent is None:
-        return "Preguntame, por ejemplo: «¿Cuántos clientes de Pure Gold tiene Nicastro Lucas?». También puedo listar no compradores, rutas y activaciones del último día.", None, context
+        return "No entendí qué querés consultar. Podés preguntarme por compras de un producto, clientes no compradores o un porcentaje de descuento de CORE, VALUE LITRO o VALUE LATA.", None, context
     if intent == "route":
         if not promoter and not supervisor:
             return "¿De qué promotor o supervisor querés saber las rutas?", None, context

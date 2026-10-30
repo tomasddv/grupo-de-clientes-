@@ -78,6 +78,15 @@ class AssistantServiceTest(unittest.TestCase):
         answer, _, _ = answer_question("cuantos compraron core", self.dataset, context, fixed_promoter="VILLAGRA ENZO", discounts=discounts)
         self.assertIn("compraron Core", answer)
 
+    def test_ambiguous_discount_does_not_repeat_previous_sales(self):
+        _, _, context = answer_question("Cuantos clientes compraron", self.dataset, fixed_promoter="VILLAGRA ENZO")
+        answer, detail, context = answer_question("5% en laton", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("¿Es descuento de CORE, VALUE LITRO o VALUE LATA?", answer)
+        self.assertIsNone(detail)
+        answer, detail, _ = answer_question("no se que poner", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("No entendí qué querés consultar", answer)
+        self.assertIsNone(detail)
+
 
 if __name__ == "__main__":
     unittest.main()
