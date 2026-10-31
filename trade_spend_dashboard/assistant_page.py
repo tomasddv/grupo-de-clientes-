@@ -56,7 +56,7 @@ def render_assistant() -> None:
     last_date = max(dataset["fechas"])
     st.caption(f"Venta diaria actualizada hasta {last_date:%Y-%m-%d}")
 
-    prompt = st.chat_input("Preguntá por compradores, no compradores, SKU o focos")
+    prompt = st.chat_input("Preguntá por clientes, compras, SKU o descuentos")
     if prompt:
         try:
             load_discounts = st.session_state["assistant_discount_loader"]

@@ -68,6 +68,46 @@ def discount_answer(request: tuple[float, str, str], discounts: pd.DataFrame, sc
     return f"{len(detail):,} clientes de {owner} tienen {percentage:g}% de descuento en {label}.{note}", detail
 
 
+def customer_purchase_answer(question: str, sales: pd.DataFrame, scope: pd.DataFrame, start: pd.Timestamp, end: pd.Timestamp, context: dict):
+    normalized = normalize_text(question)
+    if not re.search(r"\b(ultima compra|cuando compro|que compro|si compro|compro)\b", normalized):
+        return None
+
+    explicit_code = re.search(r"\bcliente\s+(?:nro\s+)?(\d+)\b", normalized)
+    code_match = re.search(r"(?<!\d)\d{3,}(?!\d)", normalized)
+    code = explicit_code.group(1) if explicit_code else (code_match.group() if code_match else None)
+    if code is None:
+        names = scope["nombre_fantasia"].dropna().astype(str).unique()
+        name = find_named_entity(question, [value for value in names if len(normalize_text(value)) >= 4])
+        if name:
+            matches = scope[scope["nombre_fantasia"].map(normalize_text).eq(normalize_text(name))]
+            codes = matches["cliente"].astype(str).unique()
+            if len(codes) > 1:
+                detail = matches[["cliente", "nombre_fantasia", "razon_social"]].drop_duplicates("cliente")
+                return "Encontré más de un cliente con ese nombre de fantasía. Indicame el código.", detail
+            code = str(codes[0])
+        elif re.search(r"\b(y|su|ese|esa)\b", normalized):
+            code = context.get("client_code")
+    if code is None:
+        return "¿De qué cliente querés saberlo? Pasame su código o nombre de fantasía.", None
+
+    customer = scope[scope["cliente"].astype(str).eq(code)]
+    if customer.empty:
+        return f"No encontré al cliente {code} en tu cartera. Revisá el código o el nombre de fantasía.", None
+    context["client_code"] = code
+    label = str(customer.iloc[0].get("nombre_fantasia") or customer.iloc[0].get("razon_social") or code)
+    purchases = sales[sales["cliente"].astype(str).eq(code) & sales["fecha"].between(start, end)].copy()
+    period = f"entre el {start.date()} y el {end.date()}"
+    if purchases.empty:
+        return f"No hay compras registradas para {code} - {label} {period} en la venta diaria disponible. No puedo afirmar que nunca haya comprado.", None
+
+    latest = purchases["fecha"].max()
+    latest_rows = purchases[purchases["fecha"].eq(latest)]
+    detail = latest_rows[["articulo_codigo", "articulo_descripcion", "cantidad"]].drop_duplicates() if {"articulo_codigo", "articulo_descripcion", "cantidad"}.issubset(latest_rows.columns) else latest_rows[["articulo_descripcion"]].drop_duplicates()
+    detail = detail.rename(columns={"articulo_codigo": "SKU", "articulo_descripcion": "Artículo", "cantidad": "Cantidad"})
+    return f"Sí, {code} - {label} compró {period}. Su última compra registrada fue el {latest.date()}; estos son los artículos de ese día.", detail
+
+
 def answer_question(question: str, dataset: dict, previous: dict | None = None, fixed_promoter: str | None = None, discounts: pd.DataFrame | None = None):
     context = dict(previous or {})
     sales = dataset["ventas"]
@@ -121,6 +161,10 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
     owner = promoter or supervisor or "todas las rutas"
     if route:
         owner += f" en {route}"
+
+    customer_answer = customer_purchase_answer(question, sales, scope, start, end, context)
+    if customer_answer is not None:
+        return *customer_answer, context
 
     discount_signal = "descuento" in normalize_text(question) or "%" in question
     discount = discount_request(question, context, route_followup=bool(found_route and "discount_pct" in context))

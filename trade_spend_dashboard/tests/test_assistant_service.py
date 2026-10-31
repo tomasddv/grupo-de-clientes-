@@ -87,6 +87,32 @@ class AssistantServiceTest(unittest.TestCase):
         self.assertIn("No entendí qué querés consultar", answer)
         self.assertIsNone(detail)
 
+    def test_customer_purchase_by_code_and_fantasy_name(self):
+        self.dataset["rutas_grupo"].loc[self.dataset["rutas_grupo"]["cliente"].eq("1"), ["cliente", "nombre_fantasia"]] = ["101063", "ARENAS TRAINING"]
+        sales = self.dataset["ventas"]
+        sales.loc[sales["cliente"].eq("1"), "cliente"] = "101063"
+        sales["articulo_codigo"] = ["900399", "123"]
+        sales["cantidad"] = [2, 1]
+        answer, detail, context = answer_question("Compró el cliente 101063?", self.dataset, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("última compra registrada fue el 2026-10-29", answer)
+        self.assertEqual(detail["SKU"].tolist(), ["900399"])
+        answer, detail, context = answer_question("Cuál fue la última compra de Arenas Training", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("101063 - ARENAS TRAINING", answer)
+        answer, _, _ = answer_question("Y cuál fue su última compra", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("101063 - ARENAS TRAINING", answer)
+
+    def test_customer_without_purchase_is_limited_to_loaded_period(self):
+        answer, detail, _ = answer_question("Compró el cliente 3?", self.dataset, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("No hay compras registradas", answer)
+        self.assertIn("No puedo afirmar que nunca haya comprado", answer)
+        self.assertIsNone(detail)
+
+    def test_ambiguous_fantasy_name_requests_customer_code(self):
+        self.dataset["rutas_grupo"].loc[self.dataset["rutas_grupo"]["cliente"].isin(["1", "2"]), "nombre_fantasia"] = "ARENAS TRAINING"
+        answer, detail, _ = answer_question("Compró Arenas Training?", self.dataset, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("más de un cliente", answer)
+        self.assertEqual(len(detail), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

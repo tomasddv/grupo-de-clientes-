@@ -41,6 +41,8 @@ La pantalla incluye un boton hacia el asistente de compradores y no compradores.
 
 El asistente tambien cruza la cartera con los porcentajes de Consulta Cliente. Por ejemplo, puede listar quienes tienen 30,5% de descuento en VALUE LITRO. El archivo de descuentos no separa el calibre 710 cc: al preguntar por latones 710, el resultado se identifica como VALUE LITRO/laton, no como un descuento exclusivo para 710.
 
+Tambien permite preguntar si un cliente de la cartera compro y cual fue su ultima compra, usando el codigo o el nombre de fantasia. Busca en la venta diaria disponible e informa el periodo verificado; si no hay compra en ese periodo, no afirma que el cliente nunca compro. Los nombres de fantasia repetidos requieren indicar el codigo.
+
 ## Drive
 
 La carpeta detectada para datos fue:
