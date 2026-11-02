@@ -1,4 +1,2 @@
 ﻿fecha,estado,tipo,segmento,detalle,clientes_actual,variacion
-2026-10-22,variacion,grupo_clientes,VALUE,El cliente 5562 fue agregado a los grupos 2931 y 3019. Los demas grupos VALUE y los seis grupos CORE no variaron frente al snapshot del 20/10/2026.,,1 alta neta / 0 bajas
-2026-10-22,variacion,acciones_value,VALUE,"El cliente 5562 queda alcanzado por las acciones del grupo 3019: VALUE LITRO 10% y VALUE LATA 15%. Tambien integra 2931, auditado para VALUE LATON separado.",,cliente 5562 incorporado
-2026-10-22,sin_cambios,acciones_core,CORE,CORE mantiene exclusivamente las seis escalas permanentes y maximo 5%. Sus grupos no variaron.,,sin cambios
+2026-11-02,ACTUALIZADO,ACCIONES NOVIEMBRE,CORE / VALUE,Snapshot sincronizado con la auditoría completa de acciones comerciales.,1672,0
