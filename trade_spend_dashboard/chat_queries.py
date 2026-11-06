@@ -32,6 +32,16 @@ def find_person(question: str, names) -> str | None:
     if exact:
         return exact
     normalized = normalize_text(question)
+    question_tokens = set(re.findall(r"\w+", normalized))
+    full_matches = [
+        name for name in names
+        if len(normalize_text(name).split()) >= 2
+        and set(normalize_text(name).split()).issubset(question_tokens)
+    ]
+    if len(full_matches) == 1:
+        return full_matches[0]
+    if len(full_matches) > 1:
+        return None
     token_to_names = {}
     for name in names:
         for token in set(normalize_text(name).split()):

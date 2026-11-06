@@ -13,9 +13,11 @@ def resolve_promoter(identity: str, promoters: pd.DataFrame) -> str | None:
     key = normalize_text(identity)
     if not key:
         return None
+    name_tokens = sorted(key.split())
     matches = promoters[
         promoters["promotor"].map(normalize_text).eq(key)
         | promoters["vendedor"].astype(str).map(normalize_text).eq(key)
+        | promoters["promotor"].map(lambda name: sorted(normalize_text(name).split()) == name_tokens)
     ]["promotor"].dropna().unique()
     return str(matches[0]) if len(matches) == 1 else None
 

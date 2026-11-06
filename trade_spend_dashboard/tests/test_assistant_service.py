@@ -7,6 +7,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from assistant_service import answer_question, resolve_promoter
+from chat_queries import find_person
 
 
 class AssistantServiceTest(unittest.TestCase):
@@ -45,7 +46,21 @@ class AssistantServiceTest(unittest.TestCase):
         promoters = self.dataset["promotores"]
         self.assertEqual(resolve_promoter("61", promoters), "VILLAGRA ENZO")
         self.assertEqual(resolve_promoter("villagra enzo", promoters), "VILLAGRA ENZO")
+        self.assertEqual(resolve_promoter("Enzo Villagra", promoters), "VILLAGRA ENZO")
         self.assertIsNone(resolve_promoter("desconocido", promoters))
+
+    def test_promoter_name_order_in_questions(self):
+        for name in ("Villagra Enzo", "Enzo Villagra"):
+            answer, _, _ = answer_question(f"Cuántos clientes compraron {name}", self.dataset)
+            self.assertIn("2 clientes de VILLAGRA ENZO", answer)
+
+    def test_full_reordered_name_wins_over_shared_first_name(self):
+        names = ["VILLAGRA ENZO", "GARCIA ENZO", "GIMENEZ JUAN MANUEL"]
+        self.assertEqual(find_person("compras de Enzo Villagra", names), "VILLAGRA ENZO")
+        self.assertEqual(find_person("compras de Manuel Juan Gimenez", names), "GIMENEZ JUAN MANUEL")
+        self.assertIsNone(find_person("compras de Enzo", names))
+        promoters = pd.DataFrame({"promotor": names[:2], "vendedor": ["61", "62"]})
+        self.assertIsNone(resolve_promoter("Enzo", promoters))
 
     def test_fixed_promoter_cannot_be_changed_by_question(self):
         other = pd.DataFrame([{"vendedor": "99", "promotor": "NICASTRO LUCAS", "supervisor": "OTRO"}])
