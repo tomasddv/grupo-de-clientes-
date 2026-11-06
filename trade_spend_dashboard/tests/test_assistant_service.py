@@ -116,6 +116,28 @@ class AssistantServiceTest(unittest.TestCase):
             self.assertIn("MICHELOB ULTRA TODOS", answer)
             self.assertEqual(detail["Cliente"].tolist(), ["2"])
 
+    def test_chat_separates_269_from_other_calibers(self):
+        sales = self.dataset["ventas"].copy()
+        sales.loc[0, ["marca", "producto", "articulo_descripcion", "sku_search_text", "articulo_codigo"]] = [
+            "QUILMES CLASICA", "QUILMES 269", "QUILMES CLASICA CAN 4X6 269CC", "QUILMES CLASICA CAN 4X6 269CC", "63068"
+        ]
+        sales.loc[1, ["marca", "producto", "articulo_descripcion", "sku_search_text", "articulo_codigo"]] = [
+            "QUILMES", "QUILMES 473", "QUILMES CAN 4X6 473CC", "QUILMES CAN 4X6 473CC", "2218"
+        ]
+        combo = sales.iloc[[0]].copy()
+        combo.loc[:, ["cliente", "cliente_nombre", "marca", "producto", "articulo_descripcion", "sku_search_text", "articulo_codigo"]] = [
+            "3", "Cliente 3", "", "", "COMBO BRAH&QUIL 269 CC SUR", "COMBO BRAH&QUIL 269 CC SUR", "900473"
+        ]
+        self.dataset["ventas"] = pd.concat([sales, combo], ignore_index=True)
+        for question, label, customers in (
+            ("compradores de 269 todos", "269 TODOS", {"1", "3"}),
+            ("compradores de quilmes 269", "QUILMES 269", {"1", "3"}),
+            ("compradores de quilmes 473", "QUILMES 473", {"2"}),
+        ):
+            answer, detail, _ = answer_question(question, self.dataset, fixed_promoter="VILLAGRA ENZO")
+            self.assertIn(label, answer)
+            self.assertEqual(set(detail["Cliente"]), customers)
+
     def test_unrecognized_product_does_not_reuse_previous_one(self):
         _, _, context = answer_question("clientes compradores de redbull", self.dataset, fixed_promoter="VILLAGRA ENZO")
         answer, detail, _ = answer_question("clientes compradores de producto desconocido", self.dataset, context, fixed_promoter="VILLAGRA ENZO")

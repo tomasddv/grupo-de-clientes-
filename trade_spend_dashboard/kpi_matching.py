@@ -183,6 +183,8 @@ def sku_options_for_business(ventas_df: pd.DataFrame, business: str):
         special_options.append("PEPSI BLACK TODOS")
     if sin_alcohol_mask(scoped).any():
         special_options.append("SIN ALCOHOL TODOS")
+    if business in ("Todos", "CZA"):
+        special_options.append("269 TODOS")
     special_options.extend(dynamic_combo_promo_options(ventas_df if business != "Todos" else scoped))
     values = list(dict.fromkeys(special_options + values))
     return ["Todos"] + values
@@ -224,13 +226,49 @@ def selected_combo_descriptions(selected_skus: list[str]):
     return descriptions
 
 
+CALIBERS = {"250", "269", "275", "330", "354", "355", "473", "500", "710", "1000", "1500", "2000", "3000"}
+
+
+def brand_caliber_selection(value: str) -> tuple[str, str] | None:
+    match = re.fullmatch(r"(.+?)\s+(\d{3,4})", value.upper().strip())
+    if match and match.group(2) in CALIBERS and match.group(1) != "269":
+        return match.group(1), match.group(2)
+    return None
+
+
+def brand_caliber_mask(ventas_df: pd.DataFrame, brand_name: str, caliber: str) -> pd.Series:
+    brand = ventas_df.get("marca", pd.Series("", index=ventas_df.index)).fillna("").str.upper()
+    unified = ventas_df.get("marca_unificada", pd.Series("", index=ventas_df.index)).fillna("").str.upper()
+    description = ventas_df.get("articulo_descripcion", pd.Series("", index=ventas_df.index)).fillna("").str.upper()
+    caliber_columns = [description]
+    for column in ("calibre", "calibre_unificado"):
+        caliber_columns.append(ventas_df.get(column, pd.Series("", index=ventas_df.index)).fillna("").str.upper())
+    caliber_text = caliber_columns[0]
+    for column in caliber_columns[1:]:
+        caliber_text = caliber_text + " " + column
+    has_caliber = caliber_text.str.contains(rf"(?<!\d){re.escape(caliber)}(?!\d)", regex=True, na=False)
+    exact_brand = rf"\b{re.escape(brand_name)}\b"
+    base = brand.str.contains(exact_brand, regex=True, na=False) | unified.str.contains(exact_brand, regex=True, na=False)
+    combo_aliases = {
+        "BRAHMA": r"BRAHMA|BRAH|\bBR\b",
+        "QUILMES": r"QUILMES|QUIL|\bQC\b",
+        "MICHELOB ULTRA": r"MICHELOB|MICHE",
+        "RED BULL": r"RED\s*BULL|REDBULL|\bRB\b",
+        "PEPSI BLACK": r"PEPSI\s*BLACK|PEP\s*BLACK|PEP\s*BL|COMBO\s*BLACK",
+    }
+    combo_pattern = combo_aliases.get(brand_name, exact_brand)
+    combo = combo_promo_marker_mask(description) & description.str.contains(combo_pattern, regex=True, na=False)
+    return has_caliber & (base | combo)
+
+
 def sku_selection_mask(ventas_df: pd.DataFrame, selected_skus: list[str]):
     product = ventas_df["producto"].fillna("")
     brand = ventas_df["marca"].fillna("").str.upper()
     unified_brand = ventas_df.get("marca_unificada", pd.Series("", index=ventas_df.index)).fillna("").str.upper()
     search_text = ventas_df.get("sku_search_text", pd.Series("", index=ventas_df.index)).fillna("").str.upper()
     selected_upper = {str(sku).upper() for sku in selected_skus}
-    virtual_prefixes = ("PURE GOLD", "GATORADE", "PEPSI BLACK", "SIN ALCOHOL")
+    virtual_prefixes = ("PURE GOLD", "GATORADE", "PEPSI BLACK", "SIN ALCOHOL", "269 TODOS")
+    calibrated = [selection for sku in selected_skus if (selection := brand_caliber_selection(str(sku)))]
     combo_descriptions = selected_combo_descriptions(selected_skus)
     combo_option_prefix_upper = COMBO_OPTION_PREFIX.upper()
     selected_upper_without_combos = {sku for sku in selected_upper if not sku.startswith(combo_option_prefix_upper)}
@@ -243,6 +281,7 @@ def sku_selection_mask(ventas_df: pd.DataFrame, selected_skus: list[str]):
         sku
         for sku in selected_skus
         if not str(sku).upper().startswith(virtual_prefixes)
+        and brand_caliber_selection(str(sku)) is None
         and not str(sku).upper().endswith(" TODOS")
         and not str(sku).upper().startswith(COMBO_OPTION_PREFIX)
     ]
@@ -304,7 +343,7 @@ def sku_selection_mask(ventas_df: pd.DataFrame, selected_skus: list[str]):
     )
     latones_selected = any(re.search(r"LATON|LATONES|\b710\b|L710", sku) for sku in selected_upper_without_combos)
     for sku in selected_upper_without_combos:
-        if sku.startswith(virtual_prefixes):
+        if sku.startswith(virtual_prefixes) or brand_caliber_selection(sku):
             continue
         if is_pepsi_black_alias(sku):
             continue
@@ -335,6 +374,12 @@ def sku_selection_mask(ventas_df: pd.DataFrame, selected_skus: list[str]):
 
     if "SIN ALCOHOL TODOS" in selected_upper_without_combos:
         mask = mask | sin_alcohol_mask(ventas_df)
+
+    for brand_name, caliber in calibrated:
+        mask = mask | brand_caliber_mask(ventas_df, brand_name, caliber)
+    if "269 TODOS" in selected_upper_without_combos:
+        codes = ventas_df.get("articulo_codigo", pd.Series("", index=ventas_df.index)).fillna("").astype(str)
+        mask = mask | brand_caliber_mask(ventas_df, "BRAHMA", "269") | brand_caliber_mask(ventas_df, "QUILMES", "269") | codes.eq("900473")
 
     if latones_selected:
         mask = mask | latones_combo_mask(search_text)

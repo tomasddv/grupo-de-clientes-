@@ -6,7 +6,7 @@ import pandas as pd
 
 from chat_queries import asks_for_unsupported_period, classify_question, find_focus, find_named_entity, find_person, find_sku, is_route_question
 from chat_queries import normalize_text
-from kpi_matching import filter_business_sku_purchase_range, filter_sales_by_focus_purchase_range, last_day_client_activations, non_buyer_clients, sku_options_for_business
+from kpi_matching import brand_caliber_selection, filter_business_sku_purchase_range, filter_sales_by_focus_purchase_range, last_day_client_activations, non_buyer_clients, sku_options_for_business
 
 
 def resolve_promoter(identity: str, promoters: pd.DataFrame) -> str | None:
@@ -143,8 +143,10 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
     found_promoter = None if fixed_promoter else find_person(question, promoters["promotor"].dropna().unique())
     found_supervisor = None if fixed_promoter or found_promoter else find_person(question, promoters["supervisor"].dropna().unique())
     found_route = find_named_entity(question, routes["grupo_ruta"].dropna().unique())
-    found_focus = find_focus(question)
-    found_sku = None if found_focus else find_sku(question, sku_options_for_business(sales, "Todos"))
+    candidate_sku = find_sku(question, sku_options_for_business(sales, "Todos"))
+    calibrated_sku = candidate_sku and candidate_sku != "LATONES 710" and brand_caliber_selection(candidate_sku)
+    found_focus = None if calibrated_sku or candidate_sku == "269 TODOS" else find_focus(question)
+    found_sku = None if found_focus else candidate_sku
     found_intent = "route" if is_route_question(question) else classify_question(question)
     if found_intent is None and (found_focus or found_sku) and re.search(r"\b(clientes|cuantos|cuantas|quienes)\b", normalize_text(question)):
         found_intent = "buyers"

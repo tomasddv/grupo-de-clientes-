@@ -73,6 +73,29 @@ def is_route_question(question: str) -> bool:
 
 def find_sku(question: str, options) -> str | None:
     normalized = normalize_text(question)
+    caliber_match = re.search(r"(?<!\d)(250|269|275|330|354|355|473|500|710|1000|1500|2000|3000)\s*(?:cc|ml)?(?!\d)", normalized)
+    caliber = caliber_match.group(1) if caliber_match else None
+    if caliber:
+        if re.search(r"\bpure\s*gold\b", normalized) and caliber in {"330", "473"}:
+            return "PURE GOLD 330/PORRON" if caliber == "330" else "PURE GOLD 473 LATA"
+        if re.search(r"\bred[\s-]*bu+l+\b|\br[\s-]*b\b", normalized):
+            return f"RED BULL {caliber}"
+        if re.search(r"\bmich(?:e|a)?lob\b", normalized):
+            return f"MICHELOB ULTRA {caliber}"
+        if re.search(r"\bpepsi\s*black\b|\bpep\s*bl\b", normalized):
+            return f"PEPSI BLACK {caliber}"
+        brands = [option[:-6].strip() for option in options if option.endswith(" TODOS") and option != "269 TODOS"]
+        matched = [brand for brand in brands if re.search(r"(?<!\w)" + re.escape(normalize_text(brand)) + r"(?!\w)", normalized)]
+        if matched:
+            return f"{max(matched, key=len)} {caliber}"
+        if re.search(r"\bqulmes\b|\bkilmes\b", normalized):
+            return f"QUILMES {caliber}"
+        family = {normalize_text(brand).split()[0] for brand in brands if brand and len(normalize_text(brand).split()[0]) >= 4}
+        found_family = [token for token in family if re.search(r"(?<!\w)" + re.escape(token) + r"(?!\w)", normalized)]
+        if len(found_family) == 1:
+            return f"{found_family[0].upper()} {caliber}"
+        if caliber == "269" and re.search(r"\b269\b|\b269cc\b", normalized):
+            return "269 TODOS"
     if re.search(r"\bred[\s-]*bu+l+\b|\br[\s-]*b\b", normalized):
         return "RED BULL TODOS"
     if re.search(r"\bmich(?:e|a)?lob\b", normalized):
