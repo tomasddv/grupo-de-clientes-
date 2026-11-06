@@ -83,9 +83,42 @@ class AssistantServiceTest(unittest.TestCase):
         answer, detail, context = answer_question("5% en laton", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
         self.assertIn("¿Es descuento de CORE, VALUE LITRO o VALUE LATA?", answer)
         self.assertIsNone(detail)
+
+    def test_red_bull_and_michelob_aliases(self):
+        self.dataset["ventas"].loc[0, ["marca", "producto", "articulo_descripcion", "sku_search_text", "division"]] = [
+            "RED BULL", "RED BULL CAN 250", "RED BULL CAN 250", "RED BULL CAN 250", "BEB ENERGIZANTES"
+        ]
+        self.dataset["ventas"].loc[1, ["marca", "producto", "articulo_descripcion", "sku_search_text"]] = [
+            "MICHELOB ULTRA", "MICHELOB 710CC", "MICHELOB 710CC", "MICHELOB 710CC"
+        ]
+        for question in ("clientes compradores de red bull", "clientes compradores de redbull", "clientes compradores de red-bul", "clientes compradores de RB"):
+            answer, detail, _ = answer_question(question, self.dataset, fixed_promoter="VILLAGRA ENZO")
+            self.assertIn("1 clientes", answer)
+            self.assertIn("RED BULL TODOS", answer)
+            self.assertEqual(detail["Cliente"].tolist(), ["1"])
+        for question in ("clientes compradores de michelob", "clientes compradores de michelob ultra"):
+            answer, detail, _ = answer_question(question, self.dataset, fixed_promoter="VILLAGRA ENZO")
+            self.assertIn("MICHELOB ULTRA TODOS", answer)
+            self.assertEqual(detail["Cliente"].tolist(), ["2"])
+
+    def test_unrecognized_product_does_not_reuse_previous_one(self):
+        _, _, context = answer_question("clientes compradores de redbull", self.dataset, fixed_promoter="VILLAGRA ENZO")
+        answer, detail, _ = answer_question("clientes compradores de producto desconocido", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("No identifiqué el producto", answer)
+        self.assertIsNone(detail)
         answer, detail, _ = answer_question("no se que poner", self.dataset, context, fixed_promoter="VILLAGRA ENZO")
         self.assertIn("No entendí qué querés consultar", answer)
         self.assertIsNone(detail)
+
+    def test_vague_customer_question_does_not_invent_purchase_intent(self):
+        answer, detail, _ = answer_question("clientes de mi zona", self.dataset, fixed_promoter="VILLAGRA ENZO")
+        self.assertIn("No entendí qué querés consultar", answer)
+        self.assertIsNone(detail)
+
+    def test_recognized_product_implies_buyers_when_asking_for_customers(self):
+        answer, detail, _ = answer_question("Cuántos clientes de Brahma tiene Enzo", self.dataset)
+        self.assertIn("BRAHMA TODOS", answer)
+        self.assertEqual(detail["Cliente"].tolist(), ["2"])
 
     def test_customer_purchase_by_code_and_fantasy_name(self):
         self.dataset["rutas_grupo"].loc[self.dataset["rutas_grupo"]["cliente"].eq("1"), ["cliente", "nombre_fantasia"]] = ["101063", "ARENAS TRAINING"]

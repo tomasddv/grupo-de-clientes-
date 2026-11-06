@@ -20,6 +20,28 @@ def resolve_promoter(identity: str, promoters: pd.DataFrame) -> str | None:
     return str(matches[0]) if len(matches) == 1 else None
 
 
+def has_unknown_product(question: str, sku: str | None, focus: str | None, people: tuple[str | None, ...]) -> bool:
+    if sku or focus:
+        return False
+    normalized = normalize_text(question)
+    match = re.search(
+        r"\b(?:clientes(?: compradores)?|compradores|compraron|compras?)\s+(?:de|del)\s+(.+)",
+        normalized,
+    )
+    if match is None:
+        match = re.search(r"\bcompraron\s+([a-z][\w-]+)", normalized)
+    if match is None:
+        return False
+    subject = match.group(1).strip()
+    if subject.split()[0] in {"la", "el", "mi", "su", "todos", "cualquier", "hoy", "ayer", "en"}:
+        return False
+    return not any(
+        subject.startswith(normalize_text(person))
+        or subject.split()[0] in normalize_text(person).split()
+        for person in people if person
+    )
+
+
 def discount_request(question: str, context: dict, route_followup: bool = False) -> tuple[float, str, str] | None:
     normalized = normalize_text(question)
     if re.search(r"\b(compr\w*|venta\w*|vend\w*|activ\w*)\b", normalized) and "descuento" not in normalized:
@@ -122,6 +144,8 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
     found_focus = find_focus(question)
     found_sku = None if found_focus else find_sku(question, sku_options_for_business(sales, "Todos"))
     found_intent = "route" if is_route_question(question) else classify_question(question)
+    if found_intent is None and (found_focus or found_sku) and re.search(r"\b(clientes|cuantos|cuantas|quienes)\b", normalize_text(question)):
+        found_intent = "buyers"
 
     if found_promoter and found_promoter != context.get("promoter"):
         context.pop("route", None)
@@ -178,8 +202,10 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
 
     if asks_for_unsupported_period(question, end.month):
         return "Por ahora puedo consultar el mes de la venta diaria; los cierres anteriores están en el tablero de KPIs.", None, context
+    if has_unknown_product(question, found_sku, found_focus, (found_promoter, found_supervisor, fixed_promoter)):
+        return "No identifiqué el producto de tu pregunta. Escribí la marca o variedad de otra manera para poder consultarlo.", None, context
     if intent is None:
-        return "No entendí qué querés consultar. Podés preguntarme por compras de un producto, clientes no compradores o un porcentaje de descuento de CORE, VALUE LITRO o VALUE LATA.", None, context
+        return f"No entendí qué querés consultar sobre {owner}. Podés preguntarme por compras de un producto, clientes no compradores o un porcentaje de descuento de CORE, VALUE LITRO o VALUE LATA.", None, context
     if intent == "route":
         if not promoter and not supervisor:
             return "¿De qué promotor o supervisor querés saber las rutas?", None, context

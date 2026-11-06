@@ -18,8 +18,6 @@ def classify_question(question: str) -> str | None:
         return "last_activations"
     if re.search(r"\b(compr|venta|vend|activ)\w*", normalized):
         return "buyers"
-    if re.search(r"\b(cuantos|cuantas|clientes|quienes|lista|tiene|tienen)\b", normalized):
-        return "buyers"
     return None
 
 
@@ -65,6 +63,10 @@ def is_route_question(question: str) -> bool:
 
 def find_sku(question: str, options) -> str | None:
     normalized = normalize_text(question)
+    if re.search(r"\bred[\s-]*bu+l+\b|\br[\s-]*b\b", normalized):
+        return "RED BULL TODOS"
+    if re.search(r"\bmich(?:e|a)?lob\b", normalized):
+        return "MICHELOB ULTRA TODOS"
     aliases = {
         "pure gold": "PURE GOLD TODOS",
         "pepsi black": "PEPSI BLACK TODOS",
