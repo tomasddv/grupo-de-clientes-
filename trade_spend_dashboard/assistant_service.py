@@ -143,6 +143,7 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
     found_promoter = None if fixed_promoter else find_person(question, promoters["promotor"].dropna().unique())
     found_supervisor = None if fixed_promoter or found_promoter else find_person(question, promoters["supervisor"].dropna().unique())
     found_route = find_named_entity(question, routes["grupo_ruta"].dropna().unique())
+    all_routes = bool(re.search(r"\btodas\s+(?:las\s+|mis\s+)?rutas\b", normalize_text(question)))
     candidate_sku = find_sku(question, sku_options_for_business(sales, "Todos"))
     calibrated_sku = candidate_sku and candidate_sku != "LATONES 710" and brand_caliber_selection(candidate_sku)
     found_focus = None if calibrated_sku or candidate_sku == "269 TODOS" else find_focus(question)
@@ -161,7 +162,9 @@ def answer_question(question: str, dataset: dict, previous: dict | None = None, 
         context["promoter"] = found_promoter
     if found_supervisor:
         context["supervisor"] = found_supervisor
-    if found_route:
+    if all_routes:
+        context.pop("route", None)
+    elif found_route:
         context["route"] = found_route
     if found_focus:
         context["focus"] = found_focus

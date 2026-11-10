@@ -42,6 +42,30 @@ class AssistantServiceTest(unittest.TestCase):
         answer, _, _ = answer_question("De la ruta de LUJU", self.dataset, context)
         self.assertIn("VILLAGRA ENZO en LUJU", answer)
 
+    def test_all_routes_clears_previous_route_when_sku_changes(self):
+        self.dataset["rutas_grupo"].loc[
+            self.dataset["rutas_grupo"]["cliente"].eq("3"), "grupo_ruta"
+        ] = "MISA"
+        extra_sale = self.dataset["ventas"].iloc[[1]].copy()
+        extra_sale["cliente"] = "3"
+        extra_sale["cliente_nombre"] = "Cliente 3"
+        self.dataset["ventas"] = pd.concat([self.dataset["ventas"], extra_sale], ignore_index=True)
+
+        answer, detail, context = answer_question(
+            "Compradores de Value en LUJU", self.dataset, fixed_promoter="VILLAGRA ENZO"
+        )
+        self.assertEqual(context["route"], "LUJU")
+        self.assertEqual(detail["Cliente"].tolist(), ["1"])
+
+        answer, detail, context = answer_question(
+            "Compradores de Brahma en todas las rutas", self.dataset, context,
+            fixed_promoter="VILLAGRA ENZO",
+        )
+        self.assertNotIn("route", context)
+        self.assertIn("BRAHMA TODOS", answer)
+        self.assertNotIn("en LUJU", answer)
+        self.assertEqual(set(detail["Cliente"]), {"2", "3"})
+
     def test_resolve_promoter_by_name_or_vendor_code(self):
         promoters = self.dataset["promotores"]
         self.assertEqual(resolve_promoter("61", promoters), "VILLAGRA ENZO")
